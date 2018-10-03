@@ -1,0 +1,275 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: shanren3
+  name: "山人3"
+  author:
+    - "谢振斌"
+  description: |
+    山人全息码
+  version: 2014.06.22
+  dependencies:
+    - terra_pinyin
+    - shanren00
+    - shanren100
+
+switches:
+  - name: zh_simp
+#    reset: 0
+    states: ["漢", "汉"]
+  - name: full_shape
+    reset: 0
+#    states: [ 半, 全 ]
+  - name: ascii_punct
+    reset: 0
+#    states: [ ，。, ，． ]
+  - name: ascii_mode
+    reset: 0
+#    states: [ 中文, 西文 ]
+#  - name: pinyin_segestion   #拼音
+#    reset: 1
+#    states: [ 音, 注 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - "affix_segmentor@terra_pinyin_lookup"
+    - "affix_segmentor@shanren00_lookup"
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+#    - table_translator
+    - script_translator
+    - table_translator@shanren3_phrase
+    - table_translator@shanren00
+    - table_translator@shanren100
+#    - reverse_lookup_translator
+    - "script_translator@terra_pinyin_lookup"
+    - "table_translator@shanren00_lookup"
+  filters:
+    - simplifier
+    - simplifier@pinyin_switch   #拼音
+    - uniquifier
+    - "reverse_lookup_filter@terra_pinyin_reverse_lookup"
+    - "reverse_lookup_filter@shanren00_reverse_lookup"
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
+  initials: 'zyxwvutsrqponmlkjihgfedcba\'
+  delimiter: " ,"
+#  algebra:
+#    - "fuzz/^(.+)_$/$1/"
+
+translator:
+  dictionary: shanren3
+  prism: shanren3
+  user_dict: shanren3
+  db_class: tabledb
+  spelling_hints: 2  # ～字以內候選標註完整帶調拼音
+  comment_format:
+    - xform/$/ /  # 單字及連打時能比較好地顯示提示編碼
+  enable_user_dict: true
+  enable_sentence: true
+  initial_quality: 0.9  # 要比shanren100的大：編碼行按字分節，造詞編碼也不用shanren100
+
+shanren3_phrase: #這是一個table_translator
+  dictionary: "" # 詞典名為空，不加載固態詞典.table.bin
+  user_dict: shanren3_phrase # 對應的文件是shanren3_phrase.txt
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1
+
+shanren100:
+  dictionary: shanren100
+  prism: shanren100
+  user_dict: shanren3
+  db_class: tabledb
+  comment_format:
+    - xform/$/ /
+  enable_user_dict: false  #  #連打功能#false取消  true 
+  enable_sentence: true
+  enable_charset_filter: false
+  enable_completion: true
+  sentence_over_completion: true
+  encode_commit_history: true
+  max_phrase_length: 30 
+  initial_quality: 0.7
+
+shanren00:
+  dictionary: shanren00
+  prism: shanren00
+  comment_format:
+    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
+    - xform/(〕|〙|］|〘)//
+  enable_user_dict: false
+  enable_charset_filter: false
+  enable_sentence: false    #連打功能#false取消  true
+  initial_quality: 0.8
+
+menu:
+  page_size: 5
+
+simplifier:
+  option_name: zh_simp  # swiches中的切換項名 
+  tips: all  # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+  #opencc_config: zht2zhs.ini #用字轉換定義文件
+  #tags: [ abc ] #abc對應abc_segmentor #設定轉換範圍
+  #excluded_types:  #取消特定範圍〔一般爲reverse_lookup_translator〕轉化用字
+
+pinyin_switch:   #拼音
+  opencc_config: pinyin.json
+  option_name: pinyin_segestion
+  show_in_comment: true
+  excluded_types:  [ reverse_lookup ]
+  tips: all
+
+key_binder:
+  bindings:
+    - { when: has_menu, accept: space, send: space }
+    - { when: composing, accept: space, send: Escape }
+    - { when: has_menu, accept: semicolon, send: 2 } #分號選第二重碼
+    - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
+#    - { when: always, accept: comma, send: comma }   #comma，period。
+#    - { when: always, accept: period, send: period }
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
+    - { when: has_menu, accept: minus, send: minus }  # tone 1
+    - { when: paging, accept: minus, send: Page_Up }
+  import_preset: default
+
+editor:
+  bindings:
+    Return: commit_comment   #上屏候選項備注
+
+punctuator:
+  import_preset: symbols
+#  import_preset: default
+#  full_shape:
+#    "/" : "、"
+#    "\\" : [ "＼", "／", "÷" ]
+#  half_shape:
+#    "/" : "、"
+#    "\\" : [ "\\", "/" ]
+
+recognizer:
+  import_preset: default
+  patterns:
+    terra_pinyin_lookup: "`[a-z',<>/-]*;?$"
+    shanren00_lookup: "`S[a-z]*;?$"
+    punct: '^zb[a-z]*'    #symbols中有用。
+
+terra_pinyin_lookup:
+  dictionary: terra_pinyin
+  enable_user_dict: false
+  enable_sentence: false
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+    - 'xform ([aeiou])(ng?|r)([-/<>]) $1$3$2'
+    - 'xform ([aeo])([iuo])([-/<>]) $1$3$2'
+    - 'xform a- ā'
+    - 'xform a/ á'
+    - 'xform a< ǎ'
+    - 'xform a> à'
+    - 'xform e- ē'
+    - 'xform e/ é'
+    - 'xform e< ě'
+    - 'xform e> è'
+    - 'xform o- ō'
+    - 'xform o/ ó'
+    - 'xform o< ǒ'
+    - 'xform o> ò'
+    - 'xform i- ī'
+    - 'xform i/ í'
+    - 'xform i< ǐ'
+    - 'xform i> ì'
+    - 'xform u- ū'
+    - 'xform u/ ú'
+    - 'xform u< ǔ'
+    - 'xform u> ù'
+    - 'xform ü- ǖ'
+    - 'xform ü/ ǘ'
+    - 'xform ü< ǚ'
+    - 'xform ü> ǜ'
+  tag: terra_pinyin_lookup
+  prefix: "`"
+  tips: "【拼音反查】"
+  suffix: ";"
+  closing_tips: "【山人】"
+
+terra_pinyin_reverse_lookup:
+  dictionary: shanren00
+  overwrite_comment: true
+  spelling_hints: true
+  comment_format:
+    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
+    - xform/(〕|〙|］|〘)//
+  tags:
+    - terra_pinyin_lookup
+
+shanren00_lookup:
+  dictionary: shanren00
+  enable_user_dict: false
+  enable_sentence: false
+  comment_format:
+    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
+    - xform/(〕|〙|］|〘)//
+  prefix: "`S"
+  tips: "【山人反查】"
+  suffix: ";"
+  closing_tips: "【山人】"
+  tag: shanren00_lookup
+
+shanren00_reverse_lookup:
+  dictionary: terra_pinyin
+  overwrite_comment: true
+  spelling_hints: true
+  comment_format:
+    - xform ([aeiou])(ng?|r)([1234]) $1$3$2
+    - xform ([aeo])([iuo])([1234]) $1$3$2
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 ǎ
+    - xform a4 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 ě
+    - xform e4 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ǒ
+    - xform o4 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ǐ
+    - xform i4 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ǔ
+    - xform u4 ù
+    - xform v1 ǖ
+    - xform v2 ǘ
+    - xform v3 ǚ
+    - xform v4 ǜ
+    - xform/([nljqxy])v/$1ü/
+    - xform/eh[0-5]?/ê/
+    - xform/([a-z]+)[0-5]/$1/
+  tags:
+    - shanren00_lookup
+
+

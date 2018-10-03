@@ -1,0 +1,20 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+---
+name: shanren100
+version: 2017.01.17
+use_preset_vocabulary: false
+sort: original
+import_tables:
+  - S100Abhidharmakozakaarikaa
+  - S100putiwb
+  - S100Abhidharmakoza
+  - S100essay
+  - S100phrases35
+  - S100fodict
+...
+
+
+#裏
+#著
+#幾

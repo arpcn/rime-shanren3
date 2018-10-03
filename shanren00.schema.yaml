@@ -1,0 +1,166 @@
+# Rime schema
+# encoding: utf-8
+schema:
+  schema_id: shanren00
+  name: "山人2"
+  author:
+    - "谢振斌"
+  description: |
+    山人全息码
+  version: 2014.06.22
+  dependencies:
+    - terra_pinyin
+
+switches:
+  - name: zh_simp
+    reset: 0
+    states: ["漢", "汉"]
+  - name: full_shape
+    reset: 0
+#    states: [ 半, 全 ]
+  - name: ascii_punct
+    reset: 0
+#    states: [ ，。, ，． ]
+  - name: ascii_mode
+    reset: 0
+#    states: [ 中文, 西文 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
+  initials: 'zyxwvutsrqponmlkjihgfedcba\'
+  delimiter: " ;'"
+  algebra:
+#去.
+    - xform/\.//
+#簡碼及常規編碼
+    - derive/^【([a-z]+】)_.+$/$1/
+#全息碼以\開頭
+    - xform/^【([a-z]+】)_.+〖([a-zA-Z]+)〗.+$/\\$2/
+#下兩行去小碼中的連續小寫字母，可用。
+#    - xform/([A-Z][a-z])[a-z]+([A-Z])/$1$2/
+#    - xform/^(\\[a-zA-Z]+[A-Z][a-z])[a-z]+$/$1/
+#字根--
+    - xform/ZV___〖/zv/
+#簡碼及常規編碼尾加\\，便於查看全息碼
+    - xform/】/\\\\/
+#大寫變小寫
+    - xlit/ZYXWVUTSRQPONMLKJIHGFEDCBA/zyxwvutsrqponmlkjihgfedcba/
+
+translator:
+  dictionary: shanren00
+  prism: shanren00
+  preedit_format:
+    - xform/^([a-z]*)$/$1｜\U$1\E/
+    - "xlit|BDJMSWTKCREFOQNIYUALGXVHPZ|日月金木水火土蟲草人耳手口心女言衣食住行財叉八橫撇折|"     ###D點S豎  ##
+  comment_format:
+    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
+    - xform/(〕|〙|］|〘)//
+  enable_charset_filter: false
+  enable_sentence: false    #連打功能#false取消  true
+  enable_user_dict: false    #取消用戶詞庫功能    (調整固定詞序)
+
+
+simplifier:
+  option_name: zh_simp
+  tips: all  # 簡化字模式下提示對應的傳統漢字
+
+punctuator:
+  import_preset: symbols
+#  import_preset: default
+#  full_shape:
+#    "/" : "、"
+#    "\\" : [ "＼", "／", "÷" ]
+#  half_shape:
+#    "/" : "、"
+#    "\\" : [ "\\", "/" ]
+
+key_binder:
+  bindings:
+    - { when: has_menu, accept: space, send: space }
+    - { when: composing, accept: space, send: Escape }
+    - { when: has_menu, accept: semicolon, send: 2 } #分號選第二重碼
+    - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
+    - { when: always, accept: comma, send: comma }   #comma，period。
+    - { when: always, accept: period, send: period }
+    - { when: has_menu, accept: minus, send: minus }  # tone 1
+    - { when: paging, accept: minus, send: Page_Up }
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z/<>-]*'?$"
+    punct: '^zb[a-z]*'    #symbols中有用。'^z[a-z]*'
+
+reverse_lookup:
+  dictionary: terra_pinyin
+  prism: terra_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+    - 'xform ([aeiou])(ng?|r)([-/<>]) $1$3$2'
+    - 'xform ([aeo])([iuo])([-/<>]) $1$3$2'
+    - 'xform a- ā'
+    - 'xform a/ á'
+    - 'xform a< ǎ'
+    - 'xform a> à'
+    - 'xform e- ē'
+    - 'xform e/ é'
+    - 'xform e< ě'
+    - 'xform e> è'
+    - 'xform o- ō'
+    - 'xform o/ ó'
+    - 'xform o< ǒ'
+    - 'xform o> ò'
+    - 'xform i- ī'
+    - 'xform i/ í'
+    - 'xform i< ǐ'
+    - 'xform i> ì'
+    - 'xform u- ū'
+    - 'xform u/ ú'
+    - 'xform u< ǔ'
+    - 'xform u> ù'
+    - 'xform ü- ǖ'
+    - 'xform ü/ ǘ'
+    - 'xform ü< ǚ'
+    - 'xform ü> ǜ'
+  comment_format:
+    - xform/^.+_【(.+)/_\1/
+    - xform/^.+_〖(.+)/_\1/
+    - xform/〗〔/_/
+    - xform/〕〘//
+    - xform/〙［/_/
+    - xform/〕［/_/
+    - xform/〕$//
+    - xform/〙$//
+    - xform/］$//
+    - xform/‒/_/
