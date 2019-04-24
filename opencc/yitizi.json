@@ -1,0 +1,16 @@
+{
+  "name": "Chinese to yitizi",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "yitizi.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "yitizi.txt"
+    }
+  }]
+}

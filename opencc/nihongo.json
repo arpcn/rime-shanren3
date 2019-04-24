@@ -1,0 +1,16 @@
+{
+  "name": "nihongo_code",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "nihongo.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "nihongo.txt"
+    }
+  }]
+}
