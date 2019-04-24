@@ -30,6 +30,15 @@ switches:
 #  - name: pinyin_segestion   #拼音
 #    reset: 1
 #    states: [ 音, 注 ]
+  - name: yitizi_segestion
+    reset: 1
+    states: [ 正, 異 ]
+  - name: sunman_segestion
+    reset: 0
+    states: [ 山, 碼 ]
+  - name: nihongo_segestion
+    reset: 0
+    states: [ 日, 訓 ]
 
 engine:
   processors:
@@ -50,6 +59,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+#    - echo_translator   #（無有其他結果時，）創建⼀個與編碼串⼀個模樣的候選項
     - punct_translator
 #    - table_translator
     - script_translator
@@ -62,6 +72,9 @@ engine:
   filters:
     - simplifier
     - simplifier@pinyin_switch   #拼音
+    - "simplifier@yitizi_switch"
+    - "simplifier@sunman_switch"
+    - "simplifier@nihongo_switch"
     - uniquifier
     - "reverse_lookup_filter@terra_pinyin_reverse_lookup"
     - "reverse_lookup_filter@shanren00_reverse_lookup"
@@ -71,7 +84,7 @@ speller:
   initials: 'zyxwvutsrqponmlkjihgfedcba\'
   delimiter: " ,"
 #  algebra:
-#    - "fuzz/^(.+)_$/$1/"
+#    - "fuzz/^(.+)$/$1\\/"
 
 translator:
   dictionary: shanren3
@@ -113,8 +126,7 @@ shanren00:
   dictionary: shanren00
   prism: shanren00
   comment_format:
-    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
-    - xform/(〕|〙|］|〘)//
+    - xform/\\//
   enable_user_dict: false
   enable_charset_filter: false
   enable_sentence: false    #連打功能#false取消  true
@@ -137,6 +149,39 @@ pinyin_switch:   #拼音
   excluded_types:  [ reverse_lookup ]
   tips: all
 
+yitizi_switch:
+  opencc_config: yitizi.json
+  option_name: yitizi_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
+
+sunman_switch:
+  opencc_config: sunman.json
+  option_name: sunman_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
+
+nihongo_switch:
+  opencc_config: nihongo.json
+  option_name: nihongo_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
+
 key_binder:
   bindings:
     - { when: has_menu, accept: space, send: space }
@@ -145,7 +190,7 @@ key_binder:
     - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
 #    - { when: always, accept: comma, send: comma }   #comma，period。
 #    - { when: always, accept: period, send: period }
-    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
+    - { when: always, accept: Control+Shift+4, toggle: simplification }
     - { when: has_menu, accept: minus, send: minus }  # tone 1
     - { when: paging, accept: minus, send: Page_Up }
   import_preset: default
@@ -214,11 +259,10 @@ terra_pinyin_lookup:
 
 terra_pinyin_reverse_lookup:
   dictionary: shanren00
+  comment_format:
+    - xform/\\//
   overwrite_comment: true
   spelling_hints: true
-  comment_format:
-    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
-    - xform/(〕|〙|］|〘)//
   tags:
     - terra_pinyin_lookup
 
@@ -227,8 +271,7 @@ shanren00_lookup:
   enable_user_dict: false
   enable_sentence: false
   comment_format:
-    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
-    - xform/(〕|〙|］|〘)//
+    - xform/\\//
   prefix: "`S"
   tips: "【山人反查】"
   suffix: ";"
@@ -271,5 +314,4 @@ shanren00_reverse_lookup:
     - xform/([a-z]+)[0-5]/$1/
   tags:
     - shanren00_lookup
-
 

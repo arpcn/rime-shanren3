@@ -13,7 +13,7 @@ schema:
 
 switches:
   - name: zh_simp
-    reset: 0
+#    reset: 0
     states: ["漢", "汉"]
   - name: full_shape
     reset: 0
@@ -24,6 +24,12 @@ switches:
   - name: ascii_mode
     reset: 0
 #    states: [ 中文, 西文 ]
+  - name: yitizi_segestion
+    reset: 1
+    states: [ 正, 異 ]
+  - name: sunman_segestion
+    reset: 0
+    states: [ 山, 碼 ]
 
 engine:
   processors:
@@ -47,46 +53,50 @@ engine:
     - table_translator
   filters:
     - simplifier
+    - "simplifier@yitizi_switch"
+    - "simplifier@sunman_switch"
     - uniquifier
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
   initials: 'zyxwvutsrqponmlkjihgfedcba\'
   delimiter: " ;'"
-  algebra:
-#去.
-    - xform/\.//
-#簡碼及常規編碼
-    - derive/^【([a-z]+】)_.+$/$1/
-#全息碼以\開頭
-    - xform/^【([a-z]+】)_.+〖([a-zA-Z]+)〗.+$/\\$2/
-#下兩行去小碼中的連續小寫字母，可用。
-#    - xform/([A-Z][a-z])[a-z]+([A-Z])/$1$2/
-#    - xform/^(\\[a-zA-Z]+[A-Z][a-z])[a-z]+$/$1/
-#字根--
-    - xform/ZV___〖/zv/
-#簡碼及常規編碼尾加\\，便於查看全息碼
-    - xform/】/\\\\/
-#大寫變小寫
-    - xlit/ZYXWVUTSRQPONMLKJIHGFEDCBA/zyxwvutsrqponmlkjihgfedcba/
 
 translator:
   dictionary: shanren00
   prism: shanren00
-  preedit_format:
-    - xform/^([a-z]*)$/$1｜\U$1\E/
-    - "xlit|BDJMSWTKCREFOQNIYUALGXVHPZ|日月金木水火土蟲草人耳手口心女言衣食住行財叉八橫撇折|"     ###D點S豎  ##
-  comment_format:
-    - xform/(^.+_〖|〗〔|〙［|〕［|‒)/_/
-    - xform/(〕|〙|］|〘)//
   enable_charset_filter: false
   enable_sentence: false    #連打功能#false取消  true
   enable_user_dict: false    #取消用戶詞庫功能    (調整固定詞序)
+  comment_format:
+    - xform/\\//
 
 
 simplifier:
   option_name: zh_simp
   tips: all  # 簡化字模式下提示對應的傳統漢字
+
+yitizi_switch:
+  opencc_config: yitizi.json
+  option_name: yitizi_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
+
+sunman_switch:
+  opencc_config: sunman.json
+  option_name: sunman_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
 
 punctuator:
   import_preset: symbols
@@ -109,6 +119,10 @@ key_binder:
     - { when: has_menu, accept: minus, send: minus }  # tone 1
     - { when: paging, accept: minus, send: Page_Up }
   import_preset: default
+
+editor:
+  bindings:
+    Return: commit_comment   #上屏候選項備注
 
 recognizer:
   import_preset: default
@@ -153,14 +167,4 @@ reverse_lookup:
     - 'xform ü/ ǘ'
     - 'xform ü< ǚ'
     - 'xform ü> ǜ'
-  comment_format:
-    - xform/^.+_【(.+)/_\1/
-    - xform/^.+_〖(.+)/_\1/
-    - xform/〗〔/_/
-    - xform/〕〘//
-    - xform/〙［/_/
-    - xform/〕［/_/
-    - xform/〕$//
-    - xform/〙$//
-    - xform/］$//
-    - xform/‒/_/
+

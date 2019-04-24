@@ -2660,7 +2660,6 @@ import_tables:
 匝	hyj	758
 邇	hyl	800
 爾	hyv	3570
-尨	hyy	467
 七	hz	7236
 巨	hzk	2722
 攷	hzx	113
@@ -3506,7 +3505,6 @@ import_tables:
 蛵	khsfg	182
 蛭	kht	649
 魷	khy	633
-牻	khyu	385
 獮	khyv	437
 鳥	ki	10298
 蛐	kia	595
@@ -3589,6 +3587,7 @@ import_tables:
 鱔	kkvov	656
 燹	kkw	402
 鮮	kky	2376
+牻	kkyu	385
 騅	kkz	534
 蜣	kkzc	360
 進	kl	25597
@@ -3821,6 +3820,7 @@ import_tables:
 制	kyj	2420
 掣	kyjf	689
 製	kyjy	4160
+尨	kyl	467
 驤	kyo	565
 蟣	kyy	540
 犯	kz	3167
@@ -8130,28 +8130,28 @@ import_tables:
 冇	fa	4150
 
 #空二簡
-囘	az
-昻	bf
-玘	gz
-乑	ps
-邭	pt
-凨	pw
-亏	vz
+囘	az	666
+昻	bf	413
+玘	gz	554
+乑	ps	307
+邭	pt	295
+凨	pw	445
+亏	vz	465
 𡉀	vt
 ⺑	vp
-	vq
+忈	vq	487
 𦍎	vm
 	vl
 𠅇	vi
-亖	vv
-圣	xt
+亖	vv	479
+圣	xt	400
 𠮣	xo
 𢮣	xi
 㒫	xr
 𧟢	za
 𣄽	zb
 龴	zd
-卩	zi
-朶	zm
+卩	zi	597
+朶	zm	585
 𠮯	zo
-乆	zr
+乆	zr	563
