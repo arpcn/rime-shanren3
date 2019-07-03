@@ -32805,7 +32805,6 @@ sort: by_original
 𨱕	jejkur\
 𨪏	jejsr\
 𩱓	jejulg\
-𨮚	jejzho\
 𨮩	jejzho\
 鑃	jek\	244
 𩱲	jekjul\
@@ -32925,6 +32924,7 @@ sort: by_original
 锔	jezor\	-4
 銸	jezr\	249
 𨨴	jezspr\
+𨮚	jezzho\
 式	jf\	12000
 𠜭	jfared\
 䥟	jfbprz\
@@ -37066,7 +37066,6 @@ sort: by_original
 𢍸	kcpxcg\
 𩽡	kcpxfs\
 𩼃	kcpxpv\
-𤯴	kcpz\
 𩼺	kcraov\
 𪄦	kcrmui\
 	kcrmuq\
@@ -41118,6 +41117,7 @@ sort: by_original
 㹺	ksboq\
 𩷽	ksbov\
 𤄯	kscdvl\
+𤯴	kscpz\
 𧴝	ksculz\
 𧌵	ksdjdc\
 羨	kse\	941
@@ -44884,6 +44884,7 @@ sort: by_original
 𨂑	lkrno\
 𧼥	lkrnt\
 趢	lks\	197
+𨂼	lksbo\
 𢓻	lksc\
 𨌇	lksc\
 𨌠	lksvc\
@@ -44922,7 +44923,6 @@ sort: by_original
 𨌴	lkzc\
 䧳	lkzh\
 踓	lkzo\	204
-𨂼	lkzo\
 𧼋	lkzt\
 趡	lkzt\	-3
 䡭	lkztuc\
@@ -81951,9 +81951,10 @@ sort: by_original
 䒊	vhzrkb\
 㿽	vhzumb\
 𫜜	vhzwyv\
+𠅇	vi\
 𪞊	viaob\
 𠛶	vijdb\
-𠅇	vizh\
+𠅇	vizh\	-2
 𥠠	vizuhb\
 分	vj\	29738
 𧷟	vjahlgb\
@@ -82069,8 +82070,9 @@ sort: by_original
 𤋌	vkwub\
 𠔟	vkxyb\
 𠭶	vkzfxy\
-	vlb\
+	vl\
 𠔇	vlb\
+	vlb\	-2
 㱐	vlde\
 𩒞	vleye\
 㱏	vlhe\
@@ -82201,11 +82203,12 @@ sort: by_original
 𠔈	vosb\
 𠁩	vosvee\
 𠢄	votfih\
+⺑	vp\
 𥄘	vpemb\
 𦫣	vpirkb\
 𩢁	vpkmh\
-⺑	vppb\
 𡯂	vppb\
+⺑	vppb\	-2
 𨚂	vpteb\
 𠬬	vpxb\
 𠄦	vpxe\
@@ -82297,9 +82300,10 @@ sort: by_original
 	vsh\	0.1
 𣕓	vshfmu\
 𠴅	vstve\
+𡉀	vt\
 𠄳	vtgfie\
 𣚱	vtgomu\
-𡉀	vtub\
+𡉀	vtub\	-2
 𠩖	vtxvb\
 鄭	vu\	4827
 𨣡	vuarhba\
@@ -86272,7 +86276,8 @@ sort: by_original
 𤓹	xhzvbz\
 𤓳	xhzz\
 𤔋	xhzz\
-𢮣	xifsz\
+𢮣	xi\
+𢮣	xifsz\	-2
 𨙣	xipylz\
 𫑆	xiwxlc\
 𧧞	xixyz\
@@ -86562,7 +86567,8 @@ sort: by_original
 𠨝	xqzij\
 𦘛	xqziv\
 𦘜	xqziv\
-㒫	xrej\
+㒫	xr\
+㒫	xrej\	-2
 𪃪	xrkix\
 	xrnj\
 	xrnx\
@@ -89894,8 +89900,8 @@ sort: by_original
 𧚃	ypysi\
 袍	ypz\	1025
 䩕	ypzi\
-䩕	ypzig\	-4
 𩊅	ypzig\
+䩕	ypzig\	-4
 鞄	ypzs\	364
 鞄	ypzsg\	-4
 袌	ypzsi\	282
@@ -91670,7 +91676,8 @@ sort: by_original
 妀	znvj\	-3
 孕	znz\	1393
 孕	znzn\	-3
-𠮯	zoj\
+𠮯	zo\
+𠮯	zoj\	-2
 𤆨	zowu\
 𠮞	zoy\
 通	zp\	9293
@@ -91980,7 +91987,6 @@ sort: by_original
 𥽒	uccmui\
 𥻪	uffscv\
 𨬃	jagqir\
-𡚏	nvvnvviz\
 𡚛	nxxnxxtu\
 𡟉	npirev\
 𡣎	imjnvh\
@@ -92159,8 +92165,6 @@ sort: by_original
 𢿔	pcuuwxp\
 𢿮	xzaghsxp\
 𣋤	xufxufbo\
-𣗫	mlzsshi\
-𣝖	rlbhrhmu\
 𣞌	mbanif\
 𣠣	maghaqi\
 𣯰	efvemv\
@@ -92282,20 +92286,17 @@ sort: by_original
 𦀱	xzwysj\
 𬅌	kpzmux\
 𦣵	nqczbl\
-𥣨	uxxjsxz\
+𥣨	uxxjszxy\
 𦴱	czprdzzy\
 𧄪	cooihzbo\
 𧫬	mzxtii\
-𧳱	kspzsre\
 𩆫	wxxgvhz\
 𩍫	yxpuzl\
 𩐔	gcoxxuh\
 𩔿	hoqwey\
 𨼺	tudqe\
 𫵎	hsby\
-𫺙	qjqzscv\
 𬗋	ljysh\
-𫠣	hwiz\
 𫠡	hrsi\
 𫠢	qhhdb\
 𫠥	harzi\
@@ -97205,19 +97206,6 @@ sort: by_original
 𫤆	ruoxaxy\
 𫤌	rhwtfexp\
 𫤏	ruepzl\
-𫤗	zbre\
-𫤘	pare\
-𫤧	fuxuxure\
-𫤬	vssbb\
-𫤭	paxcv\
-𫤮	vxsb\
-𫤰	jhzsxcv\
-𫤳	vfpbhrhmu\
-𫤵	aanwvb\
-𫤶	ijuwvb\
-𫥒	sqanrb\
-𫥗	sujeqb\
-𫥣	vxwspp\
 𫥧	cuacg\
 𫥨	ancus\
 𫥪	ixujfcv\
@@ -97229,7 +97217,6 @@ sort: by_original
 𫦗	ddddjd\
 𫦘	rarljd\
 𫦺	gnrttfi\
-𫧁	pspk\
 𫧊	dupyub\
 𫧋	huk\
 𫧍	hbok\
@@ -97706,7 +97693,6 @@ sort: by_original
 𬟾	khwic\
 𬠑	krzoc\
 𬠙	kvrfcc\
-𬠸	kkkcz\
 𬡀	lrxolc\
 𬡄	izyiv\
 𬡢	yparnr\
@@ -97966,8 +97952,6 @@ sort: by_original
 𬹔	jxursv\
 𬹲	igaq\
 𬹳	igbq\
-𬺞	kbzt\
-𫨢	tydqzhv\
 𫫆	okos\
 𫨻	evjxs\
 𫩄	hbgzxy\
@@ -97992,6 +97976,66 @@ sort: by_original
 𬆲	iakjxv\
 𮆎	ulepz\
 𬻂	cxi\
+𥖂	tkzhlo\
+𮩴	kcgm\
+𮩵	kyjm\
+𮩸	kosm\
+𮕹	kyim\
+𮙢	skkdb\
+𮟚	evily\
+𭗤	ttoyls\
+𮫈	eksb\
+𭛄	jkxpdv\
+𭬍	mkriiu\
+𭬢	whjjmu\
+𭬺	hsgmaxanf\
+𭭓	eleqy\
+𭮟	ehghzwu\
+𭳛	skahxrn\
+𮄣	acarhhv\
+𮊖	axxevxwu\
+𮠊	eiteg\
+𮠚	qcahv\
+𭱎	swatsv\
+𭱩	swulv\
+𭱪	swasvv\
+𭱽	swasrrn\
+𭲞	swulv\
+𭳘	siaksv\
+𬽒	ijlpve\
+𭀠	qore\
+𭀣	qord\
+𭀥	qorgs\
+𭂪	ppp\
+𭅊	pvlhk\
+𭚓	yli\
+𬾘	repefn\
+𭮖	eepefd\
+𭩟	mzrnu\
+𮅏	uzaqbz\
+𭩩	mpzqbu\
+𭩲	jfmug\
+𬺞	kbzt\
+𫨢	tydklc\
+𬿻	rcodofc\
+𫧁	pspk\
+𣗫	mlzsshi\
+𫤗	zbre\
+𫤘	pare\
+𫤧	fuxuxure\
+𫤬	vssbb\
+𫤭	paxcv\
+𫤮	vxsb\
+𫤰	jhzsxcv\
+𫤵	aanwvb\
+𫤶	ijuwvb\
+𫥒	sqanrb\
+𫥗	sujeqb\
+𫥣	vxwspp\
+𫤳	vfpbhrhmu\
+𣝖	rlbhrhmu\
+𭀟	hrrek\
+𭁟	ashi\
 𬺰	f\
 𭜳	hqsxqi\
 𭥟	zgbz\
@@ -98001,7 +98045,6 @@ sort: by_original
 𮎳	coshz\
 𬺶	fssg\
 𬻔	hbuzi\
-𥖂	tkzhlo\
 𤂏	sezjuuwu\
 𭦢	bpkjno\
 𭻊	gyzrna\
@@ -98024,7 +98067,6 @@ sort: by_original
 𬻫	hosawh\
 𬻵	rdxwu\
 𬻷	evzls\
-𬻼	zdzrns\
 𬼗	pz\
 𬼺	vzaqbb\
 𭕿	pugs\
@@ -98039,52 +98081,14 @@ sort: by_original
 𮒮	cbxxzgb\
 𮮡	axxxy\
 𬻞	awh\
-𮩴	kcgm\
-𮩵	kyjm\
-𮩸	kosm\
-𮫈	eksb\
-𭛄	jkxpdv\
-𭬍	mkriiu\
-𭬢	whjjmu\
-𭬺	hsgmaxanf\
-𭭓	eleqy\
-𭮟	ehghzwu\
-𭳛	skahxrn\
-𮄣	acarhhv\
-𮊖	axxevxwu\
-𮕋	karhzd\
-𮠊	eiteg\
-𮠚	qcahv\
-𭱎	swatsv\
-𭱩	swulv\
-𭱪	swasvv\
-𭱽	swasrrn\
-𭲞	swulv\
-𭳘	siaksv\
-𬽒	ijlpve\
-𭀠	qore\
-𭀣	qord\
-𭀥	qorgs\
-𭂪	ppp\
-𭅊	pvlhk\
-𭚓	yli\
-𬾘	repefn\
-𭮖	eepefd\
-𭩟	mzrnu\
-𮅏	uzaqbz\
-𭩩	mpzqbu\
-𭩲	jfmug\
-𬿻	rcodofc\
-𭀟	shrhre\
-𭁟	ashi\
 𮣨	jaarks\
-𮨇	tzgeyc\
 𭮴	txhjjx\
-𮕹	kyim\
-𮟚	evily\
-𭗤	ttoyls\
-𮙢	skkdb\
-𮜟	tuzrlo\
+𮨇	tzgeyc\
+𭣪	tzgxpc\
+𮕋	karhzgs\
+𬻼	zgzyi\
+𮜟	tuzylo\
+𭙫	tkzyia\
 𮝉	pjlc\
 𭅴	hzqbi\
 𭆱	hlhzpx\
@@ -98092,8 +98096,7 @@ sort: by_original
 𭊰	okhzwu\
 𭈰	hoawhi\
 𭟶	ozdjg\
-𭣞	caydxc\
-𭣪	tzgxpc\
+𭣞	cayyxc\
 𭉿	oedx\
 𭎕	tpsvu\
 𭏍	tuhpyu\
@@ -98103,7 +98106,6 @@ sort: by_original
 𭔌	ahzxbo\
 𭔥	aquhhzwu\
 𭖲	seerts\
-𭙫	tkzrna\
 𬾹	rvxwun\
 𭁐	qhxwu\
 𬿬	revzln\
@@ -98128,6 +98130,10 @@ sort: by_original
 𮔇	dxkc\
 𭪚	mhowuu\
 𭫍	mevtxy\
+𮓚	qexyb\
+𭅯	qesb\
+𭅰	qesb\
+𭾊	egums\
 𭇢	jeog\
 𭸣	jepkqg\
 𭸮	jeopkq\
@@ -98139,7 +98145,6 @@ sort: by_original
 𮓜	jeyjg\
 𮓡	jewhg\
 𭾐	jegumg\
-𮓚	qehxyb\
 𮓞	jepvg\
 𮓠	jevdg\
 𭅍	jepyxg\
@@ -98595,6 +98600,9 @@ sort: by_original
 𭁇	jfcv\
 𭁈	jpccv\
 𭁉	jhzhcv\
+𫺙	qjhzscv\
+𭁕	rshzhxcv\
+𫠣	hwiz\
 𭁊	sevbb\
 𭁋	vjarub\
 𭁌	vfifb\
@@ -98605,7 +98613,6 @@ sort: by_original
 𭁒	gjvbb\
 𭁓	vghpb\
 𭁔	cgcvh\
-𭁕	rshzhxcv\
 𭁖	iksvv\
 𭁗	vhahnp\
 𭁘	kkivq\
@@ -98755,7 +98762,6 @@ sort: by_original
 𭃭	kljdu\
 𭃮	jrzqid\
 𭃯	xmjdp\
-𭃲	xxvvjd\
 𭃳	gkjds\
 𭃴	hoijdi\
 𭃵	cgojd\
@@ -98875,8 +98881,6 @@ sort: by_original
 𭅬	cehcays\
 𭅭	qbceeh\
 𭅮	tauebpci\
-𭅯	qehib\
-𭅰	qehib\
 𭅱	qhqxmu\
 𭅲	zdi\
 𭅳	dzqb\
@@ -99486,7 +99490,6 @@ sort: by_original
 𭏦	tkumu\
 𭏧	taxmuu\
 𭏨	tahoga\
-𭏩	trvvem\
 𭏪	tvcetu\
 𭏫	tcnccg\
 𭏭	wxtua\
@@ -100148,7 +100151,7 @@ sort: by_original
 𭙣	tpctia\
 𭙤	ttovha\
 𭙦	tqbla\
-𭙧	tzhspyd\
+𭙧	txspyd\
 𭙨	tlhxhi\
 𭙩	tljxa\
 𭙪	tndurn\
@@ -100615,7 +100618,7 @@ sort: by_original
 𭡅	fafis\
 𭡆	ftshis\
 𭡇	fzftes\
-𭡈	fzhlhs\
+𭡈	fxlhs\
 𭡉	ftpyis\
 𭡊	ftgtes\
 𭡋	mxfsu\
@@ -100943,7 +100946,6 @@ sort: by_original
 𭥿	bglo\
 𭦀	bfffio\
 𭦂	bzgo\
-𭦃	rvvbon\
 𭦄	bgcgo\
 𭦅	buutuo\
 𭦆	bnlo\
@@ -101477,7 +101479,7 @@ sort: by_original
 𭮷	ejxy\
 𭮸	imjxh\
 𭮹	cayjxi\
-𭮺	echyoxy\
+𭮺	eccoxy\
 𭮻	hbshoxy\
 𭮼	looxyc\
 𭮽	taljxi\
@@ -101727,7 +101729,6 @@ sort: by_original
 𭲻	saihv\
 𭲼	sfdjohi\
 𭲽	slhpv\
-𭲾	slavvbo\
 𭲿	scaadx\
 𭳀	sciyga\
 𭳁	sklemv\
@@ -101807,7 +101808,6 @@ sort: by_original
 𭴎	wemu\
 𭴏	wxpu\
 𭴐	wedu\
-𭴑	wvvbu\
 𭴒	wohzu\
 𭴓	wpnfu\
 𭴔	pwuo\
@@ -102018,7 +102018,7 @@ sort: by_original
 𭷨	kvgqiu\
 𭷩	kaqpu\
 𭷪	gkros\
-𭷫	kzhpou\
+𭷫	kxpou\
 𭷬	gktos\
 𭷭	kebou\
 𭷮	tojkui\
@@ -102030,6 +102030,11 @@ sort: by_original
 𭷴	kaixu\
 𭷶	gggkua\
 𭷷	kaykzu\
+𭸋	mokqu\
+𭸪	wykqh\
+𭸫	ekthoi\
+𭸁	bskqo\
+𭷿	kzhoq\
 𭷸	khdq\
 𭷹	khxq\
 𭷺	kqhzq\
@@ -102037,9 +102042,7 @@ sort: by_original
 𭷼	krjq\
 𭷽	kkuq\
 𭷾	kudq\
-𭷿	kzhoq\
 𭸀	kjpq\
-𭸁	bskqo\
 𭸂	kudxq\
 𭸃	ksnrq\
 𭸄	kehq\
@@ -102049,7 +102052,6 @@ sort: by_original
 𭸈	kyiq\
 𭸉	kgnfq\
 𭸊	kfrrnq\
-𭸋	mokqu\
 𭸌	kumq\
 𭸍	ksbreq\
 𭸎	kbubq\
@@ -102066,7 +102068,6 @@ sort: by_original
 𭸙	kcjpq\
 𭸚	kbwhq\
 𭸛	kbemq\
-𭸜	kkdpq\
 𭸝	krhbxq\
 𭸞	kxhjxq\
 𭸟	kihoq\
@@ -102079,8 +102080,6 @@ sort: by_original
 𭸧	kvjqmu\
 𭸨	kucjnq\
 𭸩	kljzq\
-𭸪	wykqh\
-𭸫	ekthoi\
 𭸬	klqblq\
 𭸭	kaeboq\
 𭸯	ktkiq\
@@ -102407,13 +102406,11 @@ sort: by_original
 𭾆	nqpwuc\
 𭾇	cdbumf\
 𭾈	tgeumu\
-𭾉	gvvumy\
-𭾊	ehgums\
+𭾏	ncoumc\
 𭾋	nqvumc\
 𭾌	tqcoum\
 𭾍	wuumq\
 𭾎	yiums\
-𭾏	ncoumc\
 𭾑	neumc\
 𭾒	kzumz\
 𭾓	subprz\
@@ -102643,7 +102640,6 @@ sort: by_original
 𮁐	tharharmu\
 𮁑	tbdkto\
 𮁒	tcbntu\
-𮁓	tgssadh\
 𮁔	tcjnco\
 𮁕	txahocv\
 𮁖	teeeeo\
@@ -103588,7 +103584,6 @@ sort: by_original
 𮐧	cguub\
 𮐨	cggnv\
 𮐩	cakz\
-𮐪	covvmu\
 𮐫	ckbbo\
 𮐬	cloic\
 𮐭	cxul\
@@ -103784,7 +103779,6 @@ sort: by_original
 𮓹	khxc\
 𮓺	kthzc\
 𮓻	karec\
-𮓼	kvvbc\
 𮓽	kczc\
 𮓾	ffkcg\
 𮓿	kgac\
@@ -104131,8 +104125,7 @@ sort: by_original
 𮙠	qaks\
 𮙡	alks\
 𮙣	keems\
-𮙤	kdwers\
-𮙥	kdpz\
+𮙤	kwers\
 𮙦	kjgz\
 𮙧	kappz\
 𮙨	krfcz\
@@ -104140,11 +104133,15 @@ sort: by_original
 𮙪	kbubz\
 𮙫	kiayjz\
 𮙬	kigtuz\
+𮙥	krnz\
+𭸜	kkrnq\
+𬠸	krkkcz\
+𧳱	kspzsre\
 𮙭	qgb\
 𮙮	gfcb\
 𮙯	gprnb\
 𮙰	gspb\
-𮙱	gzhib\
+𮙱	gxjb\
 𮙲	whgbi\
 𮙳	gnfb\
 𮙵	ghrb\
@@ -104235,7 +104232,6 @@ sort: by_original
 𮛋	lfso\
 𮛌	lvgso\
 𮛍	vjlob\
-𮛎	lvvbo\
 𮛏	lffgo\
 𮛐	lhlho\
 𮛑	lqhqbo\
@@ -104311,7 +104307,6 @@ sort: by_original
 𮜘	lyloo\
 𮜙	lwvmwo\
 𮜚	lrecfc\
-𮜛	lrvvgb\
 𮜜	ltwtwu\
 𮜝	lctgum\
 𮜞	lahlgb\
@@ -104795,7 +104790,6 @@ sort: by_original
 𮤑	aczxym\
 𮤒	acdam\
 𮤓	llamh\
-𮤔	abvvbm\
 𮤕	ackbm\
 𮤖	aixpm\
 𮤗	atgtum\
@@ -104888,6 +104882,19 @@ sort: by_original
 𮥱	tiwie\
 𮥲	tkukqe\
 𮥳	tggmfc\
+𡚏	nvvnvviz\
+𮜛	lssrgb\
+𭏩	tssrem\
+𭦃	ssrbon\
+𮁓	tgssadh\
+𮤔	abssbm\
+𮛎	lssbo\
+𮓼	kssbc\
+𮐪	cossmu\
+𭾉	gssumy\
+𭃲	xxssjd\
+𭲾	slassbo\
+𭴑	wssbu\
 𮥴	hxsvi\
 𮥵	lqxsvh\
 𮥶	qhkz\
