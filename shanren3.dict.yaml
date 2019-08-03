@@ -42,41 +42,52 @@ import_tables:
 為	dpw	684
 羣	xpk	14339
 因	ank	20789
-牀	amp	4858
 困	amk	4536
-閑	amm	760
 料	uui	4360
-蒿	ciov	793
-芟	cjxv	578
-唬	okhv	774
-弗	jjgv	1370
+閑	amm	760
+牀	amp	4858
 右	fov	4465
 乍	qqv	1145
-毛	ema	11849
+乜	zzv	3053
+冇	fav	4150
+弗	jjgv	1370
+蒿	ciov	793
+唬	okhv	774
+宕	atov	665
+芄	cpdv	580
+芎	cjgv	598
+芟	cjxv	578
 疋	lpi	509
 角	eji	3936
 皮	epi	5866
 瓦	uwa	3774
 禾	uhe	1296
 麻	yma	3420
+乂	xyi	611
+丿	pi	735
+毛	ema	11849
 鬥	ado	2627
+囟	exi	583
 臼	uji	700
 耒	ule	591
-鬲	uliv	530
-幺	yaov	1135
-爪	xzv	1658
-亍	lcv	675
-穴	avv	1757
-龠	ivv	484
 囪	acv	586
-舟	lzv	1639
-缶	ufv	654
+廾	cgv	505
+卵	elv	1544
+血	exv	11425
 弓	jgv	2187
-毌	ngv	2
 黽	kmv	612
 龍	klv	10914
 虫	kcv	1159
-卵	elv	1544
+亍	lcv	675
+舟	lzv	1639
+毌	ngv	2
+缶	ufv	654
+爪	xzv	1658
+曰	bov	3017
+足	lov	4333
+戊	jpv	875
+丸	pdv	1817
+韭	uhv	631
 壬	grv	792
 臣	ncv	2177
 亥	khv	825
@@ -84,22 +95,19 @@ import_tables:
 齊	iqv	4998
 巾	yjv	988
 皿	umv	682
+髟	ebv	518
 舌	eov	1625
-曰	bov	3017
-足	lov	4333
-谷	tvv	3347
 廿	chv	964
-六	iv	9029
-韭	uhv	631
-戊	jpv	875
-丸	pdv	1817
 殳	jxv	551
-血	exv	11425
-囟	exi	583
+羋	kyv	576
 鬯	uuvv	520
 爻	xxvv	860
 舛	lvv	667
-乂	xyi	611
+谷	tvv	3347
+龠	ivv	484
+穴	avv	1757
+鬲	uliv	530
+幺	yaov	1135
 ###=-=-3--0-
 鱠	kra	380
 獪	kraw	378
@@ -549,7 +557,6 @@ import_tables:
 窿	atlh	611
 奘	atn	565
 周	ato	10785
-宕	ato	665
 雕	atok	1054
 鵰	atoki	809
 週	atol	7356
@@ -943,7 +950,6 @@ import_tables:
 菓	cgm	596
 苔	cgo	909
 葸	cgq	457
-廾	cgv	505
 荾	cgvl	261
 博	ch	5881
 遘	cha	460
@@ -997,7 +1003,6 @@ import_tables:
 齧	cje	478
 挈	cjf	534
 戴	cjg	5156
-芎	cjg	598
 蕆	cjgb	457
 葳	cjh	652
 茀	cjj	417
@@ -1124,8 +1129,7 @@ import_tables:
 荀	cpbo	809
 蒭	cpc	277
 芍	cpd	641
-芄	cpd	590
-芃	cpd	588
+芃	cpd	508
 莪	cpf	1267
 董	cpg	3319
 蔔	cph	983
@@ -1172,8 +1176,8 @@ import_tables:
 茯	crk	508
 茶	crm	5688
 荼	crmu	828
-葆	cro	799
 荅	cro	253
+葆	crom	799
 薟	croo	534
 蘞	croor	432
 莝	crr	320
@@ -1515,7 +1519,6 @@ import_tables:
 睥	ebpc	474
 痺	ebpci	173
 瘟	ebu	795
-髟	ebv	518
 翫	ebvr	501
 煮	ebw	3637
 具	ec	3189
@@ -1624,8 +1627,8 @@ import_tables:
 症	ehl	2916
 舔	ehn	2123
 軀	eho	802
-痦	ehob	467
-疴	ehob	0.1
+疴	ehob	235
+痦	ehob	167
 齬	ehoc	581
 瞘	ehoo	405
 齉	ehos	309
@@ -2934,6 +2937,7 @@ import_tables:
 諛	iur	641
 諧	iuu	856
 誘	iuz	1091
+六	iv	9029
 譾	ivd	407
 訟	ivg	727
 諡	ivh	707
@@ -3733,8 +3737,8 @@ import_tables:
 蜞	kucvc	494
 蚪	kud	575
 狐	kug	1368
-驥	kugc	800
 蚶	kugc	562
+驥	kugcc	800
 羲	kuh	736
 麇	kuhl	436
 穌	kuhv	580
@@ -4796,7 +4800,7 @@ import_tables:
 咾	oel	568
 哮	oen	638
 噼	oeo	666
-喎	oeo	58
+喎	oeo	358
 吹	oeq	5974
 嚘	oeql	316
 囑	oes	725
@@ -5101,7 +5105,6 @@ import_tables:
 鳳	ph	3039
 匐	pho	499
 匍	php	480
-丿	pi	735
 訇	pii	471
 九	pj	6115
 留	pjg	10482
@@ -6998,8 +7001,8 @@ import_tables:
 糟	uhi	1353
 秣	uhm	583
 篋	uhn	546
-饢	uho	641
-笸	uhoz	549
+笸	uho	549
+饢	uhos	641
 酺	uhp	409
 嵇	uht	652
 稽	uhu	722
@@ -7175,9 +7178,9 @@ import_tables:
 餄	uros	469
 籤	urr	659
 筱	urs	1167
+篠	ursl	517
 黏	ursq	909
 黍	ursv	624
-篠	ursx	517
 簷	urt	440
 餡	uru	1166
 稔	urz	612
@@ -8092,7 +8095,6 @@ import_tables:
 氬	whw	696
 熗	wrao	641
 歟	xhzsc	644
-羋	kyv	576
 佢	rhz	3707
 揵	fxl	428
 誐	ipf	574
@@ -8126,8 +8128,6 @@ import_tables:
 广	ta	700
 厂	tc	728
 尙	wa	509
-乜	zz	3053
-冇	fa	4150
 
 #空二簡
 囘	az	666
@@ -8155,3 +8155,5 @@ import_tables:
 朶	zm	585
 𠮯	zo
 乆	zr	563
+
+
