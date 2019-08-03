@@ -16,20 +16,20 @@ schema:
 
 switches:
   - name: zh_simp
-#    reset: 0
-    states: ["漢", "汉"]
+    reset: 0
+    states: [ 漢, 汉 ]
   - name: full_shape
     reset: 0
 #    states: [ 半, 全 ]
   - name: ascii_punct
     reset: 0
-#    states: [ ，。, ，． ]
+#    states: [ 。, ． ]
   - name: ascii_mode
     reset: 0
-#    states: [ 中文, 西文 ]
-#  - name: pinyin_segestion   #拼音
-#    reset: 1
-#    states: [ 音, 注 ]
+#    states: [ 中, 西 ]
+  - name: pinyin_segestion   #拼音
+    reset: 0
+    states: [ 字, 音 ]
   - name: yitizi_segestion
     reset: 1
     states: [ 正, 異 ]
@@ -190,7 +190,7 @@ key_binder:
     - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
 #    - { when: always, accept: comma, send: comma }   #comma，period。
 #    - { when: always, accept: period, send: period }
-    - { when: always, accept: Control+Shift+4, toggle: simplification }
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
     - { when: has_menu, accept: minus, send: minus }  # tone 1
     - { when: paging, accept: minus, send: Page_Up }
   import_preset: default
