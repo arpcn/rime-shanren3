@@ -6,6 +6,7 @@ version: "0.4"
 use_preset_vocabulary: false
 sort: by_weight
 import_tables:
+  - shanren3.words1
   - shanren3.words
 ...
 
