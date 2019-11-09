@@ -2,17 +2,18 @@
 # encoding: utf-8
 
 schema:
-  schema_id: shanren3
-  name: "山人3"
   author:
     - "谢振斌"
   description: |
     山人全息码
-  version: 2014.06.22
   dependencies:
     - terra_pinyin
     - shanren00
     - shanren100
+    
+  name: "山人3"
+  schema_id: shanren3
+  version: 2019.06.22
 
 switches:
   - name: zh_simp
@@ -82,9 +83,10 @@ engine:
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
   initials: 'zyxwvutsrqponmlkjihgfedcba\'
-  delimiter: " ,"
+  delimiter: " /"
 #  algebra:
 #    - "fuzz/^(.+)$/$1\\/"
+#    - 'abbrev/^([a-z]).+$/$1/'
 
 translator:
   dictionary: shanren3
@@ -114,12 +116,12 @@ shanren100:
   comment_format:
     - xform/$/ /
   enable_user_dict: false  #  #連打功能#false取消  true 
-  enable_sentence: true
+  enable_sentence: false
   enable_charset_filter: false
   enable_completion: true
-  sentence_over_completion: true
-  encode_commit_history: true
-  max_phrase_length: 30 
+  sentence_over_completion: false
+  encode_commit_history: false
+#  max_phrase_length: 30 
   initial_quality: 0.7
 
 shanren00:
