@@ -13,3 +13,5 @@ engine:
 
 translator:
   dictionary: shanren100
+  comment_format:
+    - xform/\\//

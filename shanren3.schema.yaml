@@ -83,7 +83,7 @@ engine:
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
   initials: 'zyxwvutsrqponmlkjihgfedcba\'
-  delimiter: " /"
+  delimiter: " '"
 #  algebra:
 #    - "fuzz/^(.+)$/$1\\/"
 #    - 'abbrev/^([a-z]).+$/$1/'
@@ -93,9 +93,9 @@ translator:
   prism: shanren3
   user_dict: shanren3
   db_class: tabledb
-  spelling_hints: 2  # ～字以內候選標註完整帶調拼音
-  comment_format:
-    - xform/$/ /  # 單字及連打時能比較好地顯示提示編碼
+#  spelling_hints: 2  # ～字以內候選標註完整帶調拼音
+#  comment_format:
+#    - xform/$/ /  # 單字及連打時能比較好地顯示提示編碼
   enable_user_dict: true
   enable_sentence: true
   initial_quality: 0.9  # 要比shanren100的大：編碼行按字分節，造詞編碼也不用shanren100
@@ -111,10 +111,10 @@ shanren3_phrase: #這是一個table_translator
 shanren100:
   dictionary: shanren100
   prism: shanren100
-  user_dict: shanren3
-  db_class: tabledb
+#  user_dict: shanren3
+#  db_class: tabledb
   comment_format:
-    - xform/$/ /
+    - xform/\\//
   enable_user_dict: false  #  #連打功能#false取消  true 
   enable_sentence: false
   enable_charset_filter: false
@@ -189,7 +189,7 @@ key_binder:
     - { when: has_menu, accept: space, send: space }
     - { when: composing, accept: space, send: Escape }
     - { when: has_menu, accept: semicolon, send: 2 } #分號選第二重碼
-    - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
+#    - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
 #    - { when: always, accept: comma, send: comma }   #comma，period。
 #    - { when: always, accept: period, send: period }
     - { when: always, accept: Control+Shift+4, toggle: zh_simp }
