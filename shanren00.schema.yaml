@@ -1,35 +1,43 @@
 # Rime schema
 # encoding: utf-8
+
 schema:
-  schema_id: shanren00
-  name: "山人2"
   author:
     - "谢振斌"
   description: |
     山人全息码
-  version: 2014.06.22
   dependencies:
     - terra_pinyin
+    
+  name: "山人2"
+  schema_id: shanren00
+  version: 2014.06.22
 
 switches:
   - name: zh_simp
-#    reset: 0
-    states: ["漢", "汉"]
+    reset: 0
+    states: [ 漢, 汉 ]
   - name: full_shape
     reset: 0
 #    states: [ 半, 全 ]
   - name: ascii_punct
     reset: 0
-#    states: [ ，。, ，． ]
+#    states: [ 。, ． ]
   - name: ascii_mode
     reset: 0
-#    states: [ 中文, 西文 ]
+#    states: [ 中, 西 ]
+  - name: pinyin_segestion   #拼音
+    reset: 0
+    states: [ 字, 音 ]
   - name: yitizi_segestion
     reset: 1
     states: [ 正, 異 ]
   - name: sunman_segestion
     reset: 0
     states: [ 山, 碼 ]
+  - name: nihongo_segestion
+    reset: 0
+    states: [ 日, 訓 ]
 
 engine:
   processors:
@@ -53,8 +61,10 @@ engine:
     - table_translator
   filters:
     - simplifier
+    - simplifier@pinyin_switch   #拼音
     - "simplifier@yitizi_switch"
     - "simplifier@sunman_switch"
+    - "simplifier@nihongo_switch"
     - uniquifier
 
 speller:
@@ -76,6 +86,13 @@ simplifier:
   option_name: zh_simp
   tips: all  # 簡化字模式下提示對應的傳統漢字
 
+pinyin_switch:   #拼音
+  opencc_config: pinyin.json
+  option_name: pinyin_segestion
+  show_in_comment: true
+  excluded_types:  [ reverse_lookup ]
+  tips: all
+
 yitizi_switch:
   opencc_config: yitizi.json
   option_name: yitizi_segestion
@@ -90,6 +107,17 @@ yitizi_switch:
 sunman_switch:
   opencc_config: sunman.json
   option_name: sunman_segestion
+  show_in_comment: true
+  comment_format:
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:
+    - abc
+  tips: char
+
+nihongo_switch:
+  opencc_config: nihongo.json
+  option_name: nihongo_segestion
   show_in_comment: true
   comment_format:
     - xform/&nbsp/ /
@@ -116,6 +144,7 @@ key_binder:
     - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
     - { when: always, accept: comma, send: comma }   #comma，period。
     - { when: always, accept: period, send: period }
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
     - { when: has_menu, accept: minus, send: minus }  # tone 1
     - { when: paging, accept: minus, send: Page_Up }
   import_preset: default
