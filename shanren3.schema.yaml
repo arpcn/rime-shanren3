@@ -82,7 +82,7 @@ engine:
 
 speller:
   alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
-  initials: 'zyxwvutsrqponmlkjihgfedcba\'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
   delimiter: " '"
 #  algebra:
 #    - "fuzz/^(.+)$/$1\\/"
