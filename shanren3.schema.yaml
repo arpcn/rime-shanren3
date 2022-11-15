@@ -33,10 +33,10 @@ switches:
     reset: 0
     states: [ 字, 音 ]
   - name: yitizi_segestion
-    reset: 1
+    reset: 0
     states: [ 正, 異 ]
   - name: sunman_segestion
-    reset: 0
+    reset: 1
     states: [ 山, 碼 ]
   - name: nihongo_segestion
     reset: 0
