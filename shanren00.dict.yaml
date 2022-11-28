@@ -270,7 +270,7 @@ sort: by_original
 镸v(長长⻑⻒𨱗𨱘)	zvyc\
 也	zvye\
 革	zvyge\
-衣(衤v⾐衣)	zvyi\
+衣(衤v⾐衣𧘇)	zvyi\
 巾v()	zvyj\
 麻a(⿇麻)	zvym\
 糸(纟糹⽷)	zvys\
@@ -454,11 +454,12 @@ sort: by_original
 冂	a\	648
 宀	a\	643
 冖	a\	410
-	a\	0.1
 	a\	0.1
 	a\
-	a\
+𫡃	a\
+	a\
 ⺆	a\
+	a\
 ⼌	a\
 ⼍	a\
 ⼧	a\
@@ -548,9 +549,7 @@ sort: by_original
 𩖈	aajney\
 𡚇	aajnrs\
 ⿵	aak\
-	aak\
 ⿻	aakk\
-	aakk\
 𡩽	aaky\
 𢃹	aalyj\
 寐	aam\	768
@@ -609,7 +608,7 @@ sort: by_original
 𨶵	aattem\
 𡨾	aatu\
 𡇽	aatuk\
-	aatum\
+𬮱	aatum\
 闉	aatum\	-3
 𤎟	aatwu\
 𨳷	aaubm\
@@ -813,7 +812,7 @@ sort: by_original
 騫	acck\	764
 䗙	acckc\
 鶱	accki\	313
-	accki\
+𬸣	accki\
 骞	acckm\	0.1
 騫	acckm\	-4
 蹇	accl\	673
@@ -1105,7 +1104,7 @@ sort: by_original
 𪧋	adnv\
 𨳿	adq\	0.1
 𦠰	adqbci\
-	adqbm\
+𬮡	adqbm\
 𨳿	adqbm\	-3
 浆	ads\	0.1
 𤖅	adsvp\
@@ -1707,7 +1706,6 @@ sort: by_original
 𤗰	ahibop\
 𦋿	ahibos\
 ⿱	ahik\
-	ahik\
 闩	ahim\	0.1
 閂	ahim\	-3
 𤕬	ahip\
@@ -1722,7 +1720,6 @@ sort: by_original
 𫛢	ahki\	0.1
 𦊂	ahkjs\
 ⿷	ahkk\
-	ahkk\
 冡	ahks\	-3
 賓	ahl\	1558
 竀	ahle\	201
@@ -1826,7 +1823,6 @@ sort: by_original
 𥥽	ahsdv\
 𥥻	ahsfgv\
 ⿸	ahsk\
-	ahsk\
 𡨓	ahsp\
 𡇗	ahspk\
 𡧍	ahszz\
@@ -2110,7 +2106,6 @@ sort: by_original
 𥅫	ajjjds\
 𪧝	ajjwu\
 ⿲	ajk\
-	ajk\
 罞	ajm\	346
 𢆦	ajmbos\
 罞	ajms\	-3
@@ -2807,7 +2802,6 @@ sort: by_original
 回	aok\	32389
 囬	aok\	681
 ⿴	aok\
-	aok\
 𪀟	aokik\
 迥	aol\	984
 㢠	aol\
@@ -2830,7 +2824,7 @@ sort: by_original
 閭	aoom\
 闆	aooo\	612
 𡪑	aooohz\
-	aooom\
+𬮳	aooom\
 闆	aooom\	-4
 𡈨	aooook\
 𨶴	aoootu\
@@ -3338,7 +3332,7 @@ sort: by_original
 𢩅	aroh\
 𧨣	aroii\
 𡇞	arok\
-	arom\
+𬮤	arom\
 閤	arom\	-3
 𣘿	aromuv\
 𦊴	aros\
@@ -3368,8 +3362,6 @@ sort: by_original
 䦟	arrtu\	0.01
 𡨠	arrtu\
 䦷	arrtum\	0.01
-	arrtum\
-	arrtum\
 䦟	arrtum\	-5
 𥦊	arrtuv\
 𢼱	arrxp\
@@ -3438,8 +3430,6 @@ sort: by_original
 𩐇	arxuh\
 䦛	arxv\	0.01
 䦶	arxvm\	0.01
-	arxvm\
-	arxvm\
 䦛	arxvm\	-4
 	arxyv\
 𨴧	arxzm\
@@ -3505,7 +3495,6 @@ sort: by_original
 𠜟	asjdk\
 𥦷	asjgsv\
 ⿰	ask\
-	ask\
 㱎	askeqs\
 㱎	askeqs\
 䳴	askis\
@@ -3926,7 +3915,6 @@ sort: by_original
 𨷞	aujzlm\
 𥨯	aujzlv\
 ⿶	auk\
-	auk\
 𧖅	aukkc\
 𣂋	aukoh\
 迱	aul\	289
@@ -4052,7 +4040,6 @@ sort: by_original
 𡇕	avedk\
 𢨧	aveh\
 ⿳	avek\
-	avek\
 𡆤	avek\
 𨳎	avem\
 𣬭	avem\
@@ -4629,8 +4616,6 @@ sort: by_original
 ⿺	azk\
 𡆡	azk\
 𡆢	azk\
-	azk\
-	azk\
 𢌞	azl\
 𡦺	azn\
 𡧑	aznr\
@@ -5225,7 +5210,7 @@ sort: by_original
 欥	beqo\	-3
 㱄	beqw\
 晛	ber\	398
-	bero\
+𬀪	bero\
 㒻	bero\
 㒻	bero\
 晛	bero\	-3
@@ -5831,9 +5816,9 @@ sort: by_original
 遈	bllo\	-3
 𣌎	bllthpxp\
 𪐿	bllw\
-	blo\
-𣅄	blo\
 𨑨	blo\
+𣅄	blo\
+	blo\
 是	blo\	-1
 𤽥	bloa\
 𤽱	bloa\
@@ -6753,7 +6738,7 @@ sort: by_original
 𣇢	byvo\
 暐	byw\	470
 𪾃	bywa\
-	bywo\
+𬀩	bywo\
 暐	bywo\	-3
 𤎥	bywwua\
 𤾵	byxcga\
@@ -6960,7 +6945,6 @@ sort: by_original
 𦱇	cafg\
 䓖	cafi\
 劳	cafi\
-	cafi\
 劳	cafi\	-3
 𠟗	cafojd\
 𦴯	cafxy\
@@ -7155,7 +7139,7 @@ sort: by_original
 茴	cao\	625
 蔄	cao\	316
 苘	cao\	0.1
-	cao\
+𬜬	cao\
 𦯶	cao\
 𨖘	caol\
 𦳖	caol\
@@ -7982,7 +7966,6 @@ sort: by_original
 萉	cdkb\	402
 𧉾	cdkcf\
 䴖	cdki\	0.1
-	cdki\
 鶄	cdki\	-3
 𧐧	cdkkcf\
 𩇜	cdkre\
@@ -9605,7 +9588,7 @@ sort: by_original
 蓮	cll\
 蓮	cll\	-2
 𧅵	cllebpci\
-	clley\
+𬞟	clley\
 蘋	clley\	-3
 荹	cllh\	473
 蓰	clll\	387
@@ -11452,7 +11435,7 @@ sort: by_original
 䖓	cukh\
 𢋱	cukhzwu\
 虉	cuki\	274
-	cuki\
+𬟁	cuki\
 𩿩	cuki\
 𧄘	cukjx\
 𣟶	cukmu\
@@ -11469,7 +11452,7 @@ sort: by_original
 䓣	cul\
 蒾	cul\	525
 䒹	cul\
-	cul\
+𬜯	cul\
 𨒞	cul\
 𨋡	culc\
 㒼	culh\
@@ -11699,7 +11682,6 @@ sort: by_original
 𧡙	cwerh\
 𧄁	cwevzxy\
 薠	cwey\	476
-	cwey\
 葻	cwf\	374
 𩖘	cwfi\
 𦺡	cwfs\
@@ -11978,7 +11960,6 @@ sort: by_original
 芇	cyj\	277
 𡴅	cyj\
 𢒈	cyj\
-	cyjd\
 𠞓	cyjd\
 𧁺	cyjho\
 龩	cyjn\
@@ -12849,7 +12830,6 @@ sort: by_original
 䏏	dhfv\
 𦚞	dhgwv\
 䐶	dhhbov\
-	dhhyv\
 	dhi\
 䐬	dhibov\
 𧌌	dhkcv\
@@ -13490,7 +13470,6 @@ sort: by_original
 脍	drw\	0.1
 𣍨	drwiv\
 脍	drwvv\	-3
-	drxjv\
 㬹	drxvv\
 胗	dry\	558
 𦝴	drycv\
@@ -13732,9 +13711,9 @@ sort: by_original
 	dv\	0.1
 	dv\	0.1
 	dv\	0.1
+⺼	dv\	0.1
 	dv\	0.1
-	dv\	0.1
-⺼	dv\
+	dv\
 ⺝	dv\
 ⽉	dv\
 𠔼	dv\
@@ -13777,7 +13756,7 @@ sort: by_original
 	dvnfv\
 賸	dvng\	460
 𣎒	dvngav\
-	dvngbv\
+𬂉	dvngbv\
 賸	dvngbv\	-4
 謄	dvni\	552
 謄	dvniiv\	-4
@@ -13788,7 +13767,6 @@ sort: by_original
 騰	dvnkmv\	-4
 鰧	dvnkvv\	0.1
 䲢	dvnkvv\	0.1
-	dvnkvv\
 𨃗	dvnlov\
 榺	dvnm\	255
 榺	dvnmuv\	-4
@@ -13831,7 +13809,6 @@ sort: by_original
 𦚿	dvyjv\
 肟	dvz\	656
 䏝	dvzdv\
-	dvzdv\
 𦙕	dvznv\
 肟	dvzv\	-3
 炙	dw\	807
@@ -13958,7 +13935,6 @@ sort: by_original
 𡛹	dxnvx\
 𦜘	dxnzv\
 脬	dxnzv\	-3
-	dxpov\
 𦙉	dxppv\
 𦠽	dxpzzzwu\
 祭	dxqs\	-2
@@ -14149,13 +14125,13 @@ sort: by_original
 瞑	eabivm\	-3
 𥉛	eabnvm\
 癎	eabo\	481
-	eabob\
+𰣯	eabob\
 鬝	eabob\
 癎	eabob\	-4
 𪙨	eaboc\
 𦗬	eaboe\
 瞷	eabom\	390
-	eabom\	0.1
+𬑗	eabom\	0.1
 𧢑	eabor\
 𦐲	eabov\
 𡲿	eabzps\
@@ -16568,7 +16544,7 @@ sort: by_original
 𣧱	eicd\
 𣧺	eicd\
 瞕	eici\	250
-	eicib\	0.1
+𬏟	eicib\	0.1
 㾵	eicib\
 瘴	eicib\	-3
 瞕	eicim\	-4
@@ -16927,7 +16903,6 @@ sort: by_original
 𢵠	ejkfsj\
 鴷	ejki\	1
 䴕	ejkid\	0.1
-	ejkid\
 鴷	ejkid\	-4
 蟹	ejkk\	1626
 𧒈	ejkkcd\
@@ -17206,7 +17181,6 @@ sort: by_original
 鸐	ekki\	257
 鶪	ekkim\	1
 䴗	ekkim\	0.1
-	ekkim\
 𪈬	ekkis\
 鸐	ekkiv\	-4
 𩖔	ekkiy\
@@ -17719,7 +17693,7 @@ sort: by_original
 𤻚	emmerb\
 齼	emml\	271
 𤻇	emmlb\
-	emmlc\
+𬺓	emmlc\
 齼	emmlc\	-4
 𤺢	emmmub\
 𤹴	emmnvb\
@@ -17868,7 +17842,7 @@ sort: by_original
 𦕑	enhie\
 齮	enho\	433
 㾨	enhob\
-	enhoc\
+𬺈	enhoc\
 齮	enhoc\	-4
 㱦	enhod\
 𦖊	enhoe\
@@ -18174,7 +18148,6 @@ sort: by_original
 㿉	eoqgbb\
 㱮	eoqgbd\	0.1
 殨	eoqgbd\	0.1
-	eoqgbd\
 聩	eoqgbe\	0.1
 聵	eoqgbe\	-3
 䯣	eoqgbg\
@@ -18225,7 +18198,6 @@ sort: by_original
 鸊	eouk\	374
 䴙	eoukis\	0.1
 鷿	eoukis\	0.1
-	eoukis\
 鸊	eoukis\	-4
 鼊	eoukms\	228
 𧲜	eoukxs\
@@ -18819,7 +18791,7 @@ sort: by_original
 疥	erjb\	523
 䯰	erjb\
 齘	erjc\	273
-	erjc\
+𬹼	erjc\
 𩨧	erjdg\
 骱	erjg\	-3
 䯎	erjgg\
@@ -18883,7 +18855,7 @@ sort: by_original
 𥇥	erornm\
 𥂨	eroumv\
 𦐬	erov\
-	eroy\	0.1
+𬌗	eroy\	0.1
 𨉟	erozis\
 𡱚	erpcgs\
 𪗣	erpkc\
@@ -18908,7 +18880,6 @@ sort: by_original
 𣬱	errnm\
 𪨊	errns\
 𨈦	errns\
-	errns\
 𡱲	errppp\
 𡳡	errqcs\
 𡲱	errqcg\
@@ -19686,7 +19657,6 @@ sort: by_original
 髅	eunvg\	0.1
 䁖	eunvm\	0.1
 𠕷	eunvm\
-	eunvm\
 屡	eunvs\	0.1
 躷	eunvs\	-4
 痵	eunz\	271
@@ -20768,7 +20738,6 @@ sort: by_original
 𪭾	fadvs\
 掮	fadvs\	-4
 擦	fadxqs\	-3
-	fadxs\
 捥	fadz\	353
 捥	fadzis\	-4
 搧	fae\	537
@@ -20972,7 +20941,6 @@ sort: by_original
 㩈	faxpos\
 㧏	faxs\
 𢬣	faxs\
-	faxs\
 拪	faxs\	-3
 𢱇	faxxs\
 𢱑	faxzs\
@@ -21427,7 +21395,6 @@ sort: by_original
 𢦀	felfgqi\
 𢲮	felhs\
 𢳗	felmus\
-	felqbl\
 𨗶	fels\
 㧯	fels\
 𢲈	felxcs\
@@ -22232,7 +22199,6 @@ sort: by_original
 攙	fkkt\	710
 攙	fkkts\	-4
 㩳	fkkxys\
-	fkkxys\
 𢹛	fkkys\
 攏	fkl\	942
 㨿	fklpps\
@@ -22989,7 +22955,7 @@ sort: by_original
 𪭩	frjys\
 鴂	frk\	384
 𢬘	frkbs\
-	frkig\
+𱉔	frkig\
 鴂	frkig\	-3
 𢫯	frkqs\
 𢮡	frkys\
@@ -23080,7 +23046,6 @@ sort: by_original
 𫐪	frwli\
 𪭯	frwvs\
 挣	frx\	0.1
-	frxjs\
 𢴼	frxls\
 𢰽	frxqis\
 挣	frxvs\	-3
@@ -23133,7 +23098,6 @@ sort: by_original
 摷	fsg\	323
 摷	fsgmus\	-3
 㧟	fsh\	0.1
-	fshks\
 㧟	fshks\	-3
 𢫋	fshszhi\
 𢭿	fshyjs\
@@ -23807,7 +23771,6 @@ sort: by_original
 掇	fxxxxy\	-4
 𢬏	fxxxys\
 㧐	fxxys\
-	fxxys\
 𢫺	fxxzs\
 友	fxy\	-2
 𢸂	fxyhwu\
@@ -24022,7 +23985,7 @@ sort: by_original
 琔	galw\	325
 琛	gam\	962
 瓓	gama\	298
-	gamavb\
+𬎑	gamavb\
 瓓	gamavb\	-4
 瑮	gamu\	346
 賝	gamub\	276
@@ -24195,8 +24158,8 @@ sort: by_original
 𤨰	gcadzi\
 𥧪	gcafgw\
 𫞧	gcafiw\
-	gcag\	0.1
-	gcagvw\	-4
+𬎆	gcag\	0.1
+𬎆	gcagvw\	-4
 𪼘	gcahbhi\
 𤪑	gcahks\
 𤩽	gcakkq\
@@ -24240,8 +24203,6 @@ sort: by_original
 𤲟	gcdva\
 䝼	gcdvb\
 䞍	gcdvb\
-	gcdvb\
-	gcdvb\
 𤦭	gcdvw\
 𤧌	gcdziw\
 瑱	gce\	450
@@ -24355,7 +24316,6 @@ sort: by_original
 𢌌	gctbvw\
 𪪩	gctcwu\
 𨚕	gctes\
-	gctew\
 𨛓	gctew\
 瓂	gctgum\	-3
 𡊅	gctus\
@@ -24544,7 +24504,7 @@ sort: by_original
 顼	geyw\	0.1
 頊	geyw\	-3
 頔	geyy\	435
-	geyy\	0.1
+𬱖	geyy\	0.1
 𧶋	gezb\
 𤤜	gezyw\
 男	gf\	17698
@@ -25750,8 +25710,8 @@ sort: by_original
 𧶵	gpujb\
 𪻎	gpvew\
 𤤪	gpvw\
-	gpw\	0.1
-	gpwiw\	-3
+𬍛	gpw\	0.1
+𬍛	gpwiw\	-3
 𪻏	gpxw\
 𤥘	gpxzxy\
 𤰿	gpya\
@@ -25782,8 +25742,8 @@ sort: by_original
 玝	gqciw\	-4
 顋	gqe\	217
 𦖷	gqeea\
-	gqes\	0.1
-	gqesw\	-4
+𰡵	gqes\	0.1
+𰡵	gqesw\	-4
 顋	gqeya\	-3
 𢣢	gqfffi\
 瑰	gqg\	691
@@ -26424,9 +26384,9 @@ sort: by_original
 瑵	gxd\	286
 瑵	gxdkcw\	-3
 琋	gxf\	386
-	gxfc\	0.1
+𬍤	gxfc\	0.1
 㽟	gxfca\
-	gxfcw\	-4
+𬍤	gxfcw\	-4
 𧵧	gxfgsb\
 璕	gxfo\	340
 璕	gxfofc\	-4
@@ -26659,7 +26619,7 @@ sort: by_original
 郾	hbn\	547
 㰽	hbneqk\
 鶠	hbnk\	262
-	hbnkik\
+𬸘	hbnkik\
 鶠	hbnkik\	-4
 𧓱	hbnkkc\
 𩀀	hbnkzk\
@@ -27228,7 +27188,7 @@ sort: by_original
 𩾚	hkid\
 𩾏	hkii\
 𪀉	hkio\
-	hkip\
+𬷕	hkip\
 鵏	hkip\	-3
 𩿑	hkir\
 𩾵	hkiy\
@@ -28097,10 +28057,9 @@ sort: by_original
 蠒	hyk\	237
 蠒	hykci\	-3
 鸍	hyki\	202
-䴓	hykii\	0.1
 鳾	hykii\	0.1
 𩿒	hykii\
-	hykii\
+䴓	hykii\	0.1
 鸍	hykii\	-4
 𪓿	hykmi\
 𤜲	hykqi\
@@ -28279,7 +28238,6 @@ sort: by_original
 𫖚	iahgvb\
 𧦈	iahi\
 𥩟	iahih\
-	iahii\
 𧨋	iahlhi\
 詷	iaho\	408
 𩐤	iahob\
@@ -28418,7 +28376,7 @@ sort: by_original
 𧭴	iatoyi\
 𧯼	iatoz\
 諲	iatu\	384
-	iatui\
+𬤇	iatui\
 𧦦	iatui\
 諲	iatui\	-4
 𫍇	iatvi\
@@ -28552,7 +28510,7 @@ sort: by_original
 㚆	ibl\
 𨗍	ibla\
 𣄍	iblf\
-	ibli\
+𬤊	ibli\
 𧨓	ibli\
 諟	ibli\	-3
 䜂	ibncii\
@@ -28792,9 +28750,8 @@ sort: by_original
 𥫕	icooxxxxy\
 謹	icotui\
 讌	icou\	386
-䜩	icouwu\
 𧮃	icouwu\
-	icouwu\
+䜩	icouwu\
 讌	icouwu\	-4
 𧬕	icouxi\
 𠲩	icov\
@@ -29297,7 +29254,7 @@ sort: by_original
 竡	ihbah\	-4
 竱	ihbg\	202
 竱	ihbgfc\	-4
-	ihbgqi\
+𬤝	ihbgqi\
 譓	ihbgqi\	-3
 𧨒	ihbxi\
 農	ihc\	3178
@@ -29318,7 +29275,7 @@ sort: by_original
 𣣱	iheqv\
 訏	ihf\	433
 𣄎	ihfcf\
-	ihfi\
+𬣙	ihfi\
 訏	ihfi\	-3
 誆	ihg\	620
 诓	ihgw\	0.1
@@ -29339,7 +29296,6 @@ sort: by_original
 𥪼	ihihov\
 𠆙	ihirdv\
 斌	ihj\	2348
-	ihjgi\
 𧮒	ihjjuy\
 贇	ihjl\	604
 赟	ihjlgb\	0.1
@@ -29686,7 +29642,6 @@ sort: by_original
 𩐙	ijnb\
 𪯲	ijnf\
 䜣	ijni\	0.1
-	ijni\
 訢	ijni\	-3
 𪛊	ijnv\
 韶	ijo\	940
@@ -29917,7 +29872,7 @@ sort: by_original
 謰	ill\	278
 𩐨	illb\
 𨌤	illc\
-	illi\
+𬣽	illi\
 𧧭	illi\
 謰	illi\	-3
 𧬃	illlhi\
@@ -30399,7 +30354,7 @@ sort: by_original
 𪗎	ipeyq\
 誐	ipf\	574
 劥	ipfi\	366
-	ipfjgi\
+𰵮	ipfjgi\
 誐	ipfjgi\	-3
 諥	ipg\	380
 𠅪	ipggw\
@@ -30611,7 +30566,7 @@ sort: by_original
 𪟒	iqjjdf\
 鷟	iqjk\	395
 𧐈	iqjkcf\
-	iqjkif\
+𬸦	iqjkif\
 鷟	iqjkif\	-4
 𩺯	iqjkvf\
 𩀥	iqjkzf\
@@ -30851,7 +30806,6 @@ sort: by_original
 𨿼	irrckz\
 𨔊	irrcl\
 𣦮	irrcljhlh\
-	irrcuw\
 𤭢	irrcuw\
 𡮇	irrcwi\
 𪟼	irrczzccv\
@@ -31086,7 +31040,7 @@ sort: by_original
 亴	itpjo\	-3
 𫝸	itprnv\
 誌	itq\	1259
-	itqii\
+𰵧	itqii\
 誌	itqii\	-3
 𫁥	itqoh\
 䛸	itqoi\
@@ -31096,7 +31050,6 @@ sort: by_original
 𠜇	itrjd\
 𫍑	itrkzi\
 㐪	itrn\
-	itrxqi\
 訕	its\	648
 讪	itsi\	0.1
 訕	itsi\	-3
@@ -31224,7 +31177,7 @@ sort: by_original
 𥠤	iuha\
 稟	iuha\	-3
 訸	iuhi\	416
-	iuhi\
+𰵝	iuhi\
 稾	iuho\	325
 稁	iuho\	217
 齏	iuhq\	538
@@ -31645,7 +31598,6 @@ sort: by_original
 虠	ixkhv\	-3
 鵁	ixki\	1
 䴔	ixkiv\	0.1
-	ixkiv\
 鵁	ixkiv\	-4
 𪇀	ixkiz\
 𪔷	ixklz\
@@ -31973,7 +31925,7 @@ sort: by_original
 讯	izcii\	-4
 𧪀	izffgi\
 詪	izg\	585
-	izgi\
+𬣳	izgi\
 詪	izgi\	-3
 𦫋	izgz\
 詞	izh\	6279
@@ -32077,14 +32029,12 @@ sort: by_original
 𨮘	jaegbr\
 䥇	jaevr\
 䦂	jaevr\
-	jaevr\
-	jaevr\
 𨭵	jaexyr\
 𨩴	jaeyr\
 鋐	jaf\	396
 𫒙	jafcr\
 𨨀	jafgr\
-	jafgsr\
+𬭎	jafgsr\
 鋐	jafgsr\	-3
 𥏕	jafgss\
 矲	jag\	294
@@ -32277,7 +32227,6 @@ sort: by_original
 鉈	jaubr\	-3
 铊	jaubr\	-4
 𨰎	jauezvb\
-	jauir\
 䥔	jauir\
 𨯴	jaujnr\
 䥱	jaupwu\
@@ -32385,9 +32334,8 @@ sort: by_original
 锡	jbpyr\	-4
 𨦢	jbrnr\
 鉮	jbs\	458
-	jbsr\
+𬬹	jbsr\
 鉮	jbsr\	-3
-	jbsvr\
 䤼	jbsvr\
 𨫉	jbtfcr\
 𨬵	jbtkyr\
@@ -32406,7 +32354,7 @@ sort: by_original
 𨱑	jbvr\
 鎤	jbw\	226
 𨭆	jbwr\
-	jbwr\
+𬭶	jbwr\
 鎤	jbwrr\	-3
 𨨋	jbwur\
 鑠	jby\	598
@@ -32464,7 +32412,7 @@ sort: by_original
 𫟹	jccvr\
 鉷	jccvr\	-4
 鏏	jccx\	255
-	jccxjr\
+𬭬	jccxjr\
 鏏	jccxjr\	-4
 𨯚	jccxqi\
 鐷	jcczmu\	-3
@@ -32484,7 +32432,6 @@ sort: by_original
 鎮	jce\	10037
 鐯	jceb\	0.1
 䦃	jcebor\	0.1
-	jcebor\
 鐯	jcebor\	-4
 镇	jcec\	0.1
 㣀	jcecvg\
@@ -32644,7 +32591,6 @@ sort: by_original
 弢	jcx\	558
 𢑁	jcxaahi\
 䥽	jcxd\	0.1
-	jcxdr\
 䥽	jcxdr\	-4
 銰	jcxr\	313
 𨨭	jcxxyr\
@@ -32652,7 +32598,7 @@ sort: by_original
 弢	jcxyg\
 弢	jcxyg\	-3
 錶	jcy\	1295
-	jcyir\
+𰾍	jcyir\
 錶	jcyir\	-3
 𢐳	jcyxxx\
 鍱	jcz\	331
@@ -32681,7 +32627,7 @@ sort: by_original
 弸	jddv\	432
 弸	jddvg\	-4
 錋	jddvr\	407
-	jddvr\	0.1
+𬭖	jddvr\	0.1
 鉹	jddx\	213
 𢏜	jddxg\
 鉹	jddxr\	-4
@@ -32792,7 +32738,6 @@ sort: by_original
 彏	jeekx\	229
 矡	jeekxy\	281
 䦆	jeekxy\
-	jeekxy\
 钁	jeekxy\	-4
 彏	jeekxy\	-5
 鑺	jeekz\	481
@@ -32869,7 +32814,6 @@ sort: by_original
 𨪵	jepor\
 铍	jepr\	0.1
 鈹	jepr\	-3
-𨬹	jepsvr\
 欽	jeq\	1384
 弞	jeqg\	226
 懖	jeqi\	212
@@ -32886,6 +32830,7 @@ sort: by_original
 鏐	jer\	453
 𦚇	jerm\
 鋧	jerr\	312
+𨬹	jerrrn\
 䂓	jers\
 镠	jery\	0.1
 鏐	jeryr\	-3
@@ -32938,7 +32883,6 @@ sort: by_original
 顉	jeyr\	240
 䥺	jeyr\	0.1
 釾	jeyr\	0.1
-	jeyr\
 鋦	jez\	561
 锔	jezo\	0.1
 鋦	jezor\	-3
@@ -33238,7 +33182,7 @@ sort: by_original
 鐕	jhhbor\	-4
 彁	jhho\	464
 彁	jhhog\	-4
-	jhhor\
+鿔	jhhor\
 鎶	jhhor\	-3
 𩱠	jhhujg\
 䥻	jhhyr\
@@ -33382,7 +33326,6 @@ sort: by_original
 烕	jhwup\	-4
 鋄	jhwx\	286
 鋄	jhwxyr\	-4
-	jhxg\
 𢏵	jhxlhg\
 𨧬	jhxnvr\
 𨥅	jhxr\
@@ -33494,7 +33437,7 @@ sort: by_original
 镦	jinxpr\	-5
 弴	jinz\	229
 弴	jinzg\	-4
-	jinzr\	0.1
+𬭚	jinzr\	0.1
 𫒤	jinzr\
 錞	jinzr\	-3
 鎬	jio\	763
@@ -33506,7 +33449,7 @@ sort: by_original
 錇	jior\	498
 镐	jior\	0.1
 锫	jior\	0.1
-	jior\	0.1
+𬭳	jior\	0.1
 𨦽	jior\
 𨭎	jior\
 鎬	jior\	-3
@@ -33675,7 +33618,7 @@ sort: by_original
 𨭟	jjhlwu\
 𨩆	jjhnvr\
 𫓏	jjhoqi\
-	jjhor\
+𰾗	jjhor\
 鍼	jjhor\	-3
 铙	jjhr\	0.1
 铙	jjhrer\	-4
@@ -33747,7 +33690,7 @@ sort: by_original
 斦	jjnn\	261
 𠀞	jjnn\
 𢦲	jjnp\
-	jjnr\
+𬬱	jjnr\
 釿	jjnr\	-3
 𡗻	jjnrg\
 𡘉	jjnrg\
@@ -33765,7 +33708,7 @@ sort: by_original
 𢦽	jjop\
 𧷩	jjoqgb\
 鉊	jjor\	311
-	jjor\
+𬬿	jjor\
 䂏	jjos\
 𢏌	jjpg\
 𥍥	jjpm\
@@ -33780,7 +33723,6 @@ sort: by_original
 鋱	jjqir\	-4
 艴	jjr\	386
 艴	jjrkbg\	-3
-	jjrr\
 鍂	jjrr\
 𨨮	jjrwir\
 矧	jjs\	459
@@ -33809,7 +33751,6 @@ sort: by_original
 盞	jjumg\	-3
 𥂂	jjumm\
 𥡀	jjuuhg\
-	jjuumr\
 𫓤	jjuuzr\
 㼛	jjuwg\
 𢏊	jjvbg\
@@ -33830,7 +33771,7 @@ sort: by_original
 𢒍	jjyg\
 形	jjyg\
 𧙭	jjyig\
-	jjyr\
+𬬩	jjyr\
 釴	jjyr\	-3
 𥿏	jjysg\
 𩎡	jjywg\
@@ -33992,7 +33933,6 @@ sort: by_original
 鐥	jkv\	6
 𢐗	jkvg\
 䦅	jkvo\	0.1
-	jkvor\
 鐥	jkvor\	-3
 䦅	jkvor\	-4
 𨫷	jkvr\
@@ -34016,7 +33956,6 @@ sort: by_original
 鐌	jkxr\	-3
 𢏙	jkyg\
 𨨪	jkyjdr\
-	jkyr\
 𨦡	jkyr\
 錐	jkz\	926
 䧲	jkzg\
@@ -34156,7 +34095,7 @@ sort: by_original
 𫝌	jmcv\
 鉥	jmd\	334
 𨩔	jmdlr\
-	jmdr\
+𬬸	jmdr\
 鉥	jmdr\	-3
 𣮪	jmemm\
 𣟮	jmevlm\
@@ -34188,7 +34127,7 @@ sort: by_original
 𣠳	jmrtvii\
 𨜙	jmtem\
 𨧀	jmtur\
-	jmtur\
+𬭊	jmtur\
 柔	jmu\	1991
 𣏩	jmug\
 柔	jmum\	-3
@@ -34257,7 +34196,7 @@ sort: by_original
 𥏣	jnkys\
 𫟼	jnlr\
 鉧	jnm\	366
-	jnmr\
+𬭁	jnmr\
 鉧	jnmr\	-3
 𥎳	jnms\
 𨨓	jnmwr\
@@ -34697,7 +34636,6 @@ sort: by_original
 𫒍	jqcir\
 鎺	jqdhr\
 䙻	jqerg\
-	jqesr\
 䪠	jqeuhg\
 鍞	jqg\	449
 鍞	jqgbr\	-3
@@ -34815,10 +34753,9 @@ sort: by_original
 鉜	jrfc\	257
 弣	jrfcg\	252
 鉜	jrfcr\	-4
-	jrfgr\
 㢿	jrfjsg\
 䂉	jrfjsm\
-	jrfjsr\
+𬭤	jrfjsr\
 鍭	jrfjsr\	-3
 𫙆	jrfjul\
 銓	jrg\	681
@@ -34903,7 +34840,7 @@ sort: by_original
 錎	jru\	276
 鈋	jrub\	0.1
 𨱂	jrubr\	0.1
-	jrubr\
+𬬭	jrubr\
 鈋	jrubr\	-4
 铧	jruc\	0.1
 铧	jrucir\	-4
@@ -34971,7 +34908,7 @@ sort: by_original
 𨨱	jseor\
 𨩲	jseor\
 𨨏	jsepr\
-	jsepr\
+𬭛	jsepr\
 𢏠	jsfgg\
 弔	jsg\	1100
 𢎟	jsg\
@@ -35350,7 +35287,7 @@ sort: by_original
 𨭀	julr\
 鎘	julr\	-3
 鏻	julv\	379
-	julvr\
+𬭸	julvr\
 鏻	julvr\	-4
 鏼	jum\	184
 鏼	jumar\	-3
@@ -35361,7 +35298,7 @@ sort: by_original
 䥑	jumr\
 𫒏	jumr\
 𨦎	jumr\
-	jumr\
+鿏	jumr\
 𨪀	jumur\
 矮	jun\	1792
 𦦕	junrrn\
@@ -35401,7 +35338,7 @@ sort: by_original
 锴	juubar\	0.1
 鍇	juubar\	-3
 𥏪	juubas\
-	juubr\
+𬬫	juubr\
 鈚	juubr\	-4
 𥎬	juubs\
 𪪼	juucig\
@@ -35487,7 +35424,7 @@ sort: by_original
 弹	jvgc\	0.1
 弹	jvgcig\	-4
 鎓	jvge\	396
-	jvgevr\
+𬭩	jvgevr\
 鎓	jvgevr\	-4
 𨨟	jvgqir\
 𨦣	jvgrer\
@@ -35513,7 +35450,7 @@ sort: by_original
 锑	jvjqbr\	-4
 𨩣	jvjumr\
 鐩	jvk\	516
-	jvklr\
+𬭼	jvklr\
 鐩	jvklr\	-3
 𨪂	jvksr\
 𪪭	jvlg\
@@ -35887,7 +35824,7 @@ sort: by_original
 鋹	jyc\	415
 张	jycg\	0.1
 張	jycg\	-2
-	jycr\
+𬬮	jycr\
 鋹	jycr\	-3
 弛	jye\	800
 弛	jyeg\	-3
@@ -35936,11 +35873,11 @@ sort: by_original
 𥏟	jyvs\
 鍏	jyw\	656
 𪫀	jywg\
-	jywr\
+𬬬	jywr\
 鍏	jywr\	-3
-	jyx\	0.1
-䥕	jyxpr\
-	jyxpr\	-3
+䥕	jyx\	0.1
+𬭯	jyxpr\
+䥕	jyxpr\	-3
 鐖	jyy\	494
 鐖	jyyjdr\	-3
 𨰙	jyykcr\
@@ -36206,7 +36143,6 @@ sort: by_original
 𧎊	kalcc\
 䮝	kalcm\
 𩧰	kalcm\
-	kalcq\
 𤟤	kalcq\
 𤟴	kalcq\
 䝍	kalcs\
@@ -36275,7 +36211,7 @@ sort: by_original
 𧒪	kaogbc\
 𧍚	kaolc\
 駉	kaom\	376
-	kaom\
+𬳶	kaom\
 䮐	kaom\
 𩢱	kaom\
 𩼵	kaoorl\
@@ -36432,7 +36368,7 @@ sort: by_original
 鼧	kaubs\	224
 㸰	kaubu\
 鮀	kaubv\	451
-	kaubv\
+𬶍	kaubv\
 䍫	kauby\
 𧒞	kaudvc\
 麕	kauh\	343
@@ -36849,7 +36785,6 @@ sort: by_original
 𩨁	kcdbom\
 䲠	kcdbov\	0.1
 鰆	kcdbov\	0.1
-	kcdbov\
 蜯	kcdf\	406
 蜯	kcdfc\	-4
 𩸮	kcdfv\
@@ -37055,7 +36990,7 @@ sort: by_original
 蠸	kcook\	293
 貛	kcookz\	250
 鱹	kcookz\	211
-	kcookz\	0.1
+𬴐	kcookz\	0.1
 䝔	kcookz\
 𤜍	kcookz\
 𪈩	kcookz\
@@ -37091,7 +37026,6 @@ sort: by_original
 𩼃	kcpxpv\
 𩼺	kcraov\
 𪄦	kcrmui\
-	kcrmuq\
 𩻓	kcrmuv\
 𫋓	kcroc\
 𩥠	kcrom\
@@ -37108,7 +37042,7 @@ sort: by_original
 𪇨	kcshpi\
 𩺳	kcswpv\
 騞	kct\	295
-	kctom\
+𬴃	kctom\
 騞	kctom\	-3
 𪇷	kctuxi\
 𪈙	kctuxi\
@@ -37268,7 +37202,7 @@ sort: by_original
 𢽴	kdxps\
 鰶	kdxq\	294
 𤜥	kdxq\
-	kdxqsv\
+𬶭	kdxqsv\
 鰶	kdxqsv\	-4
 𠭯	kdxyh\
 	kdy\
@@ -37279,7 +37213,7 @@ sort: by_original
 𩺜	kdzgav\
 蜋	kdzgc\	-4
 駺	kdzgm\	379
-	kdzgm\	0.1
+𬴀	kdzgm\	0.1
 狼	kdzgq\
 狼	kdzgq\	-3
 𩷕	kdzgv\
@@ -37334,7 +37268,6 @@ sort: by_original
 𩼁	kebtev\
 𪻊	kebzgq\
 犋	kec\	373
-	kecc\
 𪘅	kecc\
 𧓇	keccjx\
 𧳴	kecgz\
@@ -37639,7 +37572,7 @@ sort: by_original
 騢	kevzxy\	244
 貑	kevzxy\	192
 犌	kevzxy\	119
-	kevzxy\	0.1
+𱅞	kevzxy\	0.1
 𦎮	kevzxy\
 𪕰	kevzxy\
 𫚥	kevzxy\
@@ -37654,11 +37587,11 @@ sort: by_original
 𧓩	kexgbc\
 骤	kexp\	0.1
 䝒	kexpsv\
+𧓏	kexpsv\
+𩼦	kexpsv\
 驟	kexpsv\	-3
 骤	kexpsv\	-4
-𧓏	kexrrrn\
 𩧁	kexrrrn\
-𩼦	kexrrrn\
 𩽍	kexuhv\
 𧒷	kexuic\
 𩼇	kexuiv\
@@ -38297,7 +38230,6 @@ sort: by_original
 𧋹	khnqhi\
 𧉂	khnrc\
 䶮	khnrl\
-	khnrl\
 龑	khnrl\	-3
 𤘠	khnru\
 驅	kho\	1320
@@ -38410,7 +38342,6 @@ sort: by_original
 𧊻	khvtuc\
 𩤃	khwhm\
 𩸋	khwhv\
-	khwic\
 𧑕	khwqic\
 𤞤	khwtcq\
 𩤷	khwum\
@@ -38620,7 +38551,7 @@ sort: by_original
 𧏎	kikcc\
 𠧐	kikciz\
 鸑	kikk\	358
-	kikkiq\
+𬸚	kikkiq\
 鸑	kikkiq\	-4
 犫	kikkuz\	337
 𩁓	kikkzq\
@@ -38688,7 +38619,7 @@ sort: by_original
 犒	kiou\	-3
 鱚	kiov\	365
 鰝	kiov\	264
-	kiov\	0.1
+𬶮	kiov\	0.1
 𩸬	kiov\
 𦏔	kioy\
 犺	kip\	427
@@ -38793,7 +38724,7 @@ sort: by_original
 𪊙	kixl\
 馼	kixm\	463
 駮	kixm\	140
-	kixm\
+𱅐	kixm\
 𫘜	kixm\
 狡	kixq\	636
 𤝋	kixq\
@@ -39282,7 +39213,7 @@ sort: by_original
 麤	kkkll\	-4
 驫	kkkm\	445
 骉	kkkmm\	0.1
-	kkkmm\	0.1
+𱅒	kkkmm\	0.1
 𩧢	kkkmm\
 驫	kkkmm\	-4
 䯂	kkkmum\
@@ -39320,7 +39251,7 @@ sort: by_original
 𤛫	kkkuu\
 犨	kkkuz\	368
 鱻	kkkv\	444
-	kkkvv\
+𱈜	kkkvv\
 鱻	kkkvv\	-4
 飆	kkkw\	1143
 飙	kkkwfq\	0.1
@@ -39377,7 +39308,7 @@ sort: by_original
 𩤌	kkmh\
 鷌	kkmi\	295
 驡	kkml\	275
-	kkml\
+𱅅	kkml\
 騳	kkmm\	287
 𢎙	kkmm\
 𩥋	kkmm\
@@ -39443,7 +39374,7 @@ sort: by_original
 鮸	kkre\	3
 𧇞	kkreh\
 𪁸	kkrei\
-	kkrem\
+𬳽	kkrem\
 𩣦	kkrem\
 駪	kkrem\	-3
 𤞓	kkreq\
@@ -39565,8 +39496,6 @@ sort: by_original
 蟓	kkxc\	-3
 䱷	kkxph\
 䲣	kkxph\
-	kkxph\
-	kkxph\
 𢼥	kkxpq\
 𩺇	kkxpv\
 𤡸	kkxq\
@@ -39707,9 +39636,9 @@ sort: by_original
 獑	kljnq\	-4
 䱿	kljnv\
 𧴃	kljnz\
-	kljr\	0.1
+𮬣	kljr\	0.1
 䲗	kljrv\
-	kljrv\	-4
+𮬣	kljrv\	-4
 𧏘	kljxc\
 𤠍	kljxq\
 𧱕	kljxs\
@@ -39877,10 +39806,10 @@ sort: by_original
 𦏙	kmagby\
 䱨	kmajdv\
 𧌨	kmapc\
-	kmav\	0.1
+𬶠	kmav\	0.1
 𧍴	kmavbc\
 鰊	kmavbv\	-3
-	kmavbv\	-4
+𬶠	kmavbv\	-4
 蝀	kmb\	380
 𤡻	kmbeqq\
 猹	kmbh\	424
@@ -39930,7 +39859,7 @@ sort: by_original
 𩤲	kmojdm\
 𩨉	kmojdm\
 𤟰	kmojdq\
-	kmojdv\	0.1
+𬶟	kmojdv\	0.1
 鯻	kmojdv\	-5
 𧴡	kmojgb\
 𧔣	kmojgb\
@@ -40505,7 +40434,7 @@ sort: by_original
 豞	kpos\	415
 𤘽	kpou\
 鮈	kpov\	440
-	kpov\
+𬶋	kpov\
 𦍵	kpoy\
 豿	kpoz\	485
 鳧	kpp\	595
@@ -40738,7 +40667,7 @@ sort: by_original
 𧇁	kqvh\
 𪁹	kqvi\
 騑	kqvm\	413
-	kqvm\
+𬴂	kqvm\
 猅	kqvq\	271
 鲱	kqvv\	0.1
 鯡	kqvv\	-3
@@ -40852,7 +40781,7 @@ sort: by_original
 鯸	krfjsv\	-4
 𤝦	krfpq\
 蝜	krg\	367
-	krgbc\
+𮔅	krgbc\
 蝜	krgbc\	-3
 𨪔	krgjru\
 𠓀	krglou\
@@ -40899,7 +40828,7 @@ sort: by_original
 𠒒	krjsu\
 𤘦	krju\
 魪	krjv\	285
-	krjv\
+𬶇	krjv\
 鴏	krjy\	384
 蚮	krjyc\	314
 鴏	krjyi\	-4
@@ -40950,7 +40879,7 @@ sort: by_original
 鵌	krmui\	227
 𪊸	krmul\
 駼	krmum\	302
-	krmum\
+𬳿	krmum\
 䮌	krmum\
 狳	krmuq\	391
 㹯	krmuq\
@@ -41029,7 +40958,7 @@ sort: by_original
 駣	krssbm\	-5
 狣	krssbq\	351
 𤙔	krssbu\
-	krssbv\
+𬶐	krssbv\
 鮡	krssbv\	-4
 䍮	krssby\
 𩵜	krsv\
@@ -41043,7 +40972,7 @@ sort: by_original
 鮠	krtz\	409
 蛫	krtzic\	291
 𤙙	krtziu\
-	krtziv\	0.1
+𬶏	krtziv\	0.1
 鮠	krtziv\	-4
 䍯	krtziy\
 魤	kru\	298
@@ -41110,7 +41039,6 @@ sort: by_original
 魿	krzdv\	341
 羚	krzdy\	-3
 𪚬	krzg\
-	krzgbq\
 𪺷	krziq\
 䲝	krziv\
 羚	krziy\
@@ -41727,7 +41655,7 @@ sort: by_original
 𩧤	kubous\
 𩽶	kubous\
 𧖋	kubous\
-	kubov\
+𮬜	kubov\
 鮨	kubov\	-4
 牝	kubu\	-3
 𩵏	kubv\
@@ -41827,7 +41755,7 @@ sort: by_original
 鱵	kujh\	285
 𪇳	kujhoi\
 𪉕	kujhoi\
-	kujhov\
+𮬤	kujhov\
 鱵	kujhov\	-4
 𦏣	kujhoy\
 䗗	kujjgc\
@@ -41881,7 +41809,7 @@ sort: by_original
 麟	kulvl\
 麟	kulvl\	-3
 驎	kulvm\	364
-	kulvm\	0.1
+𬴊	kulvm\	0.1
 獜	kulvq\	297
 𧲂	kulvs\
 鳞	kulvv\	0.1
@@ -42081,7 +42009,6 @@ sort: by_original
 螉	kvgevc\	-4
 𩥛	kvgevm\
 㺋	kvgevq\
-	kvgevv\
 䱵	kvgevv\
 𩣭	kvgqim\
 蚣	kvgsc\	-3
@@ -42186,7 +42113,6 @@ sort: by_original
 猶	kvuyq\	-3
 鰌	kvuyv\	100
 䲡	kvuyv\	0.1
-	kvuyv\
 𧳫	kvuyz\
 𩢣	kvvzm\
 𧑹	kvwboc\
@@ -42297,7 +42223,7 @@ sort: by_original
 蚽	kwhic\	253
 𪀇	kwhii\
 駓	kwhim\	260
-	kwhim\
+𬳵	kwhim\
 狉	kwhiq\	-4
 𤘹	kwhiu\
 魾	kwhiv\	250
@@ -42772,7 +42698,6 @@ sort: by_original
 鮣	kxz\	0.1
 䖣	kxzc\
 䲟	kxzi\	0.1
-	kxziv\
 鮣	kxziv\	-3
 䲟	kxziv\	-4
 𤜶	kxzq\
@@ -43139,7 +43064,7 @@ sort: by_original
 𨀜	lahoo\
 𫎴	lahot\
 衕	lahov\	-3
-	lahoyi\
+𮝹	lahoyi\
 𢕼	lahoyi\
 𧾎	lahoyi\
 𨆈	lahoyi\
@@ -45259,7 +45184,6 @@ sort: by_original
 跶	lnl\	0.1
 𨀗	lnlo\
 跶	lnlo\	-3
-	lnmo\
 𧿹	lnmo\
 𨅕	lnnboo\
 𢖑	lnngbc\
@@ -45283,7 +45207,7 @@ sort: by_original
 𦨐	lnrz\
 赿	lns\	382
 軝	lnsc\	190
-	lnsc\
+𬨂	lnsc\
 䟗	lnso\
 赿	lnst\	-3
 𨎈	lntoc\
@@ -45300,7 +45224,6 @@ sort: by_original
 舿	lnv\	329
 轑	lnvb\	260
 𨋸	lnvbc\
-	lnvbo\
 蹽	lnvbwi\
 𦪕	lnvbwi\
 𧽽	lnvbwi\
@@ -46331,8 +46254,8 @@ sort: by_original
 轭	ltzic\	-4
 此	lu\	18152
 𤽤	lubah\
-	lubh\
 𣥅	lubh\
+	lubh\
 此	lubh\	-2
 𣆟	lubhih\
 𨌁	luboc\
@@ -46681,7 +46604,7 @@ sort: by_original
 躑	lvun\	430
 躑	lvunte\	-4
 輶	lvuy\	403
-	lvuyc\
+𬨎	lvuyc\
 輶	lvuyc\	-4
 䠓	lvuyo\
 趥	lvuyt\	230
@@ -46823,7 +46746,6 @@ sort: by_original
 艝	lwxjz\	-4
 𤚜	lwxkuh\
 𠭓	lwxyh\
-	lwydvo\
 𤳮	lwzxga\
 律	lx\	1510
 𦪓	lxaahi\
@@ -47428,7 +47350,6 @@ sort: by_original
 敇	maxp\	316
 敇	maxpu\	-4
 㭎	maxu\
-	maxu\
 栖	maxu\	-3
 𧜌	maxyiu\
 𣐏	maxyu\
@@ -48945,11 +48866,11 @@ sort: by_original
 𩕌	mmmeyu\
 檚	mmml\	434
 檚	mmmlu\	-4
-	mmmm\	0.1
+𱤏	mmmm\	0.1
 𣡽	mmmmmmmmu\
 𣡕	mmmmmmu\
 𣛧	mmmmuu\
-	mmmmuu\	-4
+𱤏	mmmmuu\	-4
 𣙑	mmmnru\
 𠾤	mmmou\
 㯲	mmmqsu\
@@ -49123,7 +49044,6 @@ sort: by_original
 檻	mnuumu\	-3
 槬	mnv\	348
 橑	mnvb\	314
-	mnvbu\
 橑	mnvbwi\	-4
 𣟆	mnvbwl\
 𣔏	mnvjgu\
@@ -49217,7 +49137,7 @@ sort: by_original
 𣜋	mokmu\
 𨿟	mokzu\
 速	mol\	2635
-𨙛	molepsv\
+𨙛	molerrrn\
 𢖗	molrrlh\
 𤴚	molu\
 速	molu\	-3
@@ -49788,7 +49708,6 @@ sort: by_original
 𣜲	mtcelu\
 楯	mtcemu\	-3
 櫔	mtcg\	427
-	mtcgbu\
 櫔	mtcgla\	-4
 𣏸	mtciu\
 樜	mtcw\	247
@@ -50852,7 +50771,6 @@ sort: by_original
 㛉	naxv\
 𡢷	naxxxxy\
 𡙤	nayir\
-	nayiv\
 𡤢	naykzv\
 𡤡	nayycv\
 𡛸	nazv\
@@ -51027,7 +50945,7 @@ sort: by_original
 𦣱	ncgbc\
 𧷤	ncgbc\
 賾	ncgbc\	-3
-	ncgbv\
+𰌇	ncgbv\
 嫧	ncgbv\	-4
 㚏	ncgr\
 媾	nch\	543
@@ -51258,7 +51176,7 @@ sort: by_original
 媆	nenr\	256
 𡙭	nenrf\
 媆	nenrv\	-4
-	nenvf\
+𫰹	nenvf\
 嫢	nenvf\	-3
 𡞾	nenvv\
 𡦑	nenzf\
@@ -51306,8 +51224,8 @@ sort: by_original
 𡟩	newdvv\
 𤍮	newuf\
 娵	nex\	345
+𡣞	nexrrrn\
 𥆗	nexpr\
-𡣞	nexpsv\
 𡤋	nexuhv\
 𡦞	nexuiz\
 𡜧	nexv\
@@ -52553,7 +52471,6 @@ sort: by_original
 㼪	nrruwr\
 㪎	nrrxpr\
 姚	nrs\	2919
-	nrshiv\
 𡤥	nrslbw\
 𡠊	nrslmu\
 𡟞	nrslyv\
@@ -52567,7 +52484,6 @@ sort: by_original
 姽	nrtziv\	-3
 娰	nru\	353
 𪦣	nruatu\
-	nruciv\
 𡡽	nrulv\
 娰	nrurnv\	-3
 妳	nrw\	2085
@@ -53127,7 +53043,6 @@ sort: by_original
 胬	nxerv\	-3
 𤏿	nxewuc\
 努	nxf\	1067
-	nxfgv\
 努	nxfiv\	-3
 㜦	nxfofc\
 拏	nxfs\	494
@@ -53308,7 +53223,7 @@ sort: by_original
 嬢	nyvchi\	-3
 𡘴	nyvr\
 媁	nyw\	294
-	nywv\
+𫰍	nywv\
 媁	nywv\	-3
 𡡹	nyxpv\
 嬤	nyy\	609
@@ -53418,8 +53333,6 @@ sort: by_original
 𠱔	oafc\
 㘚	oafexp\
 㘎	oafexp\
-	oafexp\
-	oafexp\
 啌	oafg\	-3
 𠴈	oafgs\
 𠴛	oafi\
@@ -53844,7 +53757,6 @@ sort: by_original
 𠳜	ocsb\
 𡀩	ocslo\
 囈	oct\	602
-	octe\
 𠳐	octe\
 𡀽	octgum\
 𡄳	octitc\
@@ -54373,11 +54285,9 @@ sort: by_original
 啞	ohwh\	-3
 𠵠	ohwo\
 噁	ohwq\	841
-	ohwqi\
 噁	ohwqi\	-4
 啛	ohx\	327
 呕	ohx\	0.1
-	ohxeq\
 啑	ohxl\	319
 啑	ohxlh\	-4
 啛	ohxnv\	-3
@@ -54555,7 +54465,6 @@ sort: by_original
 𠲲	oiy\
 呟	oiya\	313
 㗜	oiyga\
-	oiyj\
 噰	oiyk\	397
 𡄐	oiyktu\
 噰	oiykz\	-4
@@ -54948,7 +54857,6 @@ sort: by_original
 𠴗	omtu\
 㕲	omu\
 呆	omu\	-2
-	omvb\
 𪡺	omvgb\
 味	omw\	3956
 𡃾	omwkd\
@@ -55043,7 +54951,6 @@ sort: by_original
 𡆛	ooakkz\
 䑝	ooalv\
 㖞	ooar\	0.1
-	ooarn\
 㖞	ooarn\	-4
 𪟔	ooarrjd\
 斝	ooaud\	-3
@@ -55800,7 +55707,7 @@ sort: by_original
 𡅃	otkl\
 噠	otkl\	-3
 𠽃	otkpd\
-	otkq\	0.1
+𫩫	otkq\	0.1
 啈	otky\	518
 𪡒	otky\
 嗺	otkz\	278
@@ -56185,7 +56092,6 @@ sort: by_original
 𪠽	owxj\
 𠽌	owxj\
 𠼔	owyj\
-	owxj\
 𡆓	owzzxzffba\
 史	ox\	4520
 嘯	oxa\	1345
@@ -56820,7 +56726,7 @@ sort: by_original
 𪓸	pjgkm\
 遛	pjgl\	782
 鄮	pjgt\	381
-	pjgte\
+𬪍	pjgte\
 鄮	pjgte\	-4
 斵	pjh\	303
 𧢗	pjhwer\
@@ -57368,13 +57274,11 @@ sort: by_original
 𢽨	pyqxpk\
 𪯏	pyqxpk\
 𣍐	pyrawbo\
-	pyrwvk\
 系	pys\	17862
 𠤆	pysebo\
 𡵶	pytsk\
 㬟	pyvawbo\
 𡭥	pywpk\
-	pyxafxy\
 	pyxaql\
 𢜕	pyxqik\
 𠙬	pyypkc\
@@ -57776,7 +57680,7 @@ sort: by_original
 复	qbl\	0.1
 𠧫	qblb\
 禵	qble\	464
-	qbleys\
+𰨖	qbleys\
 禵	qbleys\	-4
 惿	qbli\	-3
 𣂸	qbljnb\
@@ -59254,7 +59158,6 @@ sort: by_original
 𩇫	qnzv\
 占	qo\	1348
 祸	qoa\	0.1
-	qoarnb\
 祸	qoarns\	-3
 占	qob\	-2
 𢢺	qocaem\
@@ -59373,7 +59276,6 @@ sort: by_original
 忰	qpcii\	-3
 𥘧	qpcis\
 㥮	qpcpci\
-	qpcpci\
 𢛉	qpctii\
 忛	qpd\	416
 𩲃	qpdg\
@@ -59649,7 +59551,6 @@ sort: by_original
 𥙄	qrwis\
 𢙓	qrwvi\
 㤘	qrxji\
-	qrxji\
 𢙬	qrxpi\
 𩴃	qrxqig\
 𢢴	qrxxwu\
@@ -62258,7 +62159,6 @@ sort: by_original
 伜	rpci\	283
 伜	rpcin\	-4
 㑳	rpcpcn\
-	rpcpcn\
 𠏈	rpcpuf\
 倕	rpctin\	-3
 仢	rpd\	261
@@ -62615,7 +62515,6 @@ sort: by_original
 侩	rrwv\	0.1
 侩	rrwvn\	-4
 㑇	rrxjn\
-	rrxjn\
 𢻺	rrxpn\
 𠋎	rrxqin\
 鿇	rrxvn\
@@ -62932,7 +62831,7 @@ sort: by_original
 𦤞	rtzemu\
 𤿡	rtzep\
 𣢪	rtzeq\
-	rtzey\
+𬱟	rtzey\
 頠	rtzey\	-4
 儔	rtzf\	582
 儔	rtzfhofc\	-4
@@ -63103,7 +63002,6 @@ sort: by_original
 伴	rvfn\	-3
 伀	rvg\	421
 僧	rvgbon\
-	rvgcin\
 傟	rvge\	336
 傟	rvgevn\	-4
 倊	rvgq\	256
@@ -63321,7 +63219,6 @@ sort: by_original
 仺	rxjn\	-3
 𪹉	rxjwu\
 雏	rxk\	0.1
-	rxki\
 𩿿	rxki\
 𤍹	rxkrwu\
 𤋣	rxkwu\
@@ -63406,7 +63303,6 @@ sort: by_original
 𩒉	ryeyn\
 𪜺	ryfcn\
 㑃	ryfin\
-	rygn\
 𠍡	rygyn\
 依	ryi\	4223
 𠇊	ryin\
@@ -63680,7 +63576,6 @@ sort: by_original
 𤁣	sagduub\
 𤠪	sagkqp\
 𪶷	sagspv\
-	sagvv\
 𣷂	sagvv\
 润	sagw\	0.1
 㴏	sagwv\
@@ -63926,7 +63821,7 @@ sort: by_original
 凙	satkyb\	-4
 澤	satkyv\	-3
 凋	sato\	859
-	sato\	0.1
+𬒈	sato\	0.1
 凋	satob\	-4
 𪄄	satoki\
 淍	satov\	403
@@ -64084,7 +63979,6 @@ sort: by_original
 𣺯	sbhwhv\
 𣍒	sbhyytu\
 𠄄	sbhzqzy\
-	sbhzv\
 激	sbi\	1351
 𣸭	sbihv\
 𤀰	sbiov\
@@ -64642,7 +64536,6 @@ sort: by_original
 𤃞	seculv\
 淈	secuv\	-4
 𤁧	secv\
-	secvv\
 沢	sed\	625
 𪞚	sedb\
 𣹖	sedhv\
@@ -65013,7 +64906,7 @@ sort: by_original
 𧴲	sgbp\
 𣽷	sgbpyv\
 瀃	sgbpyv\	-4
-	sgbv\	0.1
+𬇙	sgbv\	0.1
 浿	sgbv\	-3
 淠	sgc\	549
 潩	sgcc\	399
@@ -65244,9 +65137,9 @@ sort: by_original
 𡿧	ship\
 𣱲	shiv\
 沏	shj\	685
-	shjd\	0.1
+𬇕	shjd\	0.1
 沏	shjdv\	-3
-	shjdv\	-4
+𬇕	shjdv\	-4
 𠡔	shjfip\
 浅	shjg\	0.1
 浅	shjgv\	-4
@@ -66312,7 +66205,6 @@ sort: by_original
 𨒰	snlp\
 𣴰	snlv\
 𨓎	snlv\
-	snlv\
 㳠	snlv\	-3
 𣳠	snmv\
 𣳗	snmv\
@@ -67607,7 +67499,6 @@ sort: by_original
 濨	svyyqi\	-4
 𤀟	svyytu\
 污	svz\	1013
-	svzdv\
 𡜂	svznvv\
 𢙁	svzqiv\
 𥁡	svzumv\
@@ -68081,11 +67972,10 @@ sort: by_original
 沀	szvv\	167
 汿	szvv\	-3
 溋	szxumv\
-	szy\	0.1
+汤	szy\	0.1
 𠖰	szyb\
-	szygvv\	-3
-汤	szyv\	0.1
 㲸	szyv\
+汤	szyv\	-3
 烫	szyw\	0.1
 烫	szywuv\	-4
 潠	szz\	319
@@ -68663,7 +68553,6 @@ sort: by_original
 𨸨	tavee\
 𡉱	taveu\
 䃃	tavizo\
-	tavnzi\
 𥑫	tavo\
 垸	tavr\	563
 院	tavree\	-3
@@ -68713,7 +68602,6 @@ sort: by_original
 𥗴	taykzo\
 𡿇	taykzs\
 𡿏	taykzs\
-	tayws\
 𡼱	tayws\
 阸	taz\	282
 𢉹	tazmua\
@@ -69007,7 +68895,6 @@ sort: by_original
 㙹	tcaadx\
 崂	tcaf\	0.1
 崂	tcafis\	-4
-	tcafiu\
 㠓	tcah\
 𨼿	tcahks\
 𡒯	tcahks\
@@ -69040,7 +68927,7 @@ sort: by_original
 廗	tcayja\	-5
 𥕧	tcayjo\
 嵽	tcayjs\	280
-	tcayjs\
+𫶇	tcayjs\
 𡻺	tcayjs\
 墆	tcayju\	253
 𥘁	tcaykz\
@@ -70670,7 +70557,6 @@ sort: by_original
 𨼼	thxnze\
 𥐰	thxo\
 岖	thxs\	0.1
-	thxu\
 𡉋	thxu\
 𠬡	thxyc\
 師	thy\	5965
@@ -70884,7 +70770,7 @@ sort: by_original
 𪗆	tiqa\
 𥑃	tiqbo\
 𪨨	tiqbs\
-	tiqe\
+𬯀	tiqe\
 𫕅	tiqe\
 隮	tiqe\	-3
 𡷢	tiqis\
@@ -71030,7 +70916,7 @@ sort: by_original
 嶔	tje\	384
 𤿣	tjeps\
 廞	tjeq\	367
-	tjeqa\
+𫷷	tjeqa\
 廞	tjeqa\	-4
 𠪢	tjeqc\
 𪴪	tjeqc\
@@ -71181,10 +71067,8 @@ sort: by_original
 垁	tjsu\	-3
 𡻿	tjtss\
 𡌌	tjtue\
-	tjuero\
 𡽎	tjugs\
 𪩈	tjuhs\
-	tjuums\
 𠩄	tjuzc\
 坪	tjv\	1507
 砰	tjvb\	722
@@ -71337,7 +71221,6 @@ sort: by_original
 鷉	tkki\	372
 𫠕	tkkia\
 䴘	tkkic\	0.1
-	tkkic\
 鷉	tkkic\	-4
 䳽	tkkis\
 𪅧	tkkiu\
@@ -71412,7 +71295,6 @@ sort: by_original
 𡸾	tkms\
 磼	tkmu\	263
 𡏢	tkmu\
-	tkmuc\
 磼	tkmuo\	-4
 㠍	tkmus\
 㠎	tkmus\
@@ -71495,7 +71377,6 @@ sort: by_original
 𥑻	tkreo\
 𡷭	tkres\
 𡸊	tkres\
-	tkreu\
 𥔶	tkrgso\
 礸	tkrk\	264
 𨽊	tkrkre\
@@ -71504,7 +71385,6 @@ sort: by_original
 巑	tkrkrgb\	-3
 礸	tkrkrgb\	-4
 𡺎	tkrsbs\
-	tkrsbu\
 𡐸	tkrssb\
 碌	tks\	724
 𥖄	tkseqo\
@@ -71669,7 +71549,6 @@ sort: by_original
 追	tld\	6477
 壻	tldv\	314
 壻	tldvi\	-4
-	tldvo\
 𡹲	tldvs\
 𪣩	tldvu\
 𦖜	tleeu\
@@ -71740,7 +71619,6 @@ sort: by_original
 䃛	tllo\
 𡽘	tllos\
 𡶶	tlls\
-	tllu\
 𪤎	tllu\
 磔	tlm\	504
 𢋹	tlmlmu\
@@ -71922,14 +71800,14 @@ sort: by_original
 𡹇	tmmus\
 崊	tmmus\	-4
 𡍚	tmmuu\
-	tmo\	0.1
+𱴂	tmo\	0.1
 𢈠	tmoa\
 𩐕	tmoeuh\
 𢉨	tmojda\
 𡓒	tmojgb\
 𢋷	tmojgb\
 𥗓	tmojgb\
-	tmoo\	-3
+𱴂	tmoo\	-3
 𡷽	tmos\
 𡓟	tmoxhlh\
 𨽮	tmoxuh\
@@ -71999,7 +71877,7 @@ sort: by_original
 阺	tnde\	266
 𤯿	tnditcp\
 𪂑	tndkia\
-	tndo\	0.1
+𱳪	tndo\	0.1
 砥	tndo\	-3
 𥔇	tndoo\
 岻	tnds\	317
@@ -72042,7 +71920,7 @@ sort: by_original
 輋	tnlc\	376
 𪨶	tnlcs\
 輋	tnlcs\	-4
-	tnlo\	0.1
+鿎	tnlo\	0.1
 垯	tnlu\	-3
 坶	tnm\	401
 砪	tnmo\	249
@@ -72284,7 +72162,7 @@ sort: by_original
 隤	toqg\	232
 墤	toqgb\	332
 𢊮	toqgba\
-	toqgbe\
+𬯎	toqgbe\
 隤	toqgbe\	-4
 墤	toqgbu\	-5
 𨽟	toqgle\
@@ -72714,7 +72592,6 @@ sort: by_original
 𡢜	tqrwnv\
 际	tqs\	0.1
 际	tqse\	-3
-	tqso\
 𡊆	tqsu\
 𨻼	tqtue\
 盐	tqu\	0.1
@@ -72861,7 +72738,6 @@ sort: by_original
 雁	trk\	1662
 𨹔	trkbe\
 𥒍	trkbo\
-	trkbs\
 膺	trkd\	608
 膺	trkdva\	-4
 𩪠	trkega\
@@ -72983,7 +72859,6 @@ sort: by_original
 䃸	trrjuh\
 𡵝	trrns\
 	trrnu\
-	trrnu\
 𢋌	trrool\
 𨹊	trrrne\
 𡔡	trrrni\
@@ -73056,7 +72931,6 @@ sort: by_original
 垝	trtziu\	-3
 陷	tru\	1624
 𪨧	trubs\
-	trubu\
 𪢼	trubu\
 㟆	truc\	0.1
 㟆	trucis\	-4
@@ -73116,7 +72990,6 @@ sort: by_original
 嶺	trzeys\
 嶺	trzeys\	-4
 𪁏	trzkis\
-	trzkis\
 䳥	trzkis\
 𠩧	trzlhc\
 𢉔	trzmua\
@@ -73292,7 +73165,6 @@ sort: by_original
 碷	ttcemo\
 𡎆	ttcemu\
 巁	ttcg\	221
-	ttcgbo\
 礪	ttcgla\
 礪	ttcgla\	-3
 巁	ttcgla\	-4
@@ -73368,7 +73240,6 @@ sort: by_original
 㨍	ttffsu\
 𡽞	ttfgs\
 劸	ttfi\	262
-	ttfis\
 坜	ttfiu\	0.1
 劸	ttfiu\	-4
 犎	ttfk\	349
@@ -73806,8 +73677,8 @@ sort: by_original
 𥑉	ttzio\
 𥑣	ttzio\
 砈	ttzio\	-4
-	ttzj\	0.1
-	ttzje\	-4
+𬮿	ttzj\	0.1
+𬮿	ttzje\	-4
 硙	ttzjo\	0.1
 垲	ttzju\	0.1
 奊	ttzn\	294
@@ -74215,7 +74086,6 @@ sort: by_original
 増	tvg\	584
 増	tvgbou\	-3
 䃅	tvgcio\
-	tvgciu\
 𪩔	tvgcjg\
 塕	tvge\	273
 𫕎	tvgeve\
@@ -75066,7 +74936,6 @@ sort: by_original
 磯	tyyjdo\	-4
 𡼠	tyyjds\
 㙨	tyyjdu\
-	tyyjga\
 𪃨	tyykis\
 𥓸	tyyo\
 𢇕	tyytyya\
@@ -75172,7 +75041,6 @@ sort: by_original
 𡔽	tzoqofc\
 埇	tzp\	380
 𨺳	tzpfie\
-	tzpfiu\
 凯	tzpp\	0.1
 凯	tzpps\	-4
 硧	tzpv\	301
@@ -75310,7 +75178,6 @@ sort: by_original
 䅝	uafgh\
 𪍂	uafgm\
 箜	uafgz\	-3
-	uafpi\
 𩞜	uafums\
 簤	uag\	356
 簤	uagbz\	-3
@@ -75318,7 +75185,6 @@ sort: by_original
 𨣌	uagciy\
 䆉	uagduub\
 䎱	uagduub\
-	uagduub\
 𥶓	uagduub\
 𥷾	uagduuwu\
 𥲡	uagqiz\
@@ -75571,7 +75437,6 @@ sort: by_original
 𥳙	uatehz\
 𫁂	uatgsh\
 䎬	uatgsl\
-	uatgsl\
 䊋	uatii\
 𨡈	uatiy\
 醳	uatk\	267
@@ -75607,7 +75472,6 @@ sort: by_original
 𥹈	uaubi\
 䴱	uaubm\
 𫜒	uaubm\
-	uaubs\
 	uaubs\
 酡	uauby\	-3
 𥬌	uaubz\
@@ -75668,7 +75532,6 @@ sort: by_original
 籮	uay\	690
 秾	uayi\	0.1
 秾	uayih\	-4
-	uayiy\
 饠	uayk\	330
 𥽺	uaykzi\
 𪎆	uaykzm\
@@ -75733,7 +75596,6 @@ sort: by_original
 𨣅	ubexyy\
 𥳣	ubexyz\
 𩒨	ubeyb\
-	ubfci\
 𥠇	ubfyh\
 𥡆	ubfyh\
 篁	ubg\	630
@@ -75834,7 +75696,7 @@ sort: by_original
 馤	ubprzb\	237
 䅥	ubprzh\
 𥻉	ubprzi\
-	ubprzs\	0.1
+𮩝	ubprzs\	0.1
 餲	ubprzs\	-4
 䈓	ubprzz\
 𥟘	ubpyh\
@@ -75923,7 +75785,6 @@ sort: by_original
 𥶃	ucaadx\
 𩟞	ucaadx\
 耢	ucaf\	0.1
-	ucafii\
 耢	ucafil\	-4
 饛	ucah\	344
 䤓	ucahk\
@@ -76811,9 +76672,9 @@ sort: by_original
 𥮿	uewuz\
 箃	uex\	298
 𥲹	uexboz\
+𥵫	uexpsv\
+𥣙	uexpsv\
 𥱙	uexpz\
-𥵫	uexrrrn\
-𥣙	uexrrrn\
 𥢽	uexuih\
 𥽆	uexuii\
 𥴷	uexuiz\
@@ -77122,7 +76983,7 @@ sort: by_original
 麰	ugk\	313
 𪅳	ugkiy\
 𥻜	ugkqi\
-	ugkum\
+𮮇	ugkum\
 麰	ugkum\	-3
 𥭏	ugkuz\
 耦	ugl\	641
@@ -77152,7 +77013,6 @@ sort: by_original
 𥠩	ugnqih\
 𥮅	ugnrz\
 䅟	ugnyh\
-	ugnyh\
 糁	ugnyi\	-3
 𥮾	ugnyz\
 飴	ugo\	622
@@ -77581,7 +77441,7 @@ sort: by_original
 𨢐	uiaify\
 篣	uiaifz\	-5
 𫅻	uial\
-	uiam\
+𱋐	uiam\
 麯	uiam\	-3
 𨡤	uianry\
 𩱐	uiaol\
@@ -78684,7 +78544,6 @@ sort: by_original
 餷	umb\	520
 馇	umbh\	0.1
 𦉆	umbhif\
-	umbhii\
 𥻗	umbhii\
 餷	umbhis\	-3
 馇	umbhis\	-4
@@ -79951,7 +79810,6 @@ sort: by_original
 笭	urzdz\	-4
 𥵝	urzeyz\
 𥱷	urzgbz\
-	urziy\
 鹶	urzl\	288
 馠	urzo\	326
 馠	urzob\	-4
@@ -80120,7 +79978,7 @@ sort: by_original
 𥡶	utaqsh\
 𩞉	utaqss\
 䊦	utaudi\
-	utauds\
+𮩞	utauds\
 饐	utauds\	-3
 𥵠	utaujx\
 𩞵	utawhs\
@@ -80423,8 +80281,8 @@ sort: by_original
 𥴅	uuaxz\
 皆	uub\	3558
 皆	uubab\	-3
-	uubb\
 ⽐	uubb\
+	uubb\
 𩡌	uubb\
 𩡐	uubb\
 	uubb\
@@ -80714,7 +80572,7 @@ sort: by_original
 𨟵	uuuby\
 笓	uuubz\	525
 筚	uuuc\	0.1
-	uuucis\	0.1
+𮩛	uuucis\	0.1
 筚	uuuciz\	-4
 𣁾	uuudd\
 𪍎	uuudm\
@@ -82957,7 +82815,6 @@ sort: by_original
 炐	wcf\	285
 𩗡	wcfcf\
 𩙧	wcfcf\
-	wcfcu\
 𩘡	wcfffi\
 炐	wcfu\	-3
 弃	wcg\	350
@@ -83450,7 +83307,7 @@ sort: by_original
 𩃙	wgnrs\
 𫕨	wgnys\
 颱	wgo\	723
-	wgof\	0.1
+𱃗	wgof\	0.1
 颱	wgof\	-3
 㷘	wgomuu\
 𪺊	wgoqgl\
@@ -83549,8 +83406,8 @@ sort: by_original
 𩅨	whhbos\
 熸	whhbou\	-4
 霊	whhwhs\	-3
-	whhy\	0.1
-	whhyu\	-4
+𭴊	whhy\	0.1
+𭴊	whhyu\	-4
 丕	whi\	775
 㷮	whib\
 𩘳	whibof\
@@ -83621,7 +83478,6 @@ sort: by_original
 𩗳	whxlhf\
 𩃖	whxlhs\
 霋	whxnvs\	-3
-	whxu\
 𩖭	whyjf\
 𤐨	whyvu\
 炬	whz\	757
@@ -85163,7 +85019,6 @@ sort: by_original
 𩆃	wvegbs\
 𠁛	wvelw\
 焧	wvg\	174
-	wvgciu\
 𩄘	wvgevs\
 𤌏	wvgevu\
 焧	wvgqiu\	-3
@@ -85565,7 +85420,6 @@ sort: by_original
 𤒾	wxehwu\
 氅	wxema\	-3
 烯	wxf\	812
-	wxfcu\
 𤉶	wxfdvu\
 氢	wxfg\	0.1
 氢	wxfgq\	-4
@@ -85573,7 +85427,6 @@ sort: by_original
 燖	wxfo\	256
 燖	wxfofc\	-4
 𪹻	wxfpmu\
-	wxfu\
 烯	wxfyju\	-3
 燔	wxg\	528
 燔	wxgau\	-3
@@ -85720,7 +85573,7 @@ sort: by_original
 𤉤	wyvu\
 煒	wyw\	1130
 颹	wywf\	253
-	wywf\
+𬱵	wywf\
 韑	wywr\	209
 炜	wywu\	0.1
 煒	wywu\	-3
@@ -85798,7 +85651,6 @@ sort: by_original
 釁	xaho\	614
 璺	xahoa\	527
 𪒵	xahoabw\
-	xahoachbo\
 舋	xahoad\	84
 舋	xahoadh\	-6
 𣩺	xahoaeub\
@@ -86124,7 +85976,6 @@ sort: by_original
 𠙛	xfpppj\
 怼	xfq\	0.1
 怼	xfqiy\	-3
-	xftej\
 𪧾	xftkzj\
 𣁷	xfudz\
 巯	xfw\	0.1
@@ -86177,7 +86028,7 @@ sort: by_original
 𠞷	xgjdv\
 鷭	xgk\	263
 𧑪	xgkcm\
-	xgkim\
+𬸪	xgkim\
 鷭	xgkim\	-3
 𩀷	xgkzm\
 𥝇	xglax\
@@ -87179,7 +87030,7 @@ sort: by_original
 紵	yahds\	-4
 𦅜	yahehd\
 縯	yahg\	174
-	yahgvb\
+𬙂	yahgvb\
 𢄨	yahgvb\
 縯	yahgvb\	-4
 纻	yahi\	0.1
@@ -87269,7 +87120,7 @@ sort: by_original
 𪎞	yanrm\
 絪	yanrs\	464
 紻	yanrs\	274
-	yanrs\
+𬘡	yanrs\
 𩎪	yanrw\
 𦄖	yansbs\
 鞍	yanvg\	-3
@@ -87337,7 +87188,7 @@ sort: by_original
 衴	yarei\	194
 𧙇	yarei\
 帎	yarej\	251
-	yares\
+𬘘	yares\
 紞	yares\	-4
 縮	yarh\	1722
 𦄲	yarharn\
@@ -87429,7 +87280,7 @@ sort: by_original
 網	yavizs\	-3
 綄	yavr\	563
 𧚁	yavrei\
-	yavres\
+𬘫	yavres\
 綄	yavres\	-4
 䋉	yavs\
 綱	yavt\	1157
@@ -87593,7 +87444,7 @@ sort: by_original
 缐	ybsvs\	-4
 纆	ybt\	398
 𦃧	ybtos\
-	ybtus\
+𬙊	ybtus\
 纆	ybtus\	-3
 韞	ybu\	608
 𦄡	ybujds\
@@ -87731,7 +87582,7 @@ sort: by_original
 𧜧	ycduji\
 𧚫	ycdvi\
 𢃢	ycdvj\
-	ycdvs\
+𬘬	ycdvs\
 綪	ycdvs\	-3
 䌨	ycdxqs\
 縝	yce\	615
@@ -88218,8 +88069,8 @@ sort: by_original
 裇	yexi\
 𧜱	yexnvi\
 𣀯	yexpm\
-𦆜	yexpsv\
-𩍧	yexrrrn\
+𩍧	yexpsv\
+𦆜	yexrrrn\
 𥿳	yexs\
 𫌇	yexxyi\
 𦈙	yexxys\
@@ -88410,7 +88261,7 @@ sort: by_original
 綎	ygl\	439
 𦂕	yglas\
 䩠	yglg\
-	ygls\
+𬘩	ygls\
 綎	ygls\	-3
 𫄕	ygluys\
 裸	ygm\	1565
@@ -88474,7 +88325,6 @@ sort: by_original
 縲	ygys\	531
 紬	ygys\	5
 䌷	ygys\	0.1
-	ygys\
 𩌹	ygysg\
 缧	ygyss\	0.1
 縲	ygyss\	-4
@@ -88563,7 +88413,6 @@ sort: by_original
 韁	yhghghi\	-4
 𦅎	yhgpwu\
 𧝆	yhhboi\
-	yhhyj\
 褿	yhi\	244
 褿	yhiboi\	-3
 㡟	yhiboj\
@@ -88800,7 +88649,7 @@ sort: by_original
 鞟	yinz\	296
 鞟	yinzg\	-4
 綧	yinzs\	271
-	yinzs\
+𬘯	yinzs\
 韕	yinzw\	207
 縞	yio\	586
 䌱	yiodipd\
@@ -89097,7 +88946,6 @@ sort: by_original
 缆	yjuers\	-4
 䍀	yjuu\	0.1
 褴	yjuumi\	-3
-	yjuumj\
 䍀	yjuums\	-4
 𥾠	yjvbs\
 𢄽	yjvgbj\
@@ -89476,7 +89324,7 @@ sort: by_original
 𦈟	ymmqss\
 綝	ymmu\	434
 𪎦	ymmum\
-	ymmus\
+𬘭	ymmus\
 綝	ymmus\	-4
 𢒹	ymmym\
 綀	ymo\	419
@@ -89611,7 +89459,6 @@ sort: by_original
 纜	ynuaer\	-3
 䌫	ynuers\
 𦁣	ynugs\
-	ynums\
 𦁧	ynums\
 襤	ynuu\	450
 襤	ynuumi\
@@ -89713,8 +89560,6 @@ sort: by_original
 鞼	yoqgbg\	251
 䙡	yoqgbi\
 䙌	yoqgbi\
-	yoqgbi\
-	yoqgbi\
 𪎯	yoqgbm\
 缋	yoqgbs\	0.1
 繢	yoqgbs\	-4
@@ -90202,7 +90047,6 @@ sort: by_original
 靴	yrubg\	-3
 纶	yrubs\	-4
 𫖇	yrucig\
-	yruciw\
 𧚧	yruji\
 㡊	yrujj\
 𦁵	yrujs\
@@ -90304,7 +90148,7 @@ sort: by_original
 𫃤	ysnvs\
 紃	ysp\	360
 𡿴	yspc\
-	ysps\
+𬘓	ysps\
 𥾖	ysps\
 紃	ysps\	-3
 絒	yss\	295
@@ -91323,7 +91167,7 @@ sort: by_original
 縗	yyohis\	-3
 缞	yyohis\	-4
 纕	yyoo\	354
-	yyoochi\
+𬙋	yyoochi\
 𧟄	yyoochi\
 𨳃	yyoochi\
 纕	yyoochi\	-4
@@ -91601,7 +91445,7 @@ sort: by_original
 𧐆	zhkcg\
 𩾗	zhki\
 𪄵	zhkig\
-	zhkvg\
+𬶨	zhkvg\
 鱀	zhkvg\	-3
 𨾆	zhkz\
 槩	zhm\	349
@@ -92028,17 +91872,10 @@ sort: by_original
 𢄉	hrdxyj\
 𢄕	rixdduyj\
 #-6
-鿎	tnlo\
-鿏	jumr\
-鿔	jhhor\
 鿓	cey\
 鿒	cey\
 𬘵	yqhbhi\
-𬬭	jrubr\
 𬬻	jqesr\
-𬭊	jmtur\
-𬭛	jsepr\
-𬭳	jior\
 鿄	sjdmuv\
 鿅	qwrzis\
 鿌	sibwiv\
@@ -92826,7 +92663,6 @@ sort: by_original
 𫩨	dzox\
 𫩩	orxj\
 𫩪	ovhv\
-𫩫	otkq\
 𫩬	cjof\
 𫩭	obci\
 𫩮	okc\
@@ -93211,7 +93047,6 @@ sort: by_original
 𫰊	snvp\
 𫰋	nkqv\
 𫰌	nhuv\
-𫰍	nywv\
 𫰎	neyv\
 𫰏	nlhv\
 𫰑	neqv\
@@ -93251,7 +93086,6 @@ sort: by_original
 𫰶	gozhnv\
 𫰷	fenvs\
 𫰸	njpziv\
-𫰹	nenvf\
 𫰺	nwsv\
 𫰻	navizv\
 𫰼	ncwvv\
@@ -93551,7 +93385,6 @@ sort: by_original
 𫶄	tiwxys\
 𫶅	tgnys\
 𫶆	tjhnvs\
-𫶇	tcayjs\
 𫶈	tevcgs\
 𫶉	tehtus\
 𫶊	tjuums\
@@ -93653,7 +93486,6 @@ sort: by_original
 𫷴	twwpa\
 𫷵	txrpda\
 𫷶	toehza\
-𫷷	tjeqa\
 𫷸	tusa\
 𫷹	tunva\
 𫷺	tefca\
@@ -94160,8 +93992,6 @@ sort: by_original
 𬀦	hzboi\
 𬀧	bhqbo\
 𬀨	brdo\
-𬀩	bywo\
-𬀪	bero\
 𬀫	ibox\
 𬀬	bcoo\
 𬀭	bqeso\
@@ -94248,7 +94078,6 @@ sort: by_original
 𬂆	dzdrs\
 𬂇	dgjgwv\
 𬂈	tebdvc\
-𬂉	dvngbv\
 𬂊	dabivv\
 𬂋	yybdva\
 𬂌	dgduub\
@@ -94539,11 +94368,9 @@ sort: by_original
 𬇑	wmqbq\
 𬇒	wtbwiq\
 𬇔	sfgv\
-𬇕	shjdv\
 𬇖	sov\
 𬇗	sjgv\
 𬇘	svzdv\
-𬇙	sgbv\
 𬇚	syzv\
 𬇞	sharnv\
 𬇟	sdsvv\
@@ -94821,7 +94648,6 @@ sort: by_original
 𬌔	aqip\
 𬌕	armhip\
 𬌖	cbssmap\
-𬌗	eroy\
 𬌘	etpfjg\
 𬌟	iakuv\
 𬌢	xnzkuz\
@@ -94930,7 +94756,6 @@ sort: by_original
 𬏜	ekmb\
 𬏝	eqleb\
 𬏞	eahb\
-𬏟	eicib\
 𬏠	eyzb\
 𬏡	ejpb\
 𬏢	effgb\
@@ -95032,7 +94857,6 @@ sort: by_original
 𬑓	erucim\
 𬑕	ealcm\
 𬑖	ehcym\
-𬑗	eabom\
 𬑘	ehjlhm\
 𬑙	eczsnr\
 𬑚	cezhyj\
@@ -95354,7 +95178,6 @@ sort: by_original
 𬘏	ywttthre\
 𬘐	ywevzxy\
 𬘑	ywygas\
-𬘓	ysps\
 𫤫	vhszzb\
 𬂷	myhszz\
 𬘔	yhszzs\
@@ -95366,7 +95189,6 @@ sort: by_original
 𬘕	yhys\
 𬘖	yers\
 𬘗	ypgss\
-𬘘	yares\
 𬘙	yjzs\
 𬘚	yhmus\
 𬘛	ytgss\
@@ -95375,7 +95197,6 @@ sort: by_original
 𬘞	ykis\
 𬘟	yaxs\
 𬘠	yfdvs\
-𬘡	yanrs\
 𬘢	ywrs\
 𬘣	yoyjs\
 𬘤	yoos\
@@ -95383,13 +95204,8 @@ sort: by_original
 𬘦	ytyis\
 𬘧	yiqs\
 𬘨	ytqis\
-𬘩	ygls\
 𬘪	yrshis\
-𬘫	yavres\
-𬘬	ycdvs\
-𬘭	ymmus\
 𬘮	yxers\
-𬘯	yinzs\
 𬘰	yenrs\
 𬘱	yanvs\
 𬘲	ynddxs\
@@ -95407,7 +95223,6 @@ sort: by_original
 𬘿	yhibos\
 𬙀	yugys\
 𬙁	yarujs\
-𬙂	yahgvb\
 𬙃	ynnqis\
 𬙄	yljos\
 𬙅	ycebos\
@@ -95415,7 +95230,6 @@ sort: by_original
 𬙇	ydkwus\
 𬙈	yulvs\
 𬙉	yibhis\
-𬙋	yyoochi\
 𬙌	uuubf\
 𬙍	ucjf\
 𬙎	uqesf\
@@ -95616,9 +95430,7 @@ sort: by_original
 𬜨	ctdx\
 𬜪	cuf\
 𬜫	cpqi\
-𬜬	cao\
 𬜭	caphz\
-𬜯	cul\
 𬜰	coix\
 𬜱	cjjd\
 𬜲	cej\
@@ -95715,7 +95527,6 @@ sort: by_original
 𬞜	cbpwu\
 𬞝	cetvtu\
 𬞞	clwsp\
-𬞟	clley\
 𬞠	crmcpd\
 𬞡	cdvnyj\
 𬞢	cxheq\
@@ -95734,7 +95545,6 @@ sort: by_original
 𬞺	uncsbo\
 𬞿	harrcbnr\
 𬟀	chbdvnr\
-𬟁	cuki\
 𬟄	cqhwey\
 𬟅	clebo\
 𬟆	criqi\
@@ -95936,7 +95746,6 @@ sort: by_original
 𬣌	iumpzi\
 𬣎	irirgw\
 𬣏	xeiix\
-𬣙	ihfi\
 𬣚	ioi\
 𬣛	ixci\
 𬣜	iemi\
@@ -95962,7 +95771,6 @@ sort: by_original
 𬣰	ieii\
 𬣱	isspi\
 𬣲	ivcgi\
-𬣳	izgi\
 𬣴	ihjli\
 𬣵	inli\
 𬣶	itqqi\
@@ -95972,7 +95780,6 @@ sort: by_original
 𬣺	illi\
 𬣻	igli\
 𬣼	idzgi\
-𬣽	illi\
 𬣾	ichboi\
 𬣿	icafii\
 𬤀	ikhi\
@@ -95982,10 +95789,8 @@ sort: by_original
 𬤄	ignyi\
 𬤅	iloxhi\
 𬤆	ingbi\
-𬤇	iatui\
 𬤈	icayji\
 𬤉	ioqgbi\
-𬤊	ibli\
 𬤋	ipydqi\
 𬤌	ipuji\
 𬤍	ibgwi\
@@ -96004,7 +95809,6 @@ sort: by_original
 𬤚	iggnvi\
 𬤛	iaruji\
 𬤜	ieeboi\
-𬤝	ihbgqi\
 𬤞	itaudi\
 𬤟	invbwi\
 𬤡	ipaunr\
@@ -96209,7 +96013,6 @@ sort: by_original
 𬧿	liaoku\
 𬨀	lzflnccg\
 𬨁	lemc\
-𬨂	lnsc\
 𬨃	lzxyc\
 𬨄	lanrc\
 𬨅	lexyc\
@@ -96221,7 +96024,6 @@ sort: by_original
 𬨋	atlcp\
 𬨌	lbpcic\
 𬨍	lbprzc\
-𬨎	lvuyc\
 𬨏	lldvc\
 𬨐	lqgc\
 𬨑	lxxxmu\
@@ -96315,7 +96117,6 @@ sort: by_original
 𬪊	qoote\
 𬪋	cpzte\
 𬪌	bhpyte\
-𬪍	pjgte\
 𬪎	bmtea\
 𬪏	rutej\
 𬪑	cqcte\
@@ -96378,29 +96179,20 @@ sort: by_original
 𬬜	ejjrc\
 𬬧	jjgr\
 𬬨	jvzr\
-𬬩	jjyr\
 𬬪	jor\
-𬬫	juubr\
-𬬬	jywr\
-𬬮	jycr\
 𬬯	jgrr\
 𬬰	jrzir\
-𬬱	jjnr\
 𬬲	jxzr\
 𬬳	jjqbr\
 𬬴	jpnrr\
 𬬵	jarer\
 𬬶	jdfdr\
 𬬷	jtor\
-𬬸	jmdr\
-𬬹	jbsr\
 𬬺	jdhr\
 𬬼	jwhr\
 𬬽	jqqr\
 𬬾	jahdr\
-𬬿	jjor\
 𬭀	jgor\
-𬭁	jnmr\
 𬭂	jjgsr\
 𬭃	jwcir\
 𬭄	jaxr\
@@ -96412,18 +96204,15 @@ sort: by_original
 𬭋	jjcgr\
 𬭌	johnrr\
 𬭍	jbjgr\
-𬭎	jafgsr\
 𬭏	jtbor\
 𬭐	jgjsr\
 𬭑	jhoxvr\
 𬭓	jicvr\
 𬭔	jecr\
 𬭕	jator\
-𬭖	jddvr\
 𬭗	junvr\
 𬭘	jreor\
 𬭙	jvgcir\
-𬭚	jinzr\
 𬭜	jakqr\
 𬭝	jgnyr\
 𬭞	jneer\
@@ -96432,28 +96221,22 @@ sort: by_original
 𬭡	jcjor\
 𬭢	joqgbr\
 𬭣	jbsvr\
-𬭤	jrfjsr\
 𬭥	jpydqi\
 𬭦	jhfcr\
 𬭧	jepor\
 𬭨	jtlr\
-𬭩	jvgevr\
 𬭪	jacor\
 𬭫	jechyi\
-𬭬	jccxjr\
 𬭭	jjqhwi\
 𬭮	jculr\
-𬭯	jyxpr\
 𬭰	jahgvb\
 𬭲	jsgmur\
 𬭴	jcjysr\
 𬭵	jiyr\
 𬭷	jweyr\
-𬭸	julvr\
 𬭹	jenvbr\
 𬭺	jaqjdr\
 𬭻	jbixpr\
-𬭼	jvklr\
 𬭽	jeouxr\
 𬭾	juecgr\
 𬮀	jxahocv\
@@ -96463,7 +96246,6 @@ sort: by_original
 𬮅	afim\
 𬮆	ayem\
 𬮇	akqm\
-	akqm\
 𬮝	akqm\
 𬮉	acum\
 𬮊	anrrnm\
@@ -96487,10 +96269,8 @@ sort: by_original
 𬮞	arzm\
 𬮟	awum\
 𬮠	ahom\
-𬮡	adqbm\
 𬮢	accvm\
 𬮣	ahgwm\
-𬮤	arom\
 𬮥	arrrnm\
 𬮦	avnrm\
 𬮧	asizm\
@@ -96503,9 +96283,7 @@ sort: by_original
 𬮮	anhom\
 𬮯	attqbm\
 𬮰	athom\
-𬮱	aatum\
 𬮲	aanvm\
-𬮳	aooom\
 𬮴	aibm\
 𬮵	atzgm\
 𬮶	ahcxfyj\
@@ -96515,8 +96293,6 @@ sort: by_original
 𬮻	tkwe\
 𬮼	teqe\
 𬮾	tjhie\
-𬮿	ttzje\
-𬯀	tiqe\
 𬯁	tuxe\
 𬯂	tiie\
 𬯃	tseqe\
@@ -96530,7 +96306,6 @@ sort: by_original
 𬯋	tucze\
 𬯌	tcdboe\
 𬯍	twxwie\
-𬯎	toqgbe\
 𬯏	tbsve\
 𬯐	tcnjge\
 𬯑	trioe\
@@ -96656,7 +96431,6 @@ sort: by_original
 𬱒	ekkkty\
 𬱓	peyj\
 𬱔	heyy\
-𬱖	geyy\
 𬱗	qoeyb\
 𬱘	jdeyn\
 𬱙	vfeyb\
@@ -96665,7 +96439,6 @@ sort: by_original
 𬱜	ueyl\
 𬱝	bueyo\
 𬱞	ooey\
-𬱟	rtzey\
 𬱠	eeyo\
 𬱡	zmeyn\
 𬱢	aley\
@@ -96687,7 +96460,6 @@ sort: by_original
 𬱲	baieya\
 𬱳	ieyv\
 𬱴	wpgtuf\
-𬱵	wywf\
 𬱷	wfrnf\
 𬱸	wjzf\
 𬱺	dzwfx\
@@ -96797,33 +96569,24 @@ sort: by_original
 𬳲	kekkky\
 𬳳	kwfm\
 𬳴	kjvbm\
-𬳵	kwhim\
-𬳶	kaom\
 𬳷	kugm\
 𬳹	knvzm\
 𬳺	khoxm\
 𬳻	khgwm\
 𬳼	kfdvm\
-𬳽	kkrem\
 𬳾	kddxm\
-𬳿	krmum\
-𬴀	kdzgm\
 𬴁	kttjgm\
-𬴂	kqvm\
-𬴃	kctom\
 𬴄	kbcpm\
 𬴅	kiaifm\
 𬴆	kcocm\
 𬴇	kmonfm\
 𬴈	kjqhwi\
 𬴉	knvbwi\
-𬴊	kulvm\
 𬴋	kcjogr\
 𬴌	kcahks\
 𬴍	kkwum\
 𬴎	khosatmu\
 𬴏	kacclo\
-𬴐	kcookz\
 𬴑	gcegw\
 𬴒	etvg\
 𬴓	ukegz\
@@ -96919,15 +96682,10 @@ sort: by_original
 𬶄	kpdv\
 𬶅	keyv\
 𬶆	kcfv\
-𬶇	krjv\
 𬶈	kdvv\
 𬶉	kqciv\
-𬶋	kpov\
 𬶌	krjyv\
-𬶍	kaubv\
 𬶎	kcziv\
-𬶏	krtziv\
-𬶐	krssbv\
 𬶑	knlv\
 𬶒	ktrzv\
 𬶓	kglv\
@@ -96941,8 +96699,6 @@ sort: by_original
 𬶜	kiov\
 𬶝	kadziv\
 𬶞	kcodvv\
-𬶟	kmojdv\
-𬶠	kmavbv\
 𬶡	kcnmv\
 𬶢	kbcpv\
 𬶣	kkfgv\
@@ -96950,13 +96706,10 @@ sort: by_original
 𬶥	kiwjgv\
 𬶦	kiqnzv\
 𬶧	kjmuv\
-𬶨	zhkvg\
 𬶩	kbanvv\
 𬶪	kvclv\
 𬶫	kbvv\
 𬶬	kkwhv\
-𬶭	kdxqsv\
-𬶮	kiov\
 𬶯	kcgmuv\
 𬶰	kwfsv\
 𬶱	kbiwiv\
@@ -96994,7 +96747,6 @@ sort: by_original
 𬷑	nokiv\
 𬷒	xxxkiy\
 𬷓	kksi\
-𬷕	hkip\
 𬷖	krkit\
 𬷗	rdgkin\
 𬷘	lgkic\
@@ -97059,9 +96811,7 @@ sort: by_original
 𬸕	ggkib\
 𬸖	wwkiu\
 𬸗	xskij\
-𬸘	hbnkik\
 𬸙	ewpkim\
-𬸚	kikkiq\
 𬸛	bgkia\
 𬸜	aikih\
 𬸝	ikib\
@@ -97070,14 +96820,11 @@ sort: by_original
 𬸠	hhkio\
 𬸡	juuki\
 𬸢	bnckia\
-𬸣	accki\
 𬸤	aqkix\
 𬸥	cdukif\
-𬸦	iqjkif\
 𬸧	cuokih\
 𬸨	ucekig\
 𬸩	paunki\
-𬸪	xgkim\
 𬸫	inxkio\
 𬸬	taheki\
 𬸭	cbprzki\
@@ -97160,7 +96907,6 @@ sort: by_original
 𬹹	eczzccv\
 𬹺	eeyc\
 𬹻	earnc\
-𬹼	erjc\
 𬹽	eippc\
 𬹾	eugc\
 𬹿	ezhoc\
@@ -97172,7 +96918,6 @@ sort: by_original
 𬺅	eitcc\
 𬺆	ewdvc\
 𬺇	rffecn\
-𬺈	enhoc\
 𬺉	ecgbc\
 𬺊	eauhc\
 𬺋	eirrci\
@@ -97183,7 +96928,6 @@ sort: by_original
 𬺐	eechyi\
 𬺑	eewdvc\
 𬺒	mvkecw\
-𬺓	emmlc\
 𬺔	emmqsc\
 𬺕	ecjkzc\
 𬺖	exazfc\
@@ -97201,7 +96945,6 @@ sort: by_original
 𫠤	cjd\
 𫠦	hsjuzi\
 𫠾	hosagb\
-𫡃	shs\
 𫡆	axjh\
 𫡋	uczfh\
 𫡏	qp\
@@ -97456,12 +97199,10 @@ sort: by_original
 𬍘	gfow\
 𬍙	ghjgw\
 𬍚	gqqw\
-𬍛	gpwiw\
 𬍜	gahdw\
 𬍝	gjgsw\
 𬍠	gryiw\
 𬍣	gnow\
-𬍤	gxfcw\
 𬍥	ghpw\
 𬍦	grrzdw\
 𬍧	guxw\
@@ -97493,7 +97234,6 @@ sort: by_original
 𬎃	gsumw\
 𬎄	gnpysw\
 𬎅	gwxjw\
-𬎆	gcagvw\
 𬎇	gcbnrw\
 𬎈	gcadzi\
 𬎉	gryww\
@@ -97504,7 +97244,6 @@ sort: by_original
 𬎎	gbhgtu\
 𬎏	gluysw\
 𬎐	gurow\
-𬎑	gamavb\
 𬎒	gapola\
 𬎓	gtrrao\
 𬎔	gyjnw\
@@ -97539,7 +97278,6 @@ sort: by_original
 𬑌	ervzm\
 𬑔	akss\
 𬑨	ehrrrrnr\
-𬒈	sato\
 𬒖	thoumo\
 𬒛	tczayj\
 𬒜	tqhzer\
@@ -98893,7 +98631,7 @@ sort: by_original
 𭅦	qcqcqci\
 𭅧	uczpcg\
 𭅨	cehrrtu\
-𭅩	yiycia\
+𭅩	iyycia\
 𭅪	cbcnvvz\
 𭅫	zhshoooo\
 𭅬	cehcays\
@@ -99181,7 +98919,6 @@ sort: by_original
 𭊑	oxmy\
 𭊒	oteq\
 𭊓	oujfs\
-𭊕	odvore\
 𭊖	teov\
 𭊗	oujqb\
 𭊘	oiote\
@@ -99940,8 +99677,6 @@ sort: by_original
 𮮝	aoxbwh\
 𮮞	egtbws\
 𮮟	tagbwi\
-𬙊	ybtus\
-𬭶	jbwr\
 𮤸	abwm\
 𭕾	pchi\
 𭖀	txys\
@@ -100504,7 +100239,7 @@ sort: by_original
 𭟁	qiaeri\
 𭟂	vukqib\
 𭟃	qakzi\
-𭟄	yiyqia\
+𭟄	iyyqia\
 𭟅	qaqfci\
 𭟆	qhiaem\
 𭟇	qcraoi\
@@ -100861,7 +100596,7 @@ sort: by_original
 𭤘	ibhix\
 𭤙	nixi\
 𭤚	ijhoqi\
-𭤛	yiyixa\
+𭤛	iyyixa\
 𭤜	klqudh\
 𭤝	oouoo\
 𭤞	yqudm\
@@ -101816,7 +101551,6 @@ sort: by_original
 𭴇	nwuv\
 𭴈	wwvu\
 𭴉	wwuv\
-𭴊	whhyu\
 𭴋	bwuo\
 𭴌	wbou\
 𭴍	wrpju\
@@ -103692,7 +103426,7 @@ sort: by_original
 𮒃	ctmmlh\
 𮒄	clmo\
 𮒅	gcczmu\
-𮒆	cyahlxp\
+𮒆	cbahlxp\
 𮒇	cbcric\
 𮒈	caxrl\
 𮒉	ckrkre\
@@ -103803,7 +103537,6 @@ sort: by_original
 𮔂	kczic\
 𮔃	pkard\
 𮔄	krmuc\
-𮔅	krgbc\
 𮔆	kexc\
 𮔈	krpcc\
 𮔉	axvkc\
@@ -104338,7 +104071,7 @@ sort: by_original
 𮜩	lwkzo\
 𮜪	limero\
 𮜫	lleloh\
-𮜬	lyiyxp\
+𮜬	liyyxp\
 𮜭	iyyloi\
 𮜮	eyes\
 𮜯	etzis\
@@ -104412,7 +104145,6 @@ sort: by_original
 𮝶	ljcvc\
 𮝷	lccgbc\
 𮝸	ltcemc\
-𮝹	lahoyi\
 𮝺	lcbprz\
 𮝻	eoifs\
 𮝼	iouxh\
@@ -105141,10 +104873,7 @@ sort: by_original
 𮩘	ucouwu\
 𮩙	ucloxhwu\
 𮩚	jhyusg\
-𮩛	uuucis\
 𮩜	ucxs\
-𮩝	ubprzs\
-𮩞	utauds\
 𮩟	vehxh\
 𮩠	vesnrh\
 𮩡	veuboh\
@@ -105354,15 +105083,12 @@ sort: by_original
 𮬙	kwxhjx\
 𮬚	kjhyvv\
 𮬛	kzvv\
-𮬜	kubov\
 𮬝	ktdxv\
 𮬞	exkvd\
 𮬟	kjohiv\
 𮬠	kksvv\
 𮬡	kegv\
 𮬢	kvgevv\
-𮬣	kljrv\
-𮬤	kujhov\
 𮬥	kppi\
 𮬦	khrei\
 𮬧	phzki\
@@ -105450,7 +105176,6 @@ sort: by_original
 𮮃	uxym\
 𮮅	ueqm\
 𮮆	upzsm\
-𮮇	ugkum\
 𮭻	crrumi\
 𮭼	uadzim\
 𮭽	uwwum\
@@ -105578,8 +105303,6 @@ sort: by_original
 𪛛	eds\
 𪛜	fg\
 𪛝	pd\
-𰁜	iwu\
-𰀡	jxy\
 𰲮	jxkc\
 𰥠	iwem\
 𰚳	iweeem\
@@ -106368,7 +106091,6 @@ sort: by_original
 𰌄	nnlv\
 𰌅	fknvs\
 𰌆	ljnvc\
-𰌇	ncgbv\
 𰌈	ncehiv\
 𰌉	nkmv\
 𰌊	nhhrv\
@@ -107789,7 +107511,6 @@ sort: by_original
 𰣬	eiqb\
 𰣭	ebnvb\
 𰣮	eejb\
-𰣯	eabob\
 𰣰	ewdvb\
 𰣱	haqvi\
 𰣲	esgab\
@@ -108073,7 +107794,6 @@ sort: by_original
 𰨒	qahgvb\
 𰨓	qzzccv\
 𰨔	lqeyh\
-𰨖	qbleys\
 𰨗	qiowus\
 𰨘	aqlkzx\
 𰨙	qcivs\
@@ -108798,7 +108518,6 @@ sort: by_original
 𰵚	irzdi\
 𰵛	ipoi\
 𰵜	ipzsi\
-𰵝	iuhi\
 𰵞	idsvi\
 𰵟	ivhvi\
 𰵠	inxyi\
@@ -108808,14 +108527,12 @@ sort: by_original
 𰵤	iloi\
 𰵥	iddxi\
 𰵦	iixi\
-𰵧	itqii\
 𰵨	ihwtci\
 𰵩	ihpi\
 𰵪	iaoi\
 𰵫	iudi\
 𰵬	iofjdi\
 𰵭	iujdi\
-𰵮	ipfjgi\
 𰵯	igvli\
 𰵰	itkyi\
 𰵱	immui\
@@ -108969,7 +108686,7 @@ sort: by_original
 𰸽	eqps\
 𰸾	ebhfcs\
 𰸿	eadxs\
-𰹀	evgcis\
+𰹀	esgcis\
 𰹁	ewhlhs\
 𰹂	ecpos\
 𰹃	ecfos\
@@ -109245,7 +108962,6 @@ sort: by_original
 𰾊	jacr\
 𰾋	jtlcr\
 𰾌	jljnr\
-𰾍	jcyir\
 𰾎	jbpcir\
 𰾏	jpufr\
 𰾐	jqvr\
@@ -109254,7 +108970,6 @@ sort: by_original
 𰾓	jsbor\
 𰾕	jczmur\
 𰾖	jffdvr\
-𰾗	jjhor\
 𰾘	juczr\
 𰾙	jglar\
 𰾚	jghyir\
@@ -109560,7 +109275,6 @@ sort: by_original
 𱃔	wyf\
 𱃕	weyf\
 𱃖	wyfif\
-𱃗	wgof\
 𱃘	wejdf\
 𱃙	wijdf\
 𱃚	wfffif\
@@ -109668,7 +109382,6 @@ sort: by_original
 𱅂	kpxm\
 𱅃	khzm\
 𱅄	kfxdm\
-𱅅	kkml\
 𱅆	kfom\
 𱅇	krym\
 𱅈	kqpm\
@@ -109679,9 +109392,7 @@ sort: by_original
 𱅍	kjdm\
 𱅎	krkqm\
 𱅏	krssbm\
-𱅐	kixm\
 𱅑	vnkmb\
-𱅒	kkkmm\
 𱅓	kcanzm\
 𱅔	kmom\
 𱅕	kmvbm\
@@ -109693,7 +109404,6 @@ sort: by_original
 𱅛	kvgcim\
 𱅜	kanvm\
 𱅝	aikmh\
-𱅞	kevzxy\
 𱅟	kjmum\
 𱅡	kqgm\
 𱅢	kuuvm\
@@ -109875,7 +109585,6 @@ sort: by_original
 𱈙	kcajdv\
 𱈚	kgoooo\
 𱈛	kcaaem\
-𱈜	kkkvv\
 𱈝	khzi\
 𱈞	jkin\
 𱈟	edkis\
@@ -109928,7 +109637,6 @@ sort: by_original
 𱉑	vjkib\
 𱉒	dkiv\
 𱉓	akih\
-𱉔	frkig\
 𱉕	khoi\
 𱉖	whkiw\
 𱉗	bhkio\
@@ -110051,7 +109759,6 @@ sort: by_original
 𱋍	udgwm\
 𱋎	uavm\
 𱋏	uvom\
-𱋐	uiam\
 𱋑	upnjm\
 𱋒	ueim\
 𱋓	ulom\
@@ -110228,7 +109935,6 @@ sort: by_original
 𰡯	gjgw\
 𰡰	glcw\
 𰡴	ghlhw\
-𰡵	gqesw\
 𰡶	gqhqbw\
 𰡹	gexw\
 𰡺	gulw\
@@ -112223,7 +111929,6 @@ sort: by_original
 𱤌	mtddvu\
 𱤍	mrogau\
 𱤎	mylsbu\
-𱤏	mmmmuu\
 𱤐	mcjovh\
 𱤑	mvaolw\
 𱤒	hmcbnr\
@@ -112500,7 +112205,7 @@ sort: by_original
 𱨹	svnvhnr\
 𱨺	sahpgb\
 𱨻	sikzv\
-𱨼	siksbv\
+𱨼	siskzv\
 𱨽	satbvb\
 𱨿	saibv\
 𱩀	sxksv\
@@ -112564,7 +112269,7 @@ sort: by_original
 𱪃	sreuto\
 𱪄	sktgsv\
 𱪅	siappd\
-𱪆	syiyjg\
+𱪆	siyyjg\
 𱪇	swsjho\
 𱪈	smrawbo\
 𱪊	siaddpp\
@@ -112610,7 +112315,7 @@ sort: by_original
 𱪶	rwhzp\
 𱪸	pcwuk\
 𱪹	wznzu\
-𱪺	dddsrsb\
+𱪺	wssrni\
 𱪻	cddwug\
 𱪼	jjwug\
 𱪽	hjvzwu\
@@ -113133,7 +112838,6 @@ sort: by_original
 𱳧	jeols\
 𱳨	tamo\
 𱳩	thqzo\
-𱳪	tndo\
 𱳫	tcjdo\
 𱳬	ltoc\
 𱳭	tcjo\
@@ -113156,7 +112860,6 @@ sort: by_original
 𱳿	tzfgo\
 𱴀	tzfco\
 𱴁	twoo\
-𱴂	tmoo\
 𱴃	tfkbo\
 𱴄	tmvbo\
 𱴅	qtxob\
