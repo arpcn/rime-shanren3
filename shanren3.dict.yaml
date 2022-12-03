@@ -250,7 +250,7 @@ import_tables:
 𣞙	ixxx
 㭰	luma
 𣣋	trle
-墶	ttkl
+墶	ttkl	277
 梱	mamu	1
 麤	kkkl	414
 厨	tufc	80
@@ -608,7 +608,7 @@ import_tables:
 閿	axa	596
 審	axg	1756
 寀	axm	572
-棨	axmuh	427
+棨	axmu	427
 啓	axo	2141
 窘	axp	755
 竊	axq	938
@@ -2951,7 +2951,7 @@ import_tables:
 誚	iwd	613
 諷	iwf	704
 颯	iwfh	700
-勍	iwfio	469
+勍	iwfi	469
 鷲	iwh	663
 京	iwi	3214
 齋	iwiq	1522
@@ -8125,6 +8125,116 @@ import_tables:
 槵	moo	307
 瘮	egg	452
 
+#加105+3字-----[十字未加：鋧猳鴃魣厗齱齵殗螹獑]---
+峜	trl	403
+嵟	ttk	278
+鞜	ysb	273
+宁	ahd	700
+鶤	alk	352
+賨	aqg	382
+窾	atq	373
+牉	avf	307
+鶗	blk	1
+皒	bpf	740
+黮	buc	366
+菎	cbu	306
+輂	ccl	373
+艻	cfi	352
+苙	cih	328
+蛓	cjkc	287
+蘹	cqy	358
+芧	czv	348
+蜰	dkk	331
+齰	echb	312
+殜	ecz	339
+眳	edom	423
+睟	eirrc	341
+骻	envz	295
+痀	epob	317
+揘	fbg	251
+搢	fhw	416
+抆	fixs	353
+鴂	frk	384
+貾	gnd	198
+誙	ihs	230
+髞	iooo	240
+諔	iqhw	284
+旍	iqrz	361
+齍	ium	288
+齌	iwuq	322
+髝	iwwa	236
+矲	jag	294
+鍉	jbl	409
+釳	jqz	1
+螲	kaht	251
+虰	khdc	337
+蠮	khj	270
+蟢	kioc	274
+蚚	kjn	364
+蟭	kkwu	304
+蟟	knvbw	284
+麌	kohnr	333
+犵	kqzy	487
+鮨	kubo	359
+螉	kvge	260
+踥	lin	235
+轗	ljho	291
+蹪	loq	191
+軱	lugc	300
+彸	lvg	321
+轓	lxga	334
+楬	mbpr	353
+樛	mery	390
+剺	mxtj	279
+娭	ngj	442
+姫	nncv	566
+媬	nro	354
+媕	nroc	295
+妢	nvjd	462
+嚾	ocoo	265
+呫	oqo	411
+喼	orxq	399
+蜑	pllk	435
+惄	qhwxq	343
+懰	qpj	332
+禠	qtkh	295
+儌	rbi	351
+俉	rhon	463
+嵞	rmt	332
+欿	rueq	285
+偢	ruwu	425
+潿	say	598
+灢	shos	265
+濊	sljh	459
+沴	sry	463
+浽	sxnv	237
+鷇	tahk	326
+嶰	tejku	386
+娿	thnv	544
+厔	thtu	429
+盩	tkx	383
+垝	trt	418
+坂	ttxy	909
+磠	tulo	273
+巆	twwao	244
+檃	txfx	362
+酖	uare	337
+箘	uauh	350
+酕	uemy	323
+醲	uihcy	329
+籧	ukkl	302
+醄	upuf	310
+黐	ursi	483
+邷	utew	207
+篨	utrm	429
+稜	utvl	916
+糉	uxuv	279
+熜	waqi	360
+礜	xhzsct	319
+韗	yalcw	196
+襘	yraw	507
+袺	ytoi	303
+
 #重二簡
 广	ta	700
 厂	tc	728
@@ -8142,7 +8252,7 @@ import_tables:
 ⺑	vp
 忈	vq	487
 𦍎	vm
-	vl
+㱏	vl
 𠅇	vi
 亖	vv	479
 圣	xt	400
