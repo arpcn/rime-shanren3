@@ -10,6 +10,7 @@ schema:
     - terra_pinyin
     - shanren00
     - shanren100
+#    - shanren01
     
   name: "山人3"
   schema_id: shanren3
@@ -67,6 +68,7 @@ engine:
     - table_translator@shanren3_phrase
     - table_translator@shanren00
     - table_translator@shanren100
+#    - table_translator@shanren01
 #    - reverse_lookup_translator
     - "script_translator@terra_pinyin_lookup"
     - "table_translator@shanren00_lookup"
@@ -134,6 +136,16 @@ shanren00:
   enable_sentence: false    #連打功能#false取消  true
   initial_quality: 0.8
 
+#shanren01:
+#  dictionary: shanren01    ##全息打字，~作前導。
+#  prism: shanren01
+##  comment_format:
+##    - xform/\\//
+#  enable_user_dict: false
+#  enable_charset_filter: false
+#  enable_sentence: false    #連打功能#false取消  true
+#  initial_quality: 0.5
+
 menu:
   page_size: 5
 
@@ -157,7 +169,7 @@ yitizi_switch:
   show_in_comment: true
   comment_format:
     - xform/&nbsp/ /
-    - xform/<br>/\r/
+    - xform/<br>/\n/
   tags:
     - abc
   tips: char
@@ -168,7 +180,7 @@ sunman_switch:
   show_in_comment: true
   comment_format:
     - xform/&nbsp/ /
-    - xform/<br>/\r/
+    - xform/<br>/\n/
   tags:
     - abc
   tips: char
@@ -179,7 +191,7 @@ nihongo_switch:
   show_in_comment: true
   comment_format:
     - xform/&nbsp/ /
-    - xform/<br>/\r/
+    - xform/<br>/\n/
   tags:
     - abc
   tips: char
