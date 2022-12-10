@@ -2,8 +2,8 @@
 
 
 patch:
-  "style/comment_font": latin.ttf #編碼提示字型comment.ttf
-#  "style/candidate_font": han.ttf #候選字型
+  "style/comment_font": SunmanPUA.ttf #編碼提示字型comment.ttf
+  "style/candidate_font": TH-Feon.ttf #候選字型han.ttf
 #  "style/hanb_font": hanb.ttf #擴充字型
 #  "style/key_font": symbol.ttf #鍵盤字型
 #  "style/label_font: label.ttf #編標籤字型
@@ -208,13 +208,13 @@ patch:
   "preset_keys/Keyboard_kaoi": {label: 无奈, functional: false, send: Eisu_toggle, select: kao_impotent}
 
 
-  "preset_keyboards/shanren3/import_preset": qwerty11
-  "preset_keyboards/terra_pinyin/import_preset": terra_pinyin1
+  "preset_keyboards/shanren3/import_preset": qwerty22
+  "preset_keyboards/terra_pinyin/import_preset": terra_pinyin
   "preset_keyboards/tibetan/import_preset": qwerty1
   "preset_keyboards/devanagari/import_preset": qwerty1
   "preset_keyboards/iast/import_preset": qwerty1
   "preset_keyboards/mipa/import_preset": qwerty1
-  "preset_keyboards/shanren00/import_preset": qwerty11
+  "preset_keyboards/shanren00/import_preset": qwerty22
   "preset_keyboards/nihongo_kana/import_preset": qwerty1
   "preset_keyboards/nihongo_romaji/import_preset": qwerty1
 
