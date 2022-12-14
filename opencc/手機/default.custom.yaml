@@ -3,14 +3,8 @@
 
 patch:
   schema_list:    # 设定选用的输入方案。
-    - {schema: sunman}
     - {schema: shanren3}
-    - {schema: devanagari}
-    - {schema: iast}
-    - {schema: tibetan}
-    - {schema: mipa}
     - {schema: terra_pinyin}
-    - {schema: shanren00}
 
   menu/page_size: 4
 
