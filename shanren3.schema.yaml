@@ -10,7 +10,7 @@ schema:
     - terra_pinyin
     - shanren00
     - shanren100
-    - shanren01
+#    - shanren01
     
   name: "山人3"
   schema_id: shanren3
@@ -33,10 +33,10 @@ switches:
     reset: 0
     states: [ 字, 音 ]
   - name: yitizi_segestion
-    reset: 0
+    reset: 1
     states: [ 正, 異 ]
   - name: sunman_segestion
-    reset: 1
+    reset: 0
     states: [ 山, 碼 ]
   - name: nihongo_segestion
     reset: 0
@@ -68,7 +68,7 @@ engine:
     - table_translator@shanren3_phrase
     - table_translator@shanren00
     - table_translator@shanren100
-    - table_translator@shanren01
+#    - table_translator@shanren01
 #    - reverse_lookup_translator
     - "script_translator@terra_pinyin_lookup"
     - "table_translator@shanren00_lookup"
@@ -83,8 +83,8 @@ engine:
     - "reverse_lookup_filter@shanren00_reverse_lookup"
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>~'
-  initials: 'zyxwvutsrqponmlkjihgfedcba~'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba\'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
   delimiter: " '"
 #  algebra:
 #    - "fuzz/^(.+)$/$1\\/"
@@ -110,7 +110,7 @@ shanren3_phrase: #這是一個table_translator
   enable_completion: false
   initial_quality: 1
 
-shanren100:
+shanren100:    ##------此方案保證打長詞時有聯想提示。
   dictionary: shanren100
   prism: shanren100
 #  user_dict: shanren3
@@ -136,15 +136,15 @@ shanren00:
   enable_sentence: false    #連打功能#false取消  true
   initial_quality: 0.8
 
-shanren01:
-  dictionary: shanren01
-  prism: shanren01
-#  comment_format:
-#    - xform/\\//
-  enable_user_dict: false
-  enable_charset_filter: false
-  enable_sentence: false    #連打功能#false取消  true
-  initial_quality: 0.5
+#shanren01:
+#  dictionary: shanren01    ##全息打字，~作前導。
+#  prism: shanren01
+##  comment_format:
+##    - xform/\\//
+#  enable_user_dict: false
+#  enable_charset_filter: false
+#  enable_sentence: false    #連打功能#false取消  true
+#  initial_quality: 0.5
 
 menu:
   page_size: 5

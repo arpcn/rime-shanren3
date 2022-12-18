@@ -5,7 +5,7 @@ schema:
   schema_id: shanren100
   name: "山人詞庫"
   description: |
-    生成詞庫bin的簡易方案，已与山人方案建立關聯，不用勾選
+    生成詞庫bin的簡易方案，已与山人方案建立關聯，不用勾選。##------此方案保證打長詞時有聯想提示。
 
 engine:
   translators:
