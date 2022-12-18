@@ -6,8 +6,8 @@ version: "0.4"
 use_preset_vocabulary: false
 sort: by_weight
 import_tables:
-  - shanren3.words1
-  - shanren3.words
+  - shanren3.words1        #------此二詞庫配上詞頻後，確保連打時常用詞語優先上屏。但長詞聯想提示，需要另外用shanren100。
+  - shanren3.words         #------此二詞庫配上詞頻後，確保連打時常用詞語優先上屏。但長詞聯想提示，需要另外用shanren100。
 ...
 
 ###====----
