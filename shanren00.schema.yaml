@@ -68,7 +68,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba\-/<>'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba\'
   initials: 'zyxwvutsrqponmlkjihgfedcba\'
   delimiter: " ;'"
 

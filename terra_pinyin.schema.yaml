@@ -53,7 +53,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,.>\'
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
@@ -77,6 +77,7 @@ speller:
     - 'derive/^(.*)-$/$1;/'
     - 'derive/^(.*)<$/$1,/'
     - 'derive/^(.*)\\$/$1>/'
+    - 'derive/^(.*)\\$/$1./'
 
 translator:
   dictionary: terra_pinyin
@@ -94,27 +95,27 @@ translator:
     - 'xform a[-;] ā'
     - 'xform a/ á'
     - 'xform a[<,] ǎ'
-    - 'xform a[>\\] à'
+    - 'xform a[>\.\\] à'
     - 'xform e[-;] ē'
     - 'xform e/ é'
     - 'xform e[<,] ě'
-    - 'xform e[>\\] è'
+    - 'xform e[>\.\\] è'
     - 'xform o[-;] ō'
     - 'xform o/ ó'
     - 'xform o[<,] ǒ'
-    - 'xform o[>\\] ò'
+    - 'xform o[>\.\\] ò'
     - 'xform i[-;] ī'
     - 'xform i/ í'
     - 'xform i[<,] ǐ'
-    - 'xform i[>\\] ì'
+    - 'xform i[>\.\\] ì'
     - 'xform u[-;] ū'
     - 'xform u/ ú'
     - 'xform u[<,] ǔ'
-    - 'xform u[>\\] ù'
+    - 'xform u[>\.\\] ù'
     - 'xform ü[-;] ǖ'
     - 'xform ü/ ǘ'
     - 'xform ü[<,] ǚ'
-    - 'xform ü[>\\] ǜ'
+    - 'xform ü[>\.\\] ǜ'
   comment_format:
     - xform ([aeiou])(ng?|r)([1234]) $1$3$2
     - xform ([aeo])([iuo])([1234]) $1$3$2
