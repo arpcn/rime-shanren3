@@ -82,13 +82,13 @@ engine:               #引擎分四組
   translators:                #這批組件翻譯特定類型的編碼段爲一組候選文字
 #    - echo_translator        #沒有其他候選字時，回顯輸入碼〔輸入碼可以Shift+Enter上屛〕(此時，以編碼串作爲候選項)
     - punct_translator        #配合punct_segmentor轉換標點符號
-#    - table_translator                      #碼表翻譯器，用於倉頡、五筆等基於碼表的輸入方案
+    - script_translator                    #腳本翻譯器，用於拼音、粵拼等基於音節表的輸入方案   ##shanren3的script_translator保證編碼行的編碼以字為單位分開顯示，而不是以詞為單位。
+#    - table_translator                    #碼表翻譯器，用於倉頡、五筆等基於碼表的輸入方案
     - table_translator@shanren3_phrase       # - 此項可加載多個實例，後接@+翻譯器名〔如：cangjie、wubi等〕
     - table_translator@shanren00             #
-    - table_translator@shanren100            
+    - table_translator@shanren100            #此方案中，主翻譯器script_translator要在前面，否則效果會變，如輸入「易緣」。
     - "table_translator@shanren00_lookup"
 #    - table_translator@shanren01
-    - script_translator                       #腳本翻譯器，用於拼音、粵拼等基於音節表的輸入方案   ##shanren3的script_translator保證編碼行的編碼以字為單位分開顯示，而不是以詞為單位。
     - "script_translator@terra_pinyin_lookup"  # - 此項可加載多個實例，後接@+翻譯器名〔如：pinyin、jyutping等〕
 #    - reverse_lookup_translator              # 反查翻譯器，用另一種編碼方案查碼
 #    - lua_translator #使用lua自定義輸入，例如動態輸入當前日期、時間，後接@+lua函數名
@@ -143,7 +143,7 @@ shanren3_phrase:       #這是一個table_translator
   dictionary: ""             # 詞典名為空，不加載固態詞典.table.bin
   user_dict: shanren3_phrase # 對應的文件是shanren3_phrase.txt
   db_class: stabledb
-  enable_sentence: false
+  enable_sentence: false        #是否開啓自動造句(連打功能)
   enable_completion: false      #提前顯示尚未輸入完整碼的字〔僅table_translator有效〕
   initial_quality: 1
 
