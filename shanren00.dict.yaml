@@ -7,7 +7,7 @@ use_preset_vocabulary: false
 sort: by_original
 ...
 
-###字根##zv..##
+###字根##ZV..##
 壬由王甲 玉田厶貝	zvg\
 手工寸才力	zvf\
 丶且月丹夕	zvd\
@@ -55,7 +55,7 @@ sort: by_original
 井()	zvcj\
 生(𤯓)	zvcp\
 卅(丗𠀍)	zvcsa\
-(ㅈ)	zvcv\
+	zvcv\
 卌()	zvcxi\
 丶(㇏乀) ()	zvd\
 丹(円𠁿𠂁)	zvda\
@@ -137,7 +137,7 @@ sort: by_original
 戊v	zvjp\
 金(钅釒𨤾𨥀)	zvjr\
 矢	zvjsi\
-殳v(⽎)	zvjx\
+殳v	zvjx\
 弋()	zvjyi\
 巴(𢀳)	zvkb\
 虫	zvkc\
@@ -152,7 +152,7 @@ sort: by_original
 马(馬𫠉𢎘ㄢ)	zvkma\
 犬(犭)	zvkq\
 豕(𧰧豕)	zvksi\
-鼠(鼡䑕[𩮻𡒏𦪴𢀂𩮊𥡾𫏦])	zvksu\
+鼠(鼡䑕[𠠌𡒏𩮻𦪴𢀂𩮊𥡾𫏦])	zvksu\
 㲋 兔(兔兎)	zvktu\
 牛(牜𠂒)	zvku\
 鱼(魚𩵋)	zvkv\
@@ -196,7 +196,7 @@ sort: by_original
 及()	zvpx\
  丄 (ㅑ)	zvq\
 卜(⼘⺊𠁡)	zvqbu\
-鬼(⿁)	zvqg\
+鬼()	zvqg\
 心(⺗忄㣺𢖩)	zvqi\
 示(v礻⺬𥘅)	zvqs\
 非(𠂼𩇦𩇧𩇨)	zvqv\
@@ -242,7 +242,7 @@ sort: by_original
 瓦a(⽡)	zvuw\
 辛()	zvux\
 酉(丣𠚒)	zvuy\
-竹(⺮)	zvuzu\
+竹(⺮)	zvuzu\
 八(丷)	zvvb\
 二(𠄟𠄠)	zvve\
 䒑()	zvvh\
@@ -371,11 +371,12 @@ sort: by_original
 #叻	ofiv\	1562
 #亓	vjev\	719
 #鄖	ogtev\	607
-辶	ld\
-⼢	lp\
-𫝀	ls\
-⼵	lz\
 癶	lzd\	468
+廴	lz\	0.9
+辶	ld\	651
+㐄	ls\	5
+夂	lp\	608
+辵	lp\	528
 疋	lpi\	509
 角	eji\	3936
 儿	rer\	500
@@ -6825,8 +6826,8 @@ sort: by_original
 艹	c\
 艹	c\
 帶	ca\	39436
-	ca\
 𫇦	ca\
+	ca\
 夢	caa\	10282
 	caa\
 	caa\
@@ -7374,9 +7375,9 @@ sort: by_original
 𡴙	cbci\
 𦯑	cbci\
 草	cbci\	-3
-	cbcii\
-𠦝	cbcii\
 龺	cbcii\
+𠦝	cbcii\
+	cbcii\
 𦺏	cbcix\
 𣁖	cbcixi\
 戟	cbcj\	849
@@ -7931,8 +7932,8 @@ sort: by_original
 𫋫	cdexf\
 𩓨	cdey\
 奉	cdf\	1563
-	cdf\
 𡗗	cdf\
+	cdf\
 𫇭	cdfd\
 奉	cdff\	-3
 𧃚	cdffdl\
@@ -8675,8 +8676,8 @@ sort: by_original
 𢡳	chcbqi\
 𦱴	chccs\
 𦼿	chcey\
-	chcf\
 華	chcf\
+	chcf\
 華	chcf\	-3
 𪏥	chcfbv\
 𧃹	chcfczmu\
@@ -8750,8 +8751,8 @@ sort: by_original
 	chi\
 𦿩	chibcg\
 蓸	chibo\	-3
-	chij\
 𠀎	chij\
+	chij\
 𧁉	chikb\
 	chix\
 𧀮	chixp\
@@ -9117,8 +9118,8 @@ sort: by_original
 蒇	cjgb\	0.1
 戴	cjgccv\
 戴	cjgccv\	-3
-	cjgi\
 𢦏	cjgi\
+	cjgi\
 𧄭	cjgnum\
 苰	cjgs\	297
 𢦫	cjgx\
@@ -11296,8 +11297,8 @@ sort: by_original
 𧷓	cuagb\
 藊	cuai\	267
 藊	cuaic\	-4
-𧂻	cuajhi\
-𫊕	cuajhi\
+𫊕	cuajd\
+𧂻	cuajp\
 𨌗	cualc\
 𥚢	cuaqs\
 𧷵	cuaxxgb\
@@ -27028,6 +27029,7 @@ sort: by_original
 无	hhy\	0.1
 ⽆	hhyi\
 𡯊	hhyi\
+⺚	hhyi\
 无	hhyi\	-3
 ⼀	hi\
 ㇀	hi\
@@ -35318,7 +35320,7 @@ sort: by_original
 𠞠	jupnfd\
 鋵	juppr\
 𥏐	jupps\
-𨭾	jupsvr\
+𨭾	jksr\
 㥻	juqip\
 鉯	jur\	489
 𢏱	jureg\
@@ -43608,10 +43610,10 @@ sort: by_original
 跇	lczo\	235
 𧺿	lczt\
 肯	ld\	3459
-辶	ld\	651
 ⻍	ld\	1
 ⻎	ld\
 ⻌	ld\
+辶	ld\
 𧿜	ldao\
 䟸	ldcgo\
 𨁕	ldcwio\
@@ -45204,11 +45206,11 @@ sort: by_original
 㣕	lnrc\
 軑	lnrc\	-3
 𫏶	lnrrnc\
+㣣	lnrrnc\
 𨁂	lnrrno\
 𧻵	lnrrnt\
 𦩀	lnrrnz\
 㣣	lnrruc\
-㣣	lnrruc\
 𦨐	lnrz\
 赿	lns\	382
 軝	lnsc\	190
@@ -45340,13 +45342,12 @@ sort: by_original
 𢕃	lozeec\
 𦨼	loznrz\
 跑	lp\	22665
-夂	lp\	608
 夊	lp\	606
-辵	lp\	528
 	lp\	7
 ㄆ	lp\
 ⾡	lp\
 ⼡	lp\
+⼢	lp\
 𧻮	lpalt\
 𨆗	lpaxvz\
 𨋦	lpaxyc\
@@ -45844,12 +45845,12 @@ sort: by_original
 赺	lrzt\	236
 䑤	lrzz\
 冬	ls\	2791
-㐄	ls\	5
 	ls\	4
 	ls\	3
 	ls\	2
 𡕒	ls\
 ヰ	ls\
+𫝀	ls\
 舝	lsa\	273
 𢮟	lsafs\
 𧕱	lsagkkkc\
@@ -46972,8 +46973,8 @@ sort: by_original
 䑣	lyz\
 很	lz\	160978
 舟	lz\	0.9
-廴	lz\	0.9
 ⾈	lz\
+⼵	lz\
 𫎼	lzanvt\
 𢕠	lzavnr\
 𧽈	lzbzpt\
@@ -48524,7 +48525,7 @@ sort: by_original
 𪳲	mjobou\
 棫	mjohiu\	-3
 𣚦	mjokcu\
-椥	mjou\	503
+椥	mjou\	403
 柖	mjou\	239
 𠵍	mjou\
 𤋐	mjowuu\
@@ -60487,7 +60488,6 @@ sort: by_original
 俒	rav\	252
 	rav\
 	rav\
-𫖄	ravjea\
 𡕫	ravl\
 俒	ravren\	-3
 𤰒	ravsn\
@@ -60960,6 +60960,7 @@ sort: by_original
 𦏾	revj\
 傻	revln\	-3
 𪜹	revn\
+𫖄	revzxea\
 𣘟	revzxmu\
 𪝪	revzxrs\
 假	revzxy\	-2
@@ -81494,10 +81495,10 @@ sort: by_original
 竹	uzu\	3072
 	uzu\	0.1
 	uzu\	0.1
-	uzu\
 ⺮	uzu\
 ⽵	uzu\
 𥫗	uzu\
+	uzu\
 簋	uzum\	531
 𨡇	uzumy\
 簋	uzumz\	-4
@@ -85155,8 +85156,8 @@ sort: by_original
 嵤	wwatsu\	301
 塋	wwatuu\	-4
 罃	wwau\	332
-	wwau\
 𤇾	wwau\
+	wwau\
 䝁	wwaudu\
 𣂈	wwaudu\
 𠣁	wwaufi\
@@ -97845,7 +97846,7 @@ sort: by_original
 𮒮	cbxxzgb\
 𮮡	axxxy\
 𬻞	awh\
-𮣨	jaarks\
+𮣨	jaksr\
 𭮴	txhjjx\
 𮨇	tzgeyc\
 𭣪	tzgxpc\
@@ -97935,10 +97936,10 @@ sort: by_original
 𮬁	ktzsgs\
 𮭹	harhartzwu\
 𬷪	kpvsuj\
-𮮺	ierypvs\
 𮮻	ijjjpvs\
 𮮼	ievsjbo\
 𬹱	ijlnpvs\
+𮮺	ieryahi\
 𬺱	cpi\
 𭾽	dxiem\
 𮈏	dxys\
@@ -101087,7 +101088,7 @@ sort: by_original
 𭬔	mtguhu\
 𭬕	mcbcrmu\
 𭬖	mokiu\
-𭬗	mcarjd\
+𭬗	mcarjhi\
 𭬘	mkpwuu\
 𭬙	mtrfer\
 𭬚	txxqmu\
