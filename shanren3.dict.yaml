@@ -6,8 +6,8 @@ version: "0.4"
 use_preset_vocabulary: false
 sort: by_weight
 import_tables:
-  - shanren3.words1        #------此二詞庫配上詞頻後，確保連打時常用詞語優先上屏。但長詞聯想提示，需要另外用shanren100。
-  - shanren3.words         #------此二詞庫配上詞頻後，確保連打時常用詞語優先上屏。但長詞聯想提示，需要另外用shanren100。
+  - shanren3.words1        #------此二詞庫配上詞頻後，確保連打時常用詞語優先上屏。同時保證編碼行每個字的編碼分開顯示。
+  - shanren3.words         #------但長詞聯想提示，需要另外用shanren100。
 ...
 
 ###====----
@@ -6074,8 +6074,8 @@ import_tables:
 淅	smj	678
 淋	smm	1524
 潸	smmd	461
-瀨	smo	839
-漱	smoe	767
+漱	smo	767
+瀨	smoy	739
 涑	smov	579
 潄	smox	348
 漆	smr	1821
