@@ -25224,7 +25224,7 @@
 	Io_高〔私用区〕
 	Io_高〔私用区〕
 	Io_〔私用区〕
-	Io_高〔私用区〕
+	Io_〔私用区〕
 	Io_高〔私用区〕
 ⾼	Io_高〔康熙部首〕
 𪢢	IzuOADh_壴口宀且〔ExtC〕
@@ -81597,6 +81597,12 @@
 𬺟	IvEr_龠见〔ExtE〕
 𬺠	KjiSvIv_彑氺龠〔ExtE〕
 𬺡	HiBoGsiQiIv_一日心龠〔ExtE〕
+ㄪ	HiJd_一〔注音符号〕
+ㄫ	HiRe_一儿〔注音符号〕
+ㄬ	Ta_广〔注音符号〕
+ㄭ	HiYj_一巾〔注音符号〕
+ㄮ	IZ_亠乚〔注音符号〕
+ㄯ	ZS_ㄋ丨〔注音符号〕
 𫠤	CJd_龶刀〔ExtE〕
 𫠦	HiSJdUzu_一丨〔ExtE〕
 𫠾	HiOSAkGb_一口丨囗貝〔ExtE〕
@@ -94903,7 +94909,7 @@
 鿽	OAvQQ_口穴〔CJK〕
 鿯	KuPkYRnUi_牜勹人米〔CJK〕
 𫜹	Xji_彐〔ExtC〕
-𲉟	TeAsSFgNr_阝罒丨大〔ExtH〕
+𲉟	TeAsSFgRn_阝罒丨人〔ExtH〕
 𱰞	CCvPv_艹用〔ExtH〕
 𱭆	XzAsZgFc_爫罒寸〔ExtH〕
 𲌦	CiVbKluUuFc_十丷鬯寸〔ExtH〕
@@ -95132,7 +95138,7 @@
 𲄢	EsAvFi_身穴力〔ExtH〕
 𲅤	AvVeZL_穴二ㄅ辶〔ExtH〕
 𲈧	AmXz_門爫〔ExtH〕
-𲉒	ZTdXjiZQbu_㇗㠯〔ExtH〕
+𲉒	TdZXjiZQbu_㠯㇗〔ExtH〕
 𲉠	TeIxDvTu_阝文⺼土〔ExtH〕
 𲉡	TdTsXjiAYj_㠯山彐冖巾〔ExtH〕
 𲉥	TeKlTuD_阝龍土丶〔ExtH〕
