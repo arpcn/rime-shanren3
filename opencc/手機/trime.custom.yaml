@@ -453,7 +453,7 @@ patch:
     - {click: Keyboard_number, long_click: Keyboard_symbols, swipe_up: Keyboard_symbols, width: 11, key_symbol_offset_y: 3}
     - {click: Han, long_click: Menu, width: 9, key_symbol_offset_y: 3}
     - {click: Hide, long_click: Clear, key_symbol_offset_y: 3}
-    - {label: '✢ 山人', click: space, width: 33, long_click: Schema_switch, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, swipe_down: Hint_switch, key_symbol_offset_y: 3}
+    - {click: space, width: 33, long_click: Schema_switch, swipe_left: Left, swipe_right: Right, swipe_up: Mode_switch, swipe_down: Hint_switch, key_symbol_offset_y: 3}
     - {click: '"', long_click: "'", key_symbol_offset_y: 3}
     - {click: BackSpace, width: 15, key_symbol_offset_y: 3}
     - {click: Return, long_click: Escape, width: 12, key_symbol_offset_y: 3}
