@@ -1,0 +1,15 @@
+# encoding: utf-8
+
+---
+name: sunman.extended
+version: "2023.06"
+use_preset_vocabulary: false
+sort: by_weight
+import_tables:
+  - sunmanf  
+  - shanren3.words1  
+  - shanren3.words  
+
+...
+
+# 個人詞典

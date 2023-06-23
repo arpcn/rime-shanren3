@@ -1,0 +1,14 @@
+# encoding: utf-8
+
+---
+name: sunman.extended
+version: "2018.06.29.01"
+use_preset_vocabulary: false
+sort: by_weight
+import_tables:
+  - sunman
+
+...
+
+# 个人词典
+HelloWorld	hello
