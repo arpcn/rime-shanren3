@@ -4,7 +4,11 @@
 patch:
   schema_list:    # 设定选用的输入方案。
     - {schema: shanren3}
+    - {schema: iast}
+    - {schema: mipa}
     - {schema: terra_pinyin}
+    - {schema: sunmanf}
+    - {schema: sunman}
 
   menu/page_size: 4
 
