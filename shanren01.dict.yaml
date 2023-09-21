@@ -61,6 +61,7 @@ sort: by_original
 #亓	~vej\	719
 #鄖	~ogbte\	607
 癶	~l\	468
+廴	~l\	0.9
 辶	~l\	651
 㐄	~l\	5
 夂	~l\	608
@@ -8608,8 +8609,8 @@ sort: by_original
 𦹝	~cpqgatufi\
 𦶃	~cpgaubub\
 𦮱	~cpkgw\
-蔔	~cpkhioga\	983
 葡	~cpkhp\	845
+蔔	~cpkhioga\	783
 𢣋	~cpkhpqi\
 𦮍	~cpkhits\
 𦬃	~cphz\
@@ -14948,7 +14949,6 @@ sort: by_original
 㱫	~edmuakvb\
 𥈵	~emmuakvb\
 齄	~ebmubohi\	0.1
-㾴	~ebmubohi\
 𩮎	~ebmubohi\
 𪙁	~ecmubohi\
 𤷆	~ebmubo\
@@ -14956,6 +14956,7 @@ sort: by_original
 𩭰	~ebmubo\
 𥀳	~epmucbonr\
 㾁	~ebmud\
+㾴	~ebmudh\
 𥄵	~emmud\
 𣭍	~emmud\
 𣰧	~emmuemem\
@@ -18912,9 +18913,9 @@ sort: by_original
 𢲉	~fslqs\
 摐	~fslcrnrnlh\	378
 𪮭	~fsltrwi\
-𨑲	~fsl\
-𢪵	~fsl\
 𢌜	~fsl\
+𢪵	~fsl\
+𨑲	~fsl\
 𢫝	~fslsb\
 𢯼	~fslvsv\
 𢰓	~fslzte\
@@ -21930,6 +21931,7 @@ sort: by_original
 疇	~gatizfghiofc\	948
 瓙	~gwtizfghiofcwu\	474
 璹	~gwtizfghiofc\	338
+𨟢	~gwtizfghiofcte\
 𤴃	~gatizfghiofcwu\
 𧐓	~gatuzvkc\
 墅	~gatuzvtu\	835
@@ -33686,7 +33688,6 @@ sort: by_original
 𤚞	~kupasts\
 𩼈	~kvpaxmnr\
 𧒹	~kcpaxmvez\
-𨟢	~kcpaxmvezte\
 獯	~kqpqbw\	562
 狥	~kqpkbo\	313
 䖲	~kcpkbo\
@@ -36026,8 +36027,13 @@ sort: by_original
 蝍	~kczgzi\	275
 鲫	~kvzgzi\	0.1
 𤘗	~kuzz\
-廴	~l\	652
 夊	~l\	606
+	~l\	0.9
+	~l\	0.9
+	~l\	0.9
+	~l\	0.9
+	~l\	0.9
+⻍	~l\	0.9
 	~l\	0.1
 ⼵	~l\
 ⻎	~l\
@@ -36557,7 +36563,6 @@ sort: by_original
 跇	~lochz\	235
 𧺿	~ltchz\
 肯	~lhdv\	3459
-⻍	~l\	1
 𧿜	~loda\
 䟸	~lodcg\
 𨁕	~lodcgwi\
@@ -38045,7 +38050,6 @@ sort: by_original
 𢕃	~lcozee\
 𦨼	~lzoznr\
 跑	~lopkzs\	22665
-	~l\	7
 𧻮	~ltpal\
 𨆗	~lopaxmvez\
 𨋦	~lcpaxy\
@@ -38088,7 +38092,6 @@ sort: by_original
 𨊯	~lcphz\
 𧿌	~lophz\
 𦨎	~lzphz\
-	~l\	6
 𢕛	~lcpkibol\
 輷	~lcpkii\	236
 𫐒	~lcpkii\
@@ -38458,9 +38461,6 @@ sort: by_original
 赺	~ltrjz\	236
 䑤	~lzrjz\
 冬	~lsb\	2791
-	~l\	4
-	~l\	3
-	~l\	2
 舝	~lspagsl\	273
 𢮟	~lspafs\
 𧕱	~lspagskukckc\
@@ -40024,6 +40024,7 @@ sort: by_original
 𣓙	~mudcgwi\
 棚	~mudvdv\	1383
 𪜅	~muddcj\
+𣐠	~mudad\
 栘	~mudxdx\	388
 𣝗	~mudveg\
 𣑣	~mudxfc\
@@ -40790,7 +40791,6 @@ sort: by_original
 桝	~mulv\	295
 𣞡	~mulzxuvbl\
 𣕖	~mulcxv\
-𣐠	~mulz\
 𣑮	~mulz\
 𣒉	~mulhzpxy\
 林	~mumu\	12983
@@ -46976,7 +46976,6 @@ sort: by_original
 𧛲	~patutuyi\
 嶴	~pauinrts\	707
 𣉭	~pakuibo\
-𢍢	~pauicg\
 粤	~pakuihiz\	0.1
 𫀫	~pauhhiz\
 	~paui\	0.1
@@ -46987,6 +46986,7 @@ sort: by_original
 𠒇	~pakvbre\
 奧	~paxmnr\	6680
 𠤣	~paxauv\
+𢍢	~paxmcg\
 𡴓	~paxhic\
 𫒀	~paxmhiz\
 	~paxm\	0.1
@@ -54766,19 +54766,19 @@ sort: by_original
 淋	~svmumu\
 𣾐	~svmunrho\
 𣵎	~svmunz\
-瀨	~svmuorgb\	839
-凁	~sbmuo\	187
 漱	~svmuoeq\	767
+凁	~sbmuo\	187
+瀬	~svmuoey\	589
 𡣂	~sbmuoeqnv\
 𠘂	~sbmuoeq\
-瀬	~svmuoey\	589
 𪆟	~svmuofiki\
 溂	~svmuojd\	416
 𤀦	~svmuojdto\
 𥖍	~svmuojdto\
 𪄠	~svmuoki\
-濑	~svmuorgb\	0.1
+瀨	~svmuorgb\	739
 𠘝	~sbmuorgb\
+濑	~svmuorgb\
 涑	~svmuo\	579
 𪵾	~svmuo\
 潄	~svmuoxp\	348
@@ -63925,8 +63925,8 @@ sort: by_original
 𦔧	~ulgalaqi\
 𨖻	~uygal\
 筳	~uzgrl\	361
-粿	~uigamu\	558
 稞	~uhgamu\	477
+粿	~uigamu\	458
 䊬	~uhgamuui\
 䴹	~umgamu\
 餜	~usgamu\	450
@@ -73103,6 +73103,7 @@ sort: by_original
 組	~ysdh\	23345
 袇	~yida\
 袳	~yidxdx\	324
+𨱪	~ycdad\
 綳	~ysdvdv\	90
 𩋒	~ygdvdv\
 䙀	~yidvdv\
@@ -74365,7 +74366,6 @@ sort: by_original
 𢥩	~yslcysqi\
 𦆕	~yslcys\
 𦃡	~yslys\
-𨱪	~yclz\
 𥿦	~yslz\
 練	~ysmuakvb\	9551
 ⿇	~ym\
@@ -81616,6 +81616,12 @@ sort: by_original
 𬺟	~iver\
 𬺠	~kjsviv\
 𬺡	~hibogsqiiv\
+ㄪ	~hijd\
+ㄫ	~hire\
+ㄬ	~ta\
+ㄭ	~hiyj\
+ㄮ	~iz\
+ㄯ	~zs\
 ##--#---
 𫠤	~cjd\
 𫠦	~hisjduz\
@@ -82952,7 +82958,7 @@ sort: by_original
 𬿧	~rnsxpgatu\
 𬿨	~rnlhlhlh\
 𬿩	~rnsxpgb\
-𬿪	~rnpauinr\
+𬿪	~rnpaxmnr\
 𬿫	~rnkzl\
 𬿭	~rnywlc\
 𬿮	~rnwvdvxp\
@@ -83148,7 +83154,7 @@ sort: by_original
 𭂿	~xuhiwhqi\
 𭃀	~cuhiwhqi\
 𭃁	~cuhiwhqi\
-𭃂	~vejd\
+𭃂	~jdve\
 𭃃	~jdhz\
 𭃄	~cijd\
 𭃆	~xydjd\
@@ -85944,7 +85950,7 @@ sort: by_original
 𭯠	~eyxptcem\
 𭯡	~kuxptcem\
 𭯢	~esemdzg\
-𭯣	~pauinrem\
+𭯣	~paxmnrem\
 𭯤	~emihgatu\
 𭯥	~evevem\
 𭯦	~axgbem\
@@ -94890,8 +94896,8 @@ sort: by_original
 𰝡	~svanvcdv\
 𱁭	~cdvali\
 𱁮	~cdvxjaxy\
-𰣗	~pauinrga\
-𰻘	~pauinrl\
+𰣗	~paxmnrga\
+𰻘	~paxmnrl\
 𰨍	~qsxvl\
 𰳉	~kcjgrwi\
 𰸢	~lohinrsv\
@@ -94927,11 +94933,11 @@ sort: by_original
 鿯	~kupkyrnui\
 ##202209#
 𫜹	~xj\
-𲉟	~teassfgnr\
+𲉟	~teassfgrn\
 𱰞	~ccvpv\
 𱭆	~xzaszgfc\
 𲌦	~civbkluufc\
-𱪔	~svboboklwu\
+𱪔	~svbobokl\
 𱪉	~svklzwupqu\
 𱩰	~svciawugb\
 𱫆	~hilhzywu\
@@ -95156,7 +95162,7 @@ sort: by_original
 𲄢	~esavfi\
 𲅤	~avvezl\
 𲈧	~amxz\
-𲉒	~ztdxjzqb\
+𲉒	~tdzxjzqb\
 𲉠	~teixdvtu\
 𲉡	~tdtsxjayj\
 𲉥	~tekltud\
@@ -96114,7 +96120,7 @@ sort: by_original
 𱜐	~baifxpts\
 𱜑	~tspqbw\
 𱜒	~ejjdkuts\
-𱜓	~tspauinrts\
+𱜓	~tspaxmnrts\
 𱜔	~tstdlhxjayj\
 𱜕	~tscnmcnmcnm\
 𱜖	~spgamutamu\
@@ -99116,7 +99122,630 @@ sort: by_original
 𲎭	~kllhicp\
 𲎮	~kgud\
 𲎯	~cueqiv\
-##字體差異等#
+##exi#
+𮱠	~akzavo\
+𮯱	~dad\
+𮯰	~fgs\
+𮯲	~qhz\
+𮯿	~rjdvdv\
+𮰄	~akl\
+𮰉	~sbkmpp\
+𮰍	~ulfi\
+𮰒	~tcrnkznv\
+𮰘	~aklo\
+𮰰	~ticg\
+𮱯	~tsvbgaci\
+𮲀	~qigb\
+𮲏	~fshicg\
+𮲐	~fspdwv\
+𮲡	~boccv\
+𮲢	~boyi\
+𮲳	~mulhlh\
+𮳜	~wuev\
+𮳟	~wudv\
+𮳤	~wupo\
+𮳨	~wuzg\
+𮴡	~gwgwgw\
+𮵋	~topcg\
+𮵫	~uzle\
+𮵬	~uzgw\
+𮵯	~uzdxzi\
+𮶖	~eil\
+𮶛	~chz\
+𮶜	~chv\
+𮶺	~khem\
+𮷌	~gbs\
+𮷛	~lclclc\
+𮷩	~dvte\
+𮷮	~muemgatu\
+𮯳	~iwuwuwu\
+𮯴	~rnre\
+𮯵	~rnhijd\
+𮯶	~rnzj\
+𮯷	~rnxyd\
+𮯸	~rntcfi\
+𮯹	~rnppxy\
+𮯺	~rnfghiz\
+𮯻	~rnxytu\
+𮯼	~rnmuwu\
+𮯽	~rnbohinr\
+𮯾	~rnzsvu\
+𮰀	~rnnrtutu\
+𮰁	~rnqbol\
+𮰂	~rjozsvhv\
+𮰃	~rutuye\
+𮰅	~avmumu\
+𮰆	~sbjg\
+𮰇	~sbfshixjlh\
+𮰈	~sbctuvbl\
+𮰊	~tuwupp\
+𮰋	~yabayapp\
+𮰌	~fdvjd\
+𮰎	~fikh\
+𮰏	~ciujre\
+𮰐	~cilhubjr\
+𮰑	~tcwixj\
+𮰓	~xyfgrn\
+𮰔	~oyw\
+𮰕	~kuozv\
+𮰖	~oamkc\
+𮰗	~oboiowiey\
+𮰙	~tuz\
+𮰚	~tuxyd\
+𮰛	~turnve\
+𮰜	~tuvble\
+𮰝	~mupjtu\
+𮰞	~tudxo\
+𮰟	~iwutu\
+𮰠	~svzytu\
+𮰡	~scvtu\
+𮰢	~tuum\
+𮰣	~tuiftu\
+𮰤	~tuemnr\
+𮰥	~turanr\
+𮰦	~tucfdhinr\
+𮰧	~tuboih\
+𮰨	~tuqbbomu\
+𮰩	~tuhkahic\
+𮰪	~tubapzre\
+𮰫	~tutanrboz\
+𮰬	~tuboks\
+𮰭	~tucnrboz\
+𮰮	~tuiahc\
+𮰯	~tucboum\
+𮰱	~tiofp\
+𮰲	~tiresbsb\
+𮰳	~hiwhbogsvbl\
+𮰴	~shinr\
+𮰵	~nrtio\
+𮰶	~vhwhnr\
+𮰷	~nvhiz\
+𮰸	~nvdx\
+𮰹	~nvhic\
+𮰺	~nvpzi\
+𮰻	~nvppxy\
+𮰼	~wwnv\
+𮰽	~nvpwi\
+𮰾	~nvvbhv\
+𮰿	~nvnfvb\
+𮱀	~nvlv\
+𮱁	~nvesdsb\
+𮱂	~evnv\
+𮱃	~nvako\
+𮱄	~nvakvere\
+𮱅	~xxnv\
+𮱆	~nvamix\
+𮱇	~nvlcl\
+𮱈	~nvgwqi\
+𮱉	~nvnrdqi\
+𮱊	~nvasdx\
+𮱋	~nvxfdv\
+𮱌	~wuwunv\
+𮱍	~nvzgzi\
+𮱎	~nvtcbonz\
+𮱏	~nvrxjqi\
+𮱐	~nviwujg\
+𮱑	~cfrkbnv\
+𮱒	~nvkiyi\
+𮱓	~nvixula\
+𮱔	~nvcul\
+𮱕	~nvcagv\
+𮱖	~nvmumudx\
+𮱗	~nvbohc\
+𮱘	~nvihgatu\
+𮱙	~nvcdvrxv\
+𮱚	~nvkhgaum\
+𮱛	~nvwslolo\
+𮱜	~uhnz\
+𮱝	~nzeiqi\
+𮱞	~ahy\
+𮱟	~aix\
+𮱡	~winz\
+𮱢	~wito\
+𮱣	~hireoqgb\
+𮱤	~tsrnzi\
+𮱥	~tsjdve\
+𮱦	~tsppxy\
+𮱧	~tsrnjy\
+𮱨	~tsee\
+𮱩	~tsalc\
+𮱪	~tsrnhzwi\
+𮱫	~tsjncv\
+𮱬	~tskqkq\
+𮱭	~tstsrjzd\
+𮱮	~tsrjozi\
+𮱰	~tsmumul\
+𮱱	~tspphiki\
+𮱲	~tsiq\
+𮱳	~rnubyj\
+𮱴	~jgpkgs\
+𮱵	~jgpnrj\
+𮱶	~jgrngw\
+𮱷	~jganv\
+𮱸	~jgjgix\
+𮱹	~icy\
+𮱺	~lcqye\
+𮱻	~lcxytu\
+𮱼	~lcpphiyj\
+𮱽	~lcgaqi\
+𮱾	~lcgwgwrjz\
+𮱿	~qird\
+𮲁	~qier\
+𮲂	~qiwf\
+𮲃	~qipwi\
+𮲄	~wvfiqi\
+𮲅	~qiqbgb\
+𮲆	~hpqi\
+𮲇	~qiakgv\
+𮲈	~qidzgte\
+𮲉	~qiesem\
+𮲊	~qituoyi\
+𮲋	~qikzzn\
+𮲌	~tcgatujg\
+𮲍	~jgonrtu\
+𮲎	~jpea\
+𮲑	~fsrkm\
+𮲒	~ahoxpfs\
+𮲓	~gyxp\
+𮲔	~tszjxp\
+𮲕	~igaxp\
+𮲖	~asix\
+𮲗	~boboix\
+𮲘	~ifbojn\
+𮲙	~ifjr\
+𮲚	~bohijd\
+𮲛	~bodx\
+𮲜	~bojg\
+𮲝	~bopnr\
+𮲞	~bomuhi\
+𮲟	~boey\
+𮲠	~boahif\
+𮲣	~botsix\
+𮲤	~bojr\
+𮲥	~boiohd\
+𮲦	~boujsxy\
+𮲧	~botslcf\
+𮲨	~boajncv\
+𮲩	~bocagv\
+𮲪	~dvrnjg\
+𮲫	~dvkure\
+𮲬	~munrd\
+𮲭	~murnrn\
+𮲮	~muxyxy\
+𮲯	~muubrn\
+𮲰	~muububci\
+𮲱	~xxxmu\
+𮲲	~mutanr\
+𮲴	~muvbjdxc\
+𮲵	~mukv\
+𮲶	~mugbhijg\
+𮲷	~muamee\
+𮲸	~mukydj\
+𮲹	~muasev\
+𮲺	~mutioey\
+𮲻	~muavoos\
+𮲼	~mulzjxto\
+𮲽	~mucooomu\
+𮲾	~ibcieq\
+𮲿	~hilhhilhhilh\
+𮳀	~jxxp\
+𮳁	~emrngw\
+𮳂	~empfsjg\
+𮳃	~svdx\
+𮳄	~svxyxy\
+𮳅	~svhiwh\
+𮳆	~svrnubci\
+𮳇	~svawu\
+𮳈	~svtehzwi\
+𮳉	~svmuwu\
+𮳊	~svqigso\
+𮳋	~sveskc\
+𮳌	~svgwho\
+𮳍	~svamlo\
+𮳎	~svamui\
+𮳏	~svakure\
+𮳐	~svbohc\
+𮳑	~svlhubba\
+𮳒	~svkuoxp\
+𮳓	~ahoxpsv\
+𮳔	~svtcrnkz\
+𮳕	~tuhprnsv\
+𮳖	~svciakykq\
+𮳗	~svlcrjdvjd\
+𮳘	~svcrjdvjd\
+𮳙	~svcamkz\
+𮳚	~wuhif\
+𮳛	~wuef\
+𮳝	~wuhiyj\
+𮳞	~wutchd\
+𮳠	~wuwf\
+𮳡	~wuppxy\
+𮳢	~wuahi\
+𮳣	~wuhzwi\
+𮳥	~wuel\
+𮳦	~wuako\
+𮳧	~wupnrj\
+𮳩	~wuum\
+𮳪	~ktrewu\
+𮳫	~wucnf\
+𮳬	~wulcl\
+𮳭	~wucgb\
+𮳮	~wumuwu\
+𮳯	~ogbfiwu\
+𮳰	~wucjgvb\
+𮳱	~wuoqgb\
+𮳲	~wubasv\
+𮳳	~wuvboqi\
+𮳴	~wubornubci\
+𮳵	~wuaks\
+𮳶	~wucagv\
+𮳷	~wuwsxj\
+𮳸	~wucaoo\
+𮳹	~wucrjdvjd\
+𮳺	~kukm\
+𮳻	~kutcfi\
+𮳼	~kuescio\
+𮳽	~kqtchio\
+𮳾	~kqaho\
+𮳿	~kqkqkqkq\
+𮴀	~gwhire\
+𮴁	~gwwi\
+𮴂	~gwdx\
+𮴃	~gwye\
+𮴄	~gwos\
+𮴅	~gwrnub\
+𮴆	~gwwf\
+𮴇	~gwppxy\
+𮴈	~gwesd\
+𮴉	~gwovb\
+𮴊	~gwlqb\
+𮴋	~gwiyj\
+𮴌	~gwvbhv\
+𮴍	~gwcu\
+𮴎	~gwxytu\
+𮴏	~gwhiwh\
+𮴐	~gwnc\
+𮴑	~gwnfvb\
+𮴒	~gwtszj\
+𮴓	~gwpnrj\
+𮴔	~gwrnubci\
+𮴕	~gwtanr\
+𮴖	~gwamo\
+𮴗	~gwjghire\
+𮴘	~gwnrl\
+𮴙	~gwlt\
+𮴚	~gwjxytu\
+𮴛	~gwrnho\
+𮴜	~gwbahz\
+𮴝	~gwpkga\
+𮴞	~gwesem\
+𮴟	~gwtsrjzd\
+𮴠	~gwhidvdv\
+𮴢	~gwbopcg\
+𮴣	~gwxzaxy\
+𮴤	~gwzsvhv\
+𮴥	~gwtszjpp\
+𮴦	~gwqbol\
+𮴧	~gwus\
+𮴨	~gwvboqi\
+𮴩	~gweiqi\
+𮴪	~gweikq\
+𮴫	~gwvbgsev\
+𮴬	~gwmumudx\
+𮴭	~gwbohc\
+𮴮	~gwesqsfc\
+𮴯	~gwboks\
+𮴰	~gwaqipts\
+𮴱	~gwcpkui\
+𮴲	~gwugcvdv\
+𮴳	~gwwsmu\
+𮴴	~gwwafs\
+𮴵	~gwjgokc\
+𮴶	~gwcaoo\
+𮴷	~gwyskz\
+𮴸	~gwcdxyqs\
+𮴹	~gwcammuakvb\
+𮴺	~gwizodvnvpd\
+𮴻	~ugba\
+𮴼	~ciakyuw\
+𮴽	~gaz\
+𮴾	~gamw\
+𮴿	~gaki\
+𮵀	~garnubci\
+𮵁	~garnubci\
+𮵂	~gakqgw\
+𮵃	~gaionzxp\
+𮵄	~barjz\
+𮵅	~emdx\
+𮵆	~emyw\
+𮵇	~emmubo\
+𮵈	~emavmu\
+𮵉	~tord\
+𮵊	~toyw\
+𮵌	~tonzz\
+𮵍	~toeo\
+𮵎	~totutu\
+𮵏	~tohiatu\
+𮵐	~toresbsb\
+𮵑	~toixu\
+𮵒	~evto\
+𮵓	~totsto\
+𮵔	~toranr\
+𮵕	~tocjp\
+𮵖	~topola\
+𮵗	~toifqye\
+𮵘	~qsrnve\
+𮵙	~qsrnub\
+𮵚	~qsxytu\
+𮵛	~qsgbjd\
+𮵜	~qsrnyw\
+𮵝	~qscga\
+𮵞	~qsahgtu\
+𮵟	~qsihmujn\
+𮵠	~uhyw\
+𮵡	~uhdxo\
+𮵢	~uhdhgs\
+𮵣	~vhcfduh\
+𮵤	~uhugcvz\
+𮵥	~ihhy\
+𮵦	~ihlsb\
+𮵧	~ihcffc\
+𮵨	~ihhijylh\
+𮵩	~ihnrxxxx\
+𮵪	~ihevba\
+𮵭	~uzwf\
+𮵮	~uzki\
+𮵰	~uzspsp\
+𮵱	~uzmwvb\
+𮵲	~uzxznv\
+𮵳	~uzagv\
+𮵴	~uzmuxc\
+𮵵	~uznrga\
+𮵶	~uzagv\
+𮵷	~uzsvxv\
+𮵸	~uzbobobo\
+𮵹	~uzuhnvqg\
+𮵺	~ahxpui\
+𮵻	~uivhwh\
+𮵼	~uigaui\
+𮵽	~uiibci\
+𮵾	~ncjxys\
+𮵿	~ysxyd\
+𮶀	~ysgv\
+𮶁	~ysic\
+𮶂	~yslcf\
+𮶃	~ysrnslmu\
+𮶄	~ysuhuv\
+𮶅	~ysatv\
+𮶆	~yspkydpkyd\
+𮶇	~avcg\
+𮶈	~pjev\
+𮶉	~evvbf\
+𮶊	~evqip\
+𮶋	~evkc\
+𮶌	~kureev\
+𮶍	~sbosev\
+𮶎	~boiowiev\
+𮶏	~eepksb\
+𮶐	~eegy\
+𮶑	~eegv\
+𮶒	~eetutu\
+𮶓	~eejghire\
+𮶔	~dvyw\
+𮶕	~dvxci\
+𮶗	~lzjg\
+𮶘	~lzwv\
+𮶙	~lzjuzum\
+𮶚	~lzibjg\
+𮶝	~cdx\
+𮶞	~cef\
+𮶟	~cvbhv\
+𮶠	~cfyj\
+𮶡	~coci\
+𮶢	~ctamu\
+𮶣	~csbrjzd\
+𮶤	~csvwv\
+𮶥	~csvah\
+𮶦	~cgwxp\
+𮶧	~crnpphiyj\
+𮶨	~camuh\
+𮶩	~ckqiikq\
+𮶪	~cihpksb\
+𮶫	~csvkc\
+𮶬	~cjrhijg\
+𮶭	~cdsvcp\
+𮶮	~cyiep\
+𮶯	~cgwer\
+𮶰	~cbodvtu\
+𮶱	~csvionz\
+𮶲	~cqichibo\
+𮶳	~cyskz\
+𮶴	~ckzqi\
+𮶵	~csvahibohi\
+𮶶	~csvvhxjwu\
+𮶷	~csvcul\
+𮶸	~cgwchoc\
+𮶹	~csvammuakvb\
+𮶻	~efkc\
+𮶼	~kcqs\
+𮶽	~kcdsv\
+𮶾	~kcelnz\
+𮶿	~yiarn\
+𮷀	~yigv\
+𮷁	~yiogb\
+𮷂	~yiahgtu\
+𮷃	~yievgaccv\
+𮷄	~psaer\
+𮷅	~iihzwi\
+𮷆	~iiga\
+𮷇	~iipwi\
+𮷈	~iinrho\
+𮷉	~iibopky\
+𮷊	~iixmga\
+𮷋	~udfi\
+𮷍	~gbahd\
+𮷎	~wvogb\
+𮷏	~ogbpksb\
+𮷐	~xjpoogb\
+𮷑	~tuwuogb\
+𮷒	~lowinr\
+𮷓	~esdfid\
+𮷔	~esmw\
+𮷕	~vbfes\
+𮷖	~lcpp\
+𮷗	~lcnrd\
+𮷘	~lcwq\
+𮷙	~lcki\
+𮷚	~aptilc\
+𮷜	~lcvhdvjd\
+𮷝	~lcxzuj\
+𮷞	~fsl\
+𮷠	~xytul\
+𮷡	~kqkql\
+𮷢	~jrl\
+𮷣	~cverel\
+𮷤	~xjhippxyl\
+𮷥	~gweyl\
+𮷦	~zveyl\
+𮷧	~ivavol\
+𮷟	~uhl\
+𮷨	~tcfite\
+𮷪	~rjshite\
+𮷫	~nzumte\
+𮷬	~bowhte\
+𮷭	~ubte\
+𮷯	~rwijr\
+𮷰	~jromu\
+𮷱	~jryijd\
+𮷲	~jrrnrnlh\
+𮷳	~sbkurejr\
+𮷴	~jrciashiqi\
+𮷵	~jrzj\
+𮷶	~jrdx\
+𮷷	~jrcf\
+𮷸	~jrvere\
+𮷹	~jrwv\
+𮷺	~jrxp\
+𮷻	~jrwf\
+𮷼	~jrda\
+𮷽	~jrzv\
+𮷾	~jrczy\
+𮷿	~jrqs\
+𮸀	~jrhzwi\
+𮸁	~jrrnphz\
+𮸂	~jrpv\
+𮸃	~jrdsv\
+𮸄	~jrjgf\
+𮸅	~jrnc\
+𮸆	~jrtanr\
+𮸇	~jrsvlc\
+𮸈	~jralc\
+𮸉	~jrfggb\
+𮸊	~jruhjd\
+𮸋	~jrrjmu\
+𮸌	~jrxfyj\
+𮸍	~jrtashi\
+𮸎	~jramqi\
+𮸏	~jrgsvbl\
+𮸐	~jrcif\
+𮸑	~jrmumu\
+𮸒	~jrbopcg\
+𮸓	~jrjdvbmu\
+𮸔	~jrcfdbo\
+𮸕	~jrhioga\
+𮸖	~jrjxyum\
+𮸗	~jrbowh\
+𮸘	~jriopp\
+𮸙	~jrcfduh\
+𮸚	~jraknrqi\
+𮸛	~jrtsud\
+𮸜	~jraud\
+𮸝	~jrcagv\
+𮸞	~jrugcvtu\
+𮸟	~jrwayj\
+𮸠	~jracer\
+𮸡	~jrwuwuwu\
+𮸢	~jrtsudpp\
+𮸣	~jrwshc\
+𮸤	~ychinr\
+𮸥	~amtio\
+𮸦	~amiho\
+𮸧	~amvhcdv\
+𮸨	~tecdv\
+𮸩	~tebocp\
+𮸪	~tekqnrho\
+𮸫	~wspd\
+𮸬	~wsgv\
+𮸭	~cdvrnubci\
+𮸮	~yger\
+𮸯	~tdyw\
+𮸰	~hiogayw\
+𮸱	~ibqzy\
+𮸲	~ibhy\
+𮸳	~ibjx\
+𮸴	~eypd\
+𮸵	~tsjsey\
+𮸶	~boihey\
+𮸷	~ibey\
+𮸸	~ahicey\
+𮸹	~ahkzey\
+𮸺	~lhlheyjgvb\
+𮸻	~wfbopky\
+𮸼	~wuwuwuwf\
+𮸽	~efefef\
+𮸾	~usix\
+𮸿	~usks\
+𮹀	~ubajncv\
+𮹁	~kmpksb\
+𮹂	~kmef\
+𮹃	~kmxyxy\
+𮹄	~kmhic\
+𮹅	~kmhimu\
+𮹆	~kmzscg\
+𮹇	~kmpcgtu\
+𮹈	~kmafgs\
+𮹉	~kmcdv\
+𮹊	~kmdvdv\
+𮹋	~kmatuo\
+𮹌	~kmboum\
+𮹍	~kmeiqi\
+𮹎	~kmboasxy\
+𮹏	~kmtiaud\
+𮹐	~kmbobobo\
+𮹑	~ulahio\
+𮹒	~qgnr\
+𮹓	~ixkv\
+𮹔	~kisv\
+𮹕	~rnjyki\
+𮹖	~odhki\
+𮹗	~tsrjzdki\
+𮹘	~wuwuaki\
+𮹙	~tskzki\
+𮹚	~tsjrki\
+𮹛	~svboiowiki\
+𮹜	~chouvwuki\
+𮹝	~klklkl\
+##字體或拆分差異#
 䤇	~uyawuxy\
 㙥	~tuyivbo\
 誤	~iioznr\	2280
@@ -99124,11 +99753,26 @@ sort: by_original
 㮄	~muvepkif\
 𦱘	~cvepkif\
 𣶢	~svvepkif\
-䒻	~ctszs\
-廐	~tabaubhr\	310
+䒻	~ctszsi\
+廐	~tabaubihr\	310
 鶾	~cibocirnki\	390
 雗	~cibocirnkz\	282
-闙	~amahoxp\	246
-𰻞	~aviiyayakmycycdvjdqil\
-𰻝	~aviiyayakmycycdvjdqil\
+闙	~amahuoxp\	246
+𰻞	~aviiyayakmaycycdvjdqil\
+𰻝	~aviiyayakmaycycdvjdqil\
+㝐	~avbgsi\
+窓	~avbgsiqi\
+𠕺	~avgsi\
 ##
+𢍢	~pauicg\
+𬿪	~rnpauinr\
+𭯣	~pauinrem\
+𰣗	~pauinrga\
+𰻘	~pauinrl\
+𱜓	~tspauinrts\
+鿫	~wqpaxmnr\
+##
+粤	~pakuivez\
+𨮁	~jrpakuivez\
+𰾺	~jrpakuivez\
+
