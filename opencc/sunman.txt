@@ -4808,7 +4808,7 @@
 𢻖	BoLXc_日疋支〔ExtB〕
 𪑯	BwLciXv_黑彳聿〔ExtB〕
 韙	BoLYw_日疋韋〔CJK〕
-𢆇	BaLYjTiAAxFsDvMu_白癶巾士冖襾月木〔ExtB〕
+𢆇	BaLYjTiAToMu_白癶巾士冖石木〔ExtB〕
 韪	BoLYw_日疋韦〔CJK〕
 𡕺	BoLYjYaL_日夊巾幺夊〔ExtB〕
 𣆔	BoLz_日舟〔ExtB〕
@@ -5625,7 +5625,6 @@
 	CAsA_艹罒冖〔私用区S〕
 	CAsA_卝罒冖〔私用区S〕
 𦮏	CAAA_⺿冂冂冂〔ExtB〕
-𥕗	CAsATo_卝罒冖石〔ExtB〕
 𧄯	CAsAApHuO_艹罒冖爿五口〔ExtB〕
 𣊔	CAsABo_卝罒冖日〔ExtB〕
 𦹉	CAhuAhuCg_⺿戶戶〔ExtB〕
@@ -5665,6 +5664,7 @@
 𧁌	CAsARnHiAkRn_卝罒冖亻一囗人〔ExtB〕
 𪈛	CAsARnJgeKi_卝罒冖亻戈鳥〔ExtB〕
 蘉	CAsARnXjiAXy_艹罒冖亻彐冖又〔CJK〕
+𥕗	CAsATo_卝罒冖石〔ExtB〕
 𧀧	CAsATuReL_卝罒冖土儿夊〔ExtB〕
 甍	CAsAUw_艹罒冖瓦〔CJK〕
 𧀆	CAsAUdo_卝罒冖豆〔ExtB〕
