@@ -44212,7 +44212,6 @@ sort: by_weight
 稚暉	ukzbalc\
 稚氣	ukzwui\
 稚齡	ukzerz\
-稞麥	ugmuum\
 稟告	iuhko\
 稟報	iuhtk\
 稟性	iuhqc\
@@ -45863,7 +45862,7 @@ sort: by_weight
 紅葉	yfccz\
 紅薯	yfcae\
 紅藥水	yfcbysv\
-紅蘿蔔	yfcaykcph\
+紅蘿蔔	yfcaykcpho\
 紅螺	yfkgy\
 紅衛兵	yflywjcv\
 紅衣	yfyi\
@@ -48903,7 +48902,7 @@ sort: by_weight
 胡瓜	codugu\
 胡笙	coducp\
 胡經之	codyhli\
-胡蘿蔔	codcaykcph\
+胡蘿蔔	codcaykcpho\
 胡言	codii\
 胡話	codie\
 胡說	codis\
@@ -51040,13 +51039,13 @@ sort: by_weight
 葛根湯	cbpmzsbh\
 葛洪	cbpscc\
 葛藤	cbpcdv\
-葡萄	cphpcpuf\
-葡萄乾	cphpcpufcbcq\
-葡萄園	cphpcpufatoy\
-葡萄汁	cphpcpufsci\
-葡萄牙	cphpcpufeya\
-葡萄糖	cphpcpufutxo\
-葡萄酒	cphpcpufsu\
+葡萄	cphcpuf\
+葡萄乾	cphcpufcbcq\
+葡萄園	cphcpufatoy\
+葡萄汁	cphcpufsci\
+葡萄牙	cphcpufeya\
+葡萄糖	cphcpufutxo\
+葡萄酒	cphcpufsu\
 董事	cpghox\
 董事會	cpghoxraw\
 董事長	cpghoxyc\
@@ -51503,7 +51502,7 @@ sort: by_weight
 蘭花	camcr\
 蘭若	camcf\
 蘸滿	cuksc\
-蘿蔔	caykcph\
+蘿蔔	caykcpho\
 虎口	khod\
 虎嘯	khoxa\
 虎威	khjhn\
@@ -62690,8 +62689,6 @@ sort: by_weight
 青眼	cdez\
 青睞	cdemr\
 青石	cdto\
-青稞	cdugmu\
-青稞酒	cdugmusu\
 青竹	cduzu\
 青筋	cdudf\
 青紗帳	cdywpyyc\
@@ -71583,7 +71580,7 @@ sort: by_weight
 薑蓉	chgcatv\
 薑辣素	chgumocys\
 薑麻園	chgymaatoy\
-薝蔔	crtvcph\
+薝蔔	crtvcpho\
 薩布里	ctifygt\
 薩瓦里	ctiuwagt\
 薩里	ctigt\
@@ -71608,7 +71605,7 @@ sort: by_weight
 蘋果乾	cllgmcbcq\
 蘭臺	camtoa\
 蘸溼	cukshyy\
-蘿蔔乾	caykcphcbcq\
+蘿蔔乾	caykcphocbcq\
 虛症	kwhehl\
 號舍	ohzreo\
 虫部	kcviot\
@@ -81777,7 +81774,7 @@ sort: by_weight
 詳詳	ikyiky\
 誅鋤	ipmjdf\
 誇下	invzhq\
-對像	wkrkx\
+對象	wkkx\
 語驚	ihocpxk\
 誨人	iqnrn\
 說一	ishi\
@@ -83217,7 +83214,7 @@ sort: by_weight
 續高僧傳	ytaiorvarhbg\
 羞羞答答	kztkzturouro\
 聖彼得堡	eogleplbromt\
-胡蘿蔔素	codcaykcphcys\
+胡蘿蔔素	codcaykcphocys\
 腎上腺素	nxdqhdbscys\
 貿易區	pjgbbphoo\
 舉不勝舉	xhzwwdvnxhz\
@@ -84154,7 +84151,7 @@ sort: by_weight
 一個勁兒	hirahsfure\
 一個又一個	hiraxyhira\
 一個巴掌拍不響	hirakbwfsfbwwydzt\
-一個蘿蔔一個坑	hiracaykcphhiratip\
+一個蘿蔔一個坑	hiracaykcphohiratip\
 一假一切假	hirehihjre\
 一再強調	hihajgkiat\
 一再說明	hihaisbd\
@@ -93500,10 +93497,10 @@ sort: by_weight
 詳詳細細	ikyikyygayga\
 誅鋤異己	ipmjdfgczj\
 誇下海口	invzhqsqod\
-認知對像	ijjowkrkx\
+認知對象	ijjowkkx\
 認證工作	ijilufgrq\
 認證標誌	ijilumaitq\
-認識對像	ijiijwkrkx\
+認識對象	ijiijwkkx\
 認識方式	ijiijifjf\
 誓不回頭	fjiwwaokue\
 誓不罷休	fjiwwagdrm\
@@ -97345,4 +97342,5 @@ sort: by_weight
 六千六	ivpqiv\
 六萬六	ivcgiv\
 六億六	ivriqiv\
+粿條	ugmurs\
 #######-#以上菩提五筆---#--#===-
