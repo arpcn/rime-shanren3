@@ -4924,7 +4924,7 @@ sort: by_weight
 保準	romskc\
 保溫	romsar\
 保溫杯	romsarmww\
-保溫瓶	romsarvc\
+保溫瓶	romsarvcu\
 保潔	romscj\
 保爾	romhyv\
 保留	rompjg\
@@ -16857,7 +16857,7 @@ sort: by_weight
 奶水	nznsv\
 奶油	nznsg\
 奶牛	nznku\
-奶瓶	nznvc\
+奶瓶	nznvcu\
 奶粉	nznuvj\
 奶罩	nznaqb\
 奶茶	nzncrm\
@@ -19069,8 +19069,8 @@ sort: by_weight
 寶玉	agugv\
 寶王	agugw\
 寶珠	agugp\
-寶瓶	aguvc\
-寶瓶氣	aguvcwui\
+寶瓶	aguvcu\
+寶瓶氣	aguvcuwui\
 寶相	agume\
 寶石	aguto\
 寶積	aguucg\
@@ -21504,7 +21504,7 @@ sort: by_weight
 幾段	yyxhj\
 幾片	yyap\
 幾率	yyiys\
-幾瓶	yyvc\
+幾瓶	yyvcu\
 幾番	yyxg\
 幾畫	yyxgh\
 幾百	yyhba\
@@ -26857,7 +26857,7 @@ sort: by_weight
 掛火	fttwu\
 掛牌	fttabp\
 掛牽	fttiyak\
-掛瓶子	fttvcnz\
+掛瓶子	fttvcunz\
 掛畫	fttxgh\
 掛職	ftteij\
 掛號	fttohz\
@@ -27985,7 +27985,7 @@ sort: by_weight
 擱下	falohq\
 擱淺	falosjj\
 擱置	faloac\
-擲瓶	fvuvc\
+擲瓶	fvuvcu\
 擴充	ftbwre\
 擴印	ftbxzi\
 擴增	ftbtva\
@@ -30450,13 +30450,13 @@ sort: by_weight
 暖棚	bxmdd\
 暖氣	bxwui\
 暖氣片	bxwuiap\
-暖水瓶	bxsvvc\
+暖水瓶	bxsvvcu\
 暖洋洋	bxskysky\
 暖流	bxsw\
 暖溫帶	bxsarca\
 暖烘烘	bxwccwcc\
 暖爐	bxwkg\
-暖瓶	bxvc\
+暖瓶	bxvcu\
 暖色	bxrk\
 暖融融	bxukuk\
 暖鍋	bxjeo\
@@ -34755,7 +34755,7 @@ sort: by_weight
 氧化鋁	wkyrubjoor\
 氧吧	wkyok\
 氧氣	wkywui\
-氧氣瓶	wkywuivc\
+氧氣瓶	wkywuivcu\
 氨基	wanuct\
 氨基酸	wanuctugv\
 氨水	wansv\
@@ -34875,8 +34875,8 @@ sort: by_weight
 水玻璃	svgepgix\
 水珠	svgp\
 水球	svgh\
-水瓶	svvc\
-水瓶座	svvctrr\
+水瓶	svvcu\
+水瓶座	svvcutrr\
 水生	svcp\
 水產	svitc\
 水產品	svitcooo\
@@ -35424,7 +35424,7 @@ sort: by_weight
 油煎	sgvdjw\
 油煙	sgwat\
 油燈	sgwl\
-油瓶	sgvc\
+油瓶	sgvcu\
 油田	sgga\
 油畫	sgxgh\
 油礦	sgttb\
@@ -38764,7 +38764,7 @@ sort: by_weight
 熱氣	tvwui\
 熱水	tvsv\
 熱水器	tvsvooko\
-熱水瓶	tvsvvc\
+熱水瓶	tvsvvcu\
 熱水袋	tvsvrjy\
 熱河	tvsh\
 熱泵	tvtsv\
@@ -38893,7 +38893,7 @@ sort: by_weight
 燒烤	wttwehz\
 燒焦	wttkwu\
 燒煮	wttebw\
-燒瓶	wttvc\
+燒瓶	wttvcu\
 燒盡	wttxw\
 燒紙	wttyn\
 燒結	wttyt\
@@ -39836,7 +39836,7 @@ sort: by_weight
 玉璧	gveoug\
 玉環	gvgah\
 玉璽	gvhyg\
-玉瓶	gvvc\
+玉瓶	gvvcu\
 玉皇	gvbgw\
 玉盤	gvlju\
 玉石	gvto\
@@ -39956,7 +39956,7 @@ sort: by_weight
 玻璃	gepgix\
 玻璃杯	gepgixmww\
 玻璃板	gepgixmt\
-玻璃瓶	gepgixvc\
+玻璃瓶	gepgixvcu\
 玻璃窗	gepgixaa\
 玻璃鋼	gepgixja\
 玻璃門	gepgixam\
@@ -40299,19 +40299,19 @@ sort: by_weight
 瓦窯	uwaakw\
 瓦罐	uwauco\
 瓦解	uwaejk\
-瓶內	vcar\
-瓶口	vcod\
-瓶嘴	vcolu\
-瓶塞	vcacct\
-瓶子	vcnz\
-瓶底	vctn\
-瓶膽	vcdrt\
-瓶蓋	vcct\
-瓶裝	vcat\
-瓶頸	vchsfe\
+瓶內	vcuar\
+瓶口	vcuod\
+瓶嘴	vcuolu\
+瓶塞	vcuacct\
+瓶子	vcunz\
+瓶底	vcutn\
+瓶膽	vcudrt\
+瓶蓋	vcuct\
+瓶裝	vcuat\
+瓶頸	vcuhsfe\
 瓷器	seuwooko\
 瓷片	seuwap\
-瓷瓶	seuwvc\
+瓷瓶	seuwvcu\
 瓷磚	seuwthbg\
 甄別	atuwoj\
 甄審	atuwaxg\
@@ -44440,7 +44440,7 @@ sort: by_weight
 空海	afsq\
 空港	afsccz\
 空無	afqch\
-空瓶	afvc\
+空瓶	afvcu\
 空當	afwg\
 空白	afba\
 空白點	afbabq\
@@ -50267,7 +50267,7 @@ sort: by_weight
 花燈	crwl\
 花環	crgah\
 花瓣	cruuu\
-花瓶	crvc\
+花瓶	crvcu\
 花生	crcp\
 花生油	crcpsg\
 花生米	crcpui\
@@ -51423,7 +51423,7 @@ sort: by_weight
 藥物	cbykpy\
 藥王	cbygw\
 藥理	cbygg\
-藥瓶	cbyvc\
+藥瓶	cbyvcu\
 藥用	cbypv\
 藥療	cbyenvbw\
 藥盒	cbyrou\
@@ -59272,7 +59272,7 @@ sort: by_weight
 酒泉	subsv\
 酒泉市	subsviy\
 酒渦	suseov\
-酒瓶	suvc\
+酒瓶	suvcu\
 酒瘋	suew\
 酒癮	suetx\
 酒神	suqbs\
@@ -59703,7 +59703,7 @@ sort: by_weight
 金玉	jrgv\
 金環	jrgah\
 金瓜	jrugu\
-金瓶梅	jrvcmqn\
+金瓶梅	jrvcumqn\
 金甌	jrhooou\
 金田	jrga\
 金石	jrto\
@@ -60016,7 +60016,7 @@ sort: by_weight
 鋼琴	jaggr\
 鋼琴家	jaggrak\
 鋼琴曲	jaggria\
-鋼瓶	javc\
+鋼瓶	javcu\
 鋼產量	jaitcbh\
 鋼皮	jaepi\
 鋼盔	jafwu\
@@ -62429,7 +62429,7 @@ sort: by_weight
 電燈泡	wbwlspz\
 電爐	wbwkg\
 電玩	wbgvr\
-電瓶	wbvc\
+電瓶	wbvcu\
 電療	wbenvbw\
 電白縣	wbbaehw\
 電眼	wbez\
@@ -68884,7 +68884,7 @@ sort: by_weight
 年團子	qlahbnz\
 年穀	qltahu\
 年臺	qltoa\
-并包	vcgpz\
+并包	vcpz\
 幸運鬍	tkyallecod\
 幹犯法	cbkzst\
 幽巖	tyytoot\
@@ -70484,7 +70484,7 @@ sort: by_weight
 瓦西里	uwaaxgt\
 瓦里	uwagt\
 瓦里斯	uwagtucj\
-瓶鉢	vcjmh\
+瓶鉢	vcujmh\
 甄后	atuwtho\
 甘巴里	ugakbgt\
 甜水麪	eugsvuh\
@@ -76982,7 +76982,7 @@ sort: by_weight
 學富五車	xxahoghulc\
 它山之石	autslito\
 宇井伯壽	ahfcjrbatzf\
-守口如瓶	afcodnovc\
+守口如瓶	afcodnovcu\
 守株待兔	afcmpmltfktu\
 安之若素	anvlicfcys\
 安史之亂	anvoxlixz\
@@ -78118,7 +78118,7 @@ sort: by_weight
 舉一反三	xhzhitxhv\
 舉一廢百	xhzhitljhba\
 舉無遺策	xhzqchoqgluma\
-舊瓶裝新酒	ckvcatimsu\
+舊瓶裝新酒	ckvcuatimsu\
 舌乾麵赤	eovcbcqueatw\
 舐犢情深	ensktaqcdsa\
 舒舒服服	rezrezdzdz\
@@ -78700,7 +78700,7 @@ sort: by_weight
 之八九只	livbpjov\
 九鍊成鋼	pjjmajzja\
 乾姬松茸	cbcqnncmvcee\
-乾掉一瓶	cbcqfqhivc\
+乾掉一瓶	cbcqfqhivcu\
 乾敲梆子不賣油	cbcqixpomctnzwwtasg\
 乾煸土豆絲	cbcqwaituudoyys\
 乾盡午中	cbcqxwqcios\
@@ -78721,7 +78721,7 @@ sort: by_weight
 何杰金氏病	rhomwujrnseha\
 俠氣干雲	rnrwuijgwwv\
 信馬游繮	riikmsiqyhg\
-倍日并行	riobovcglv\
+倍日并行	riobovclv\
 倖感歌姬	rtkyjhhhnnc\
 停停當當	rihrihwgwg\
 傑弗里喬叟	rlmjjgvgtpnousx\
@@ -78732,7 +78732,7 @@ sort: by_weight
 光可鑑人	wrhojnuurn\
 內鬆外緊	aremvdqnxy\
 八擡大轎	vbftonrlpno\
-兼籌并顧	vxwutzvcgake\
+兼籌并顧	vxwutzvcake\
 出陳佈新	cutmrfyim\
 刀割針扎	jdacojjcifz\
 划單人艇	jjdgoornlgl\
@@ -82136,7 +82136,7 @@ sort: by_weight
 仙風	rtwf\
 以儆	urrcp\
 過海	eosq\
-并蓄	vcgciy\
+并蓄	vcciy\
 千錘	pqjpc\
 另起	oflzj\
 共枕	ccmar\
@@ -95063,8 +95063,8 @@ sort: by_weight
 兇相畢露	xurmegcfwll\
 克敵制勝	coriackyjdvn\
 公共積累	vgccucggys\
-兼容并包	vxwatvvcgpz\
-兼收并蓄	vxwzxpvcgciy\
+兼容并包	vxwatvvcpz\
+兼收并蓄	vxwzxpvcciy\
 分配制度	vjuzkyjtc\
 利益均霑	ujdsumtpwsq\
 前車之鑑	vdlclijnuu\
@@ -95399,7 +95399,7 @@ sort: by_weight
 共睡一牀	ccephiamp\
 其勢兇兇	ucvtvtxurxur\
 其次辟地	ucvseeouxty\
-兼容并蓄	vxwatvvcgciy\
+兼容并蓄	vxwatvvcciy\
 冉冉上昇	atuatuqhbpc\
 再長爹孃	haycvxdnyo\
 冒着危險	bemkertztro\
