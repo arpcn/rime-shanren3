@@ -40,7 +40,7 @@
 
 部署完畢后，打開EmEditor、Word等文本編輯器，調出小狼毫輸入法，按組合鍵  <kbd>Ctrl</kbd>+<kbd>M</kbd>  或  <kbd>Ctrl</kbd>+<kbd>\`</kbd> （<kbd>Tab</kbd>上面那个键`grave`）或 <kbd>F4</kbd> 鍵喚出輸入方案選單，試用已經存在的輸入方案。務必熟悉此方案選單中各各選項的功用(包括繁簡轉換、字根拆分、注音、異體字等濾鏡提示功能)。
 
-如果輸入法沒有響應，請到應用程序中找到「小狼毫算法服務」WeaselServer，重新啟動它。
+如果輸入法沒有響應，請到應用程序中找到「小狼毫算法服務」`WeaselServer`，重新啟動它。
 
 右鍵單擊輸入法圖標![img](assets/img3.png)，選擇`輸入法設定`，根據需要添加或者刪除相應的輸入方案。〔[說明書](https://github.com/rime/home/wiki/UserGuide)〕
 
