@@ -24,7 +24,7 @@
 
 路徑名最好<u>不要帶漢字</u>。
 
-![img](assets\img2.png)
+![img](assets/img2.png)
 
 如果後期要修改`用戶文件夾路徑`，可以到`安裝路徑`的`程序文件夾`下找到`WeaselSetup.exe`文件(或通過軟件[everything](https://www.voidtools.com/zh-cn/)查找)，運行，修改即可。
 
@@ -32,19 +32,19 @@
 
 ## 3. 配置和使用輸入法
 
-調出小狼毫輸入法(win7以下安裝後可能要在[控制面板-語言]中再次添加勾選方能調出)，右鍵單擊輸入法圖標![img](assets\img3.png)，選擇`用戶文件夾`，在彈出的文件夾中釋放相應的輸入方案，如下一節中的：梵藏輸入方案、山人輸入方案等等。
+調出小狼毫輸入法(win7以下安裝後可能要在[控制面板-語言]中再次添加勾選方能調出)，右鍵單擊輸入法圖標![img](assets/img3.png)，選擇`用戶文件夾`，在彈出的文件夾中釋放相應的輸入方案，如下一節中的：梵藏輸入方案、山人輸入方案等等。
 
 〔或者直接`以管理員身份`運行此類文件：[百度云：rime小狼毫輸入方案懶人包](https://pan.baidu.com/s/14tmq_mTofslBOPuT8POayg?pwd=j1ik)〕
 
-![img](assets\img4.png)
+![img](assets/img4.png)
 
-右鍵單擊輸入法圖標![img](assets\img3.png)，選擇`重新部署`。
+右鍵單擊輸入法圖標![img](assets/img3.png)，選擇`重新部署`。
 
 部署完畢后，打開EmEditor、Word等文本編輯器，調出小狼毫輸入法，按組合鍵  <kbd>Ctrl</kbd>+<kbd>M</kbd>  或  <kbd>Ctrl</kbd>+<kbd>\`</kbd> （<kbd>Tab</kbd>上面那个键`grave`）或 <kbd>F4</kbd> 鍵喚出輸入方案選單，試用已經存在的輸入方案。務必熟悉此方案選單中各各選項的功用(包括繁簡轉換、字根拆分、注音、異體字等濾鏡提示功能)。
 
 如果輸入法沒有響應，請到應用程序中找到「小狼毫算法服務」WeaselServer，重新啟動它。
 
-右鍵單擊輸入法圖標![img](assets\img3.png)，選擇`輸入法設定`，根據需要添加或者刪除相應的輸入方案。〔[說明書](https://github.com/rime/home/wiki/UserGuide)〕
+右鍵單擊輸入法圖標![img](assets/img3.png)，選擇`輸入法設定`，根據需要添加或者刪除相應的輸入方案。〔[說明書](https://github.com/rime/home/wiki/UserGuide)〕
 
 
 
