@@ -18,11 +18,9 @@
 
 面向Windows系統。
 
-(a)**安裝路径**，推薦使用默认路徑，也可以自定義，如：`D:\Programe\Rime`。<u>最好放在C盤</u>。
+(a)**安裝路径**，推薦使用默认路徑，也可以自定義，如：`D:\Programe\Rime`。<kbd>最好放在C盤</kbd>。
 
-(b)**用戶文件夾路徑**，<u>最好自定義</u>到D盤，如：`D:\Programe\Rime00`。
-
-路徑名最好<u>不要帶漢字</u>。
+(b)**用戶文件夾路徑**，<u>最好自定義</u>到D盤，如：`D:\Programe\Rime00`。路徑名最好<kbd>不要帶漢字</kbd>。
 
 ![img](assets/img2.png)
 
