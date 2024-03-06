@@ -8,7 +8,7 @@
 
 ► [RIME | 中州韻輸入法引擎](https://rime.im/download/)    
 
-![img](assets\img1.png)
+![img](assets/img1.png)
 
 此頁面下，也提供macOS(鼠鬚管)、Linux(ibus-rime)、Android(同文)、iOS(iRime)等平臺的Rime下載。
 
