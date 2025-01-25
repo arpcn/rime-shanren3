@@ -1,5 +1,7 @@
 # rime-shanren3 
 
+[山人拆分查詢](https://io.arpcn.top/abhidharma/html/sunman/sunmanids.htm)
+
 # 部分文件介紹
 
 ## 0--shanren00.dict.yaml  
