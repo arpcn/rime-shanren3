@@ -2,6 +2,9 @@
 
 [山人拆分查詢](https://io.arpcn.top/abhidharma/html/sunman/sunmanids.htm)
 
+[山人輸入法學習及訓練](https://github.com/arpcn/rime-shanren3/blob/master/rimesetup/山人輸入法強化訓練.rar) 
+
+
 # 部分文件介紹
 
 ## 0--shanren00.dict.yaml  
