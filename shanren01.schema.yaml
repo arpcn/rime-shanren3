@@ -1,17 +1,347 @@
 # Rime schema
-# encoding: utf-8
+# encoding: utf-8    ##Schema.yaml详解 Dict.yaml詳解 Rime_description.md
 
 schema:
-  schema_id: shanren01
-  name: "山人全息"
+  schema_id: shanren01        #方案內部名，在代碼中引用此方案時以此名爲正，通常由英文、數字、下劃線組成
+  name: "山人全息"              #方案的顯示名偁〔即出現於方案選單中以示人的，通常爲中文〕
+  version: 2019.06.22
+  author:
+    - "谢振斌"
   description: |
-    生成詞庫bin的簡易方案，已与山人方案建立關聯，不用勾選
+    山人全息码
+  dependencies:             #如果本方案依賴於其它方案〔通常來說會依頼其它方案做爲反查，抑或是兩種或多種方案混用時〕
+    - terra_pinyin
+    - shanren00
+#    - shanren100
 
-engine:
-  translators:
-    - table_translator
+switches:
+  - name: zh_simp
+    reset: 0
+    states: [ 漢, 汉 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半, 全 ]
+  - name: ascii_punct         #中西文標點轉換開關，0爲中文句讀，1爲西文標點。
+    reset: 0
+#    states: [ 。, ． ]
+  - name: dis_conversion      # 自動轉換標點，1爲禁止轉換。禁用「數字後的句號/冒號自動轉爲英文標點」
+    reset: 1
+#    states: ['转', '禁']
+  - name: ascii_mode         #預設0爲中文，1爲英文
+    reset: 0
+#    states: [ 中, 西 ]
+  - name: sunman_segestion
+    reset: 1
+    states: [ 山, 碼 ]
+  - name: pinyin_segestion   #拼音
+    reset: 0
+    states: [ 字, 音 ]
+  - name: yitizi_segestion
+    reset: 0
+    states: [ 正, 異 ]
+  - name: nihongo_segestion
+    reset: 0
+    states: [ 日, 訓 ]
+#    extended_charset 是字符集開關。0爲CJK基本字符集，1爲CJK全字符集。僅table_translator可用。
+#    simplification 是轉化字開關。一般情況下與上同，0爲不開啓轉化，1爲轉化。
+#    所有關關選項名偁可自定義，可用快捷鍵切換：該名偁可用於key_binder/bindings中的toggle:後。
+#亦可使用多選開關，同樣支持快捷鍵：options名偁用於key_binder/bindings時，使用set_option:或unset_option:開啓或關閉某一個。
+#- options: [ zh_trad, zh_cn, zh_mars ]
+#  states:
+#    - 字型 → 漢字
+#    - 字型 → 汉字
+#    - 字型 → 䕼茡
+#  reset: 0
+#name/options名：須與simplifier中option_name相同
+#states：可不寫，如不寫則此開關存在但不可見，可由快捷鍵操作
+#reset：設定默認狀態〔reset可不寫，此時切換窗口時不會重置到默認狀態〕
+
+engine:               #引擎分四組
+  processors:                #這批組件處理各類按鍵消息
+    - ascii_composer         #處理西文模式及中西文切
+    - recognizer             #與matcher搭配，處理符合特定規則的輸入碼，如網址、反查等tags
+    - key_binder             #在特定條件下將按鍵綁定到其他按鍵，如重定義逗號、句號爲候選翻頁、開關快捷鍵等
+    - speller                #拼寫處理器，接受字符按鍵，編輯輸入
+    - lua_processor@dis_auto_conversion_processor # 自動轉換標點。需在 punctuator 之前
+    - punctuator             #句讀處理器，將單個字符按鍵直接映射爲標點符號或文字
+    - selector               #選字處理器，處理數字選字鍵〔可以換成別的哦〕、上、下候選定位、換頁
+    - navigator              #處理輸入欄內的光標移動
+    - express_editor         #編輯器，處理空格、回車上屏、回退鍵
+#    - fluid_editor      #(不常用)句式編輯器，用於以空格斷詞、回車上屏的【注音】、【語句流】等輸入方案，替換express_editor
+#    - chord_composer    #(不常用)和絃作曲家或曰並擊處理器，用於【宮保拼音】等多鍵並擊的輸入方案
+#    - lua_processor     #使用lua自定義按鍵，後接@+lua函數名
+#       lua函數名即用戶文件夾內rime.lua中函數名，參數爲(key, env) 參考 https://github.com/hchunhui/librime-lua 
+
+  segmentors:                #這批組件識別不同內容類型，將輸入碼分段並加上tag 
+    - ascii_segmentor        #標識西文段落〔譬如在西文模式下〕字母直接上屛
+    - matcher                #配合recognizer標識符合特定規則的段落，如網址、反查等，加上特定tag
+    - "affix_segmentor@terra_pinyin_lookup"         #用戶自定義tag    #此項可加載多個實例，後接@+tag名
+    - "affix_segmentor@shanren00_lookup"            #用戶自定義tag
+    - abc_segmentor           #標識常規的文字段落，加上abc這個tag
+    - punct_segmentor         #標識句讀段落〔鍵入標點符號用〕加上punct這個tag
+    - fallback_segmentor      #標識其他未標識段落
+#    - lua_segmentor          #使用lua自定義切分，後接@+lua函數名
+
+  translators:                #這批組件翻譯特定類型的編碼段爲一組候選文字
+#    - echo_translator        #沒有其他候選字時，回顯輸入碼〔輸入碼可以Shift+Enter上屛〕(此時，以編碼串作爲候選項)
+    - punct_translator        #配合punct_segmentor轉換標點符號
+    - table_translator                    #碼表翻譯器，用於倉頡、五筆等基於碼表的輸入方案
+    - table_translator@shanren00             #
+    - "table_translator@shanren00_lookup"
+    - "script_translator@terra_pinyin_lookup"  # - 此項可加載多個實例，後接@+翻譯器名〔如：pinyin、jyutping等〕
+#    - reverse_lookup_translator              # 反查翻譯器，用另一種編碼方案查碼。Rime1.0後，被反查濾鏡替代。
+#    - lua_translator #使用lua自定義輸入，例如動態輸入當前日期、時間，後接@+lua函數名
+#        lua函數名即用戶文件夾內rime.lua中函數名，參數爲(input, seg, env)
+#        可以env.engine.context:get_option("option_name")方式綁定到switch開關／key_binder快捷鍵
+
+  filters:                  #這批組件過濾翻譯的結果，自定義濾鏡皆可使用開關調控
+    - simplifier            # 用字轉換
+    - simplifier@pinyin_switch   #拼音
+    - "simplifier@yitizi_switch"
+    - "simplifier@sunman_switch"
+    - "simplifier@nihongo_switch"
+    - uniquifier                #過濾重複的候選字，有可能來自simplifier
+    - "reverse_lookup_filter@terra_pinyin_reverse_lookup"      # 反查濾鏡，以更靈活的方式反查，Rime1.0後替代reverse_lookup_translator
+    - "reverse_lookup_filter@shanren00_reverse_lookup"         # 此項可加載多個實例，後接@+濾鏡名〔如：pinyin_lookup、jyutping_lookup等〕
+#       cjk_minifier 字符集過濾〔僅用於script_translator，使之支援extended_charset開關〕
+#       single_char_filter 單字過濾器，如加載此組件，則屛敝詞典中的詞組〔僅table_translator有效〕
+#       lua_filter 使用lua自定義過濾，例如過濾字符集、調整排序，後接@+lua函數名
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba\'       #定義本方案輸入鍵
+  initials: 'zyxwvutsrqponmlkjihgfedcba'        #定義僅作始碼之鍵      finals: #定義僅作末碼之鍵
+  delimiter: " '"         #上屛時的音節間分音符
+#  algebra:        #拼寫運算規則，由之算出的拼寫匯入prism中
+#    - "fuzz/^(.+)$/$1\\/"            #Perl正則表達式
+#    - 'abbrev/^([a-z]).+$/$1/'
+#max_code_length: 形碼最大碼長，超過則頂字上屛〔number〕
+#auto_select: 自動上屛〔true或false〕
+#auto_select_pattern: 自動上屏規則，以正則表達式描述，當輸入串可以被匹配時自動頂字上屏。
+#use_space: 以空格作輸入碼〔true或false〕
+#speller的演算包含：
+#xform --改寫〔不保留原形〕
+#derive --衍生〔保留原形〕
+#abbrev --簡拼〔出字優先級較上兩組更低〕
+#fuzz --畧拼〔此種簡拼僅組詞，不出單字〕
+#xlit --變換〔適合大量一對一變換〕
+#erase --刪除
 
 translator:
-  dictionary: shanren01
-  comment_format:
+  dictionary: shanren01    ##全息打字。
+  prism: shanren01
+#  comment_format:      #提示碼自定義
+#    - xform/\\//
+  enable_user_dict: false
+  enable_charset_filter: false        #是否開啓字符集過濾〔僅table_translator有效。啓用cjk_minifier後可適用於script_translator〕
+  enable_sentence: false    #是否開啓自動造句(連打功能)
+  initial_quality: 0.5
+#enable_encoder: false      #是否開啓自動造詞〔僅table_translator有效〕
+#strict_spelling: false      #配合speller中的fuzz規則，僅以畧拼碼組詞〔僅table_translator有效〕
+#disable_user_dict_for_patterns: false      #禁止某些編碼錄入用戶詞典
+#contextual_suggestions:      #是否使用語言模型優化輸出結果〔需配合grammar使用〕
+#max_homophones:      #最大同音簇長度〔需配合grammar使用〕
+#max_homographs:      #最大同形簇長度〔需配合grammar使用〕
+
+menu:
+  page_size: 5
+
+simplifier:
+  option_name: zh_simp     # swiches中設定的切換項名，暨key_binder/binding中所用名 
+  tips: all                # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+  #opencc_config: zht2zhs.ini      #用字轉換配置文件
+  #tags: [ abc ]           #abc對應abc_segmentor    #設定轉換範圍
+#  tips:                   #設定是否提示轉換前的字，可塡none〔或不塡〕、char〔僅對單字有效〕、all
+#  comment_format:         #自定義提示碼格式
+#  allow_erase_comment:    #是否允許返回空提示碼〔默認false〕
+#  show_in_comment:        #設定是否僅將轉換結果顯示在備注中
+#  excluded_types:         #取消特定範圍〔一般爲reverse_lookup_translator〕轉化用字
+#位於：rime_dir/opencc/，自帶之配置文件含：
+#繁轉簡〔默認〕：t2s.json
+#繁轉臺灣：t2tw.json
+#繁轉香港：t2hk.json
+#簡轉繁：s2t.json
+
+pinyin_switch:   #拼音
+  opencc_config: pinyin.json
+  option_name: pinyin_segestion
+  show_in_comment: true
+  excluded_types:  [ reverse_lookup ]
+  tips: all  # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+
+yitizi_switch:
+  opencc_config: yitizi.json
+  option_name: yitizi_segestion
+  show_in_comment: true
+  comment_format:      #提示碼自定義
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:     #設定轉換範圍
+    - abc
+  tips: char  # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+
+sunman_switch:
+  opencc_config: sunman.json
+  option_name: sunman_segestion
+  show_in_comment: true
+  comment_format:      #提示碼自定義
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:       #設定轉換範圍
+    - abc
+  tips: char  # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+
+nihongo_switch:
+  opencc_config: nihongo.json
+  option_name: nihongo_segestion
+  show_in_comment: true
+  comment_format:      #提示碼自定義
+    - xform/&nbsp/ /
+    - xform/<br>/\r/
+  tags:       #設定轉換範圍
+    - abc
+  tips: char  # 是否提示轉換前的字，none〔或不塡〕 char〔僅對單字有效〕 all 
+
+key_binder:     ##見 Schema.yaml详解 Dict.yaml詳解 Rime_description.md.html
+  bindings:
+    - { when: has_menu, accept: space, send: space }
+    - { when: composing, accept: space, send: Escape }
+    - { when: has_menu, accept: semicolon, send: 2 } #分號選第二重碼
+#    - { when: has_menu, accept: apostrophe, send: 3 } #引號選第三重碼
+#    - { when: always, accept: comma, send: comma }   #comma，period。
+#    - { when: always, accept: period, send: period }
+#    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
+    - { when: has_menu, accept: minus, send: minus }  # tone 1
+    - { when: paging, accept: minus, send: Page_Up }
+#    - { when: always, accept: 'Control+comma', toggle: dis_conversion } # 自動轉換標點
+  import_preset: default       #由外部統一文件導入
+
+editor:
+  bindings:
+    Return: commit_comment   #上屏候選項備注
+
+punctuator:
+  import_preset: symbols       #由外部統一文件導入
+#  import_preset: default
+#  full_shape:
+#    "/" : "、"
+#    "\\" : [ "＼", "／", "÷" ]
+#  half_shape:
+#    "/" : "、"
+#    "\\" : [ "\\", "/" ]
+
+recognizer:
+  import_preset: default
+  patterns:                 #配合segmentor的prefix和suffix完成段落劃分、tag分配
+    terra_pinyin_lookup: "`[a-z',<>/-]*;?$"
+    shanren00_lookup: "`S[a-z]*;?$"
+    punct: '^zb[a-z]*'    #symbols中有用。
+#前字段可以爲以affix_segmentor@someTag定義的Tag名，或者punct、reverse_lookup兩個內設的字段。
+#其它字段不調用輸入法引擎，輸入即輸出〔如url等字段〕
+
+#tag用在translator、reverse_lookup_filter、simplifier中用以標定各自作用範圍
+#segmentor配合recognizer標記出tag。這裏會用到affix_segmentor和abc_segmentor  
+#如果不需要用到extra_tags則不需要單獨配置segmentor
+#tag: 設定其tag
+#tag: 設定此翻譯器針對的tag。可不塡，不塡則僅針對abc
+
+terra_pinyin_lookup:        
+  dictionary: terra_pinyin
+  enable_user_dict: false
+  enable_sentence: false
+  preedit_format:     #上屛碼自定義
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+    - 'xform ([aeiou])(ng?|r)([-/<>]) $1$3$2'
+    - 'xform ([aeo])([iuo])([-/<>]) $1$3$2'
+    - 'xform a- ā'
+    - 'xform a/ á'
+    - 'xform a< ǎ'
+    - 'xform a> à'
+    - 'xform e- ē'
+    - 'xform e/ é'
+    - 'xform e< ě'
+    - 'xform e> è'
+    - 'xform o- ō'
+    - 'xform o/ ó'
+    - 'xform o< ǒ'
+    - 'xform o> ò'
+    - 'xform i- ī'
+    - 'xform i/ í'
+    - 'xform i< ǐ'
+    - 'xform i> ì'
+    - 'xform u- ū'
+    - 'xform u/ ú'
+    - 'xform u< ǔ'
+    - 'xform u> ù'
+    - 'xform ü- ǖ'
+    - 'xform ü/ ǘ'
+    - 'xform ü< ǚ'
+    - 'xform ü> ǜ'
+  tag: terra_pinyin_lookup     #用戶自定義tag  #設定此翻譯器針對的tag。可不塡，不塡則僅針對abc
+  prefix: "`"        #設定此翻譯器的前綴標識，可不塡，不塡則無前綴
+  tips: "【拼音反查】"     #設定此翻譯器的輸入前提示符，可不塡，不塡則無提示符
+  suffix: ";"        #設定此翻譯器的尾綴標識，可不塡，不塡則無尾綴
+  closing_tips: "【山人】"     #設定此翻譯器的結束輸入提示符，可不塡，不塡則無提示符
+#extra_tags: 爲此segmentor所標記的段落插上其它tag
+#當affix_segmentor和translator重名時，兩者可併在一處配置。abc_segmentor僅可設extra_tags
+
+terra_pinyin_reverse_lookup:
+  dictionary: shanren00    #反查所得提示碼之碼表
+  comment_format:          #提示碼自定義
     - xform/\\//
+  overwrite_comment: true    #是否覆蓋其他提示
+  spelling_hints: true
+  tags:
+    - terra_pinyin_lookup     #設定其作用範圍   #掛在這個tag所對應的翻譯器上
+
+shanren00_lookup:
+  dictionary: shanren00
+  enable_user_dict: false
+  enable_sentence: false
+  comment_format:      #提示碼自定義
+    - xform/\\//
+  prefix: "`S"        #設定此翻譯器的前綴標識，可不塡，不塡則無前綴
+  tips: "【山人反查】"     #設定此翻譯器的輸入前提示符，可不塡，不塡則無提示符
+  suffix: ";"     #設定此翻譯器的尾綴標識，可不塡，不塡則無尾綴
+  closing_tips: "【山人】"     #設定此翻譯器的結束輸入提示符，可不塡，不塡則無提示符
+  tag: shanren00_lookup     #用戶自定義tag  #設定此翻譯器針對的tag。可不塡，不塡則僅針對abc
+
+shanren00_reverse_lookup:
+  dictionary: terra_pinyin       #反查所得提示碼之碼表
+  overwrite_comment: true    #是否覆蓋其他提示
+  spelling_hints: true
+  comment_format:      #提示碼自定義
+    - xform ([aeiou])(ng?|r)([1234]) $1$3$2
+    - xform ([aeo])([iuo])([1234]) $1$3$2
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 ǎ
+    - xform a4 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 ě
+    - xform e4 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ǒ
+    - xform o4 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ǐ
+    - xform i4 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ǔ
+    - xform u4 ù
+    - xform v1 ǖ
+    - xform v2 ǘ
+    - xform v3 ǚ
+    - xform v4 ǜ
+    - xform/([nljqxy])v/$1ü/
+    - xform/eh[0-5]?/ê/
+    - xform/([a-z]+)[0-5]/$1/
+  tags:
+    - shanren00_lookup      #設定其作用範圍   #掛在這個tag所對應的翻譯器上
+
