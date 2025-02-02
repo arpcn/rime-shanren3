@@ -27910,11 +27910,11 @@
 𨯤	JrIzODvNvPd_金亡口月女凡〔ExtB〕
 𨫚	JrIoOJg_金口干〔ExtB〕
 錇	JrIhO_金立口〔CJK〕
+𨭎	JrIzuO_金壴口〔ExtB〕
+𨦽	JrIxO_金文口〔ExtB〕
 镐	JrIo_钅高〔CJK〕
 锫	JrIhO_钅立口〔CJK〕
 𬭳	JrIzuO_钅壴口〔ExtE〕
-𨦽	JrIxO_金文口〔ExtB〕
-𨭎	JrIzuO_金壴口〔ExtB〕
 𥏹	JsiIo_矢高〔ExtB〕
 𨯨	JrIzuOWu_金壴口灬〔ExtB〕
 鈧	JrIPp_金亠几〔CJK〕
@@ -30115,8 +30115,8 @@
 騕	KmaAxNv_馬覀女〔CJK〕
 𤢸	KqANrVbBoWi_犭宀大丷日小〔ExtB〕
 𧍔	KcAxNv_虫覀女〔ExtB〕
-䯃	KmaANv_马宀女〔ExtA〕
 𩣑	KmaANv_馬宀女〔ExtB〕
+䯃	KmaANv_马宀女〔ExtA〕
 𤚘	KuAxNv_牜覀女〔ExtB〕
 鮟	KvANv_魚宀女〔CJK〕
 𩽾	KvANv_鱼宀女〔ExtB〕
@@ -37503,8 +37503,8 @@
 𨄙	LoKi_⻊鳥〔ExtB〕
 𧽪	LtKi_走鳥〔ExtB〕
 鵆	LvKi_行鳥〔CJK〕
-鸻	LvKi_行鸟〔CJK〕
 𪀾	LvKi_舛鳥〔ExtB〕
+鸻	LvKi_行鸟〔CJK〕
 𪉋	LvKi_舛鸟〔ExtB〕
 𧽐	LtKhuIx_走虍文〔ExtB〕
 鵃	LzKi_舟鳥〔CJK〕
@@ -37535,8 +37535,8 @@
 𫏨	LoKvKy_⻊鱼羊〔ExtC〕
 轆	LcKlu_車鹿〔CJK〕
 徿	LciKl_彳龍〔CJK〕
-辘	LcKlu_鹿〔CJK〕
 𨏠	LcKl_車龍〔ExtB〕
+辘	LcKlu_鹿〔CJK〕
 𨐇	LcKl_车龙〔ExtB〕
 𪫌	LciKl_彳龙〔ExtC〕
 𨏎	LcKvLci_車魚亍〔ExtB〕
@@ -49047,8 +49047,8 @@
 禡	QsKma_礻馬〔CJK〕
 𩥢	QgKma_鬼馬〔ExtB〕
 憴	QiKm_忄黽〔CJK〕
-祃	QsKma_礻马〔CJK〕
 𥜐	QsKm_礻黽〔ExtB〕
+祃	QsKma_礻马〔CJK〕
 𫀓	QsKm_礻黾〔ExtC〕
 𢢛	QiKhuNgFi_忄虍毌力〔ExtB〕
 悎	QiKuO_忄口〔CJK〕
@@ -50755,8 +50755,8 @@
 儏	RnEdXyUi_亻歺又米〔CJK〕
 𠉧	RnEeXy_亻耳又〔ExtB〕
 伢	RnEya_亻牙〔CJK〕
-㑔	RnEye_亻页〔ExtA〕
 㑯	RnEye_亻頁〔ExtA〕
+㑔	RnEye_亻页〔ExtA〕
 舒	RnEoZv_人予〔CJK〕
 𪅰	RnEoZvKi_人予鳥〔ExtB〕
 㑙	RnEeZ_亻耳㇗〔ExtA〕
@@ -67864,7 +67864,7 @@
 𣛙	VhBaSbSbMu_䒑白冫木〔ExtB〕
 𡕸	VhBaUvL_䒑白北夊〔ExtB〕
 𧢪	VbBoWiEyeEr_丷曰小頁見〔ExtB〕
-瓶	VhCgUw_䒑廾瓦〔CJK〕
+并	VhCg_䒑廾〔CJK〕
 𦒂	VhCBoEv_䒑⺜羽〔ExtB〕
 𠧆	VhCCvIRnRnCi_䒑艹亠人人十〔ExtB〕
 朔	VhCDv_䒑月〔CJK〕
@@ -67883,7 +67883,6 @@
 𩑿	VhCEye_䒑頁〔ExtB〕
 𩒕	VhCEye_䒑頁〔ExtB〕
 㔙	VhCgFi_䒑廾力〔ExtA〕
-并	VhCg_䒑廾〔CJK〕
 𠬌	VhCgGsiReL_䒑廾厶儿夊〔ExtB〕
 屰	VhC_䒑〔CJK〕
 𪪃	VhCgHiARn_䒑廾一冂人〔ExtC〕
@@ -67907,6 +67906,7 @@
 㤣	VhCgQi_䒑廾心〔ExtA〕
 艵	VhCgRKb_䒑廾⺈巴〔CJK〕
 郱	VhCgTe_䒑廾阝〔CJK〕
+瓶	VhCgUw_䒑廾瓦〔CJK〕
 𦒟	VhCUjEv_䒑臼羽〔ExtB〕
 𦥾	VhCUj_䒑臼〔ExtB〕
 𦥭	VhCUj_䒑臼〔ExtB〕
@@ -73940,9 +73940,9 @@
 𢂻	YjJdDQi_巾刀丶心〔ExtB〕
 紉	YsJdD_糹刀丶〔CJK〕
 糿	YsJd_糹刀〔CJK〕
-纫	YsJdD_纟刀丶〔CJK〕
-𠛩	YsJd_糸刂〔ExtB〕
 𥿊	YsJnD_糹斤丶〔ExtB〕
+𠛩	YsJd_糸刂〔ExtB〕
+纫	YsJdD_纟刀丶〔CJK〕
 𦈈	YsJnD_纟斤丶〔ExtB〕
 韧	YwJdD_韦刀丶〔CJK〕
 𩎚	YwJnD_韋斤丶〔ExtB〕
@@ -74055,8 +74055,8 @@
 䘟	YiJgS_衤弓丨〔ExtA〕
 𧘨	YiJgS_衣弓丨〔ExtB〕
 紖	YsJgS_糹弓丨〔CJK〕
-纼	YsJgS_纟弓丨〔CJK〕
 𥾯	YsJgS_糹弓丨〔ExtB〕
+纼	YsJgS_纟弓丨〔CJK〕
 𫄝	YsJgS_纟弓丨〔ExtC〕
 褴	YiJUzuUm_衤〢皿〔CJK〕
 𨲣	YcJgUDGw_镸干凵丶王〔ExtB〕
@@ -74142,13 +74142,13 @@
 繩	YsKm_糹黽〔CJK〕
 䩻	YgeKma_革馬〔ExtA〕
 褭	YiKma_衣馬〔CJK〕
-䘞	YiKma_衤马〔ExtA〕
 𧜗	YiKma_衤馬〔ExtB〕
+䘞	YiKma_衤马〔ExtA〕
 𪓹	YmKm_⿇黾〔ExtB〕
 縄	YsKm_糹黾〔CJK〕
-绳	YsKm_纟黾〔CJK〕
 䋲	YsKm_糹黾〔ExtA〕
 𦄀	YsKma_糹馬〔ExtB〕
+绳	YsKm_纟黾〔CJK〕
 襍	YiKzMu_衤隹木〔CJK〕
 䌖	YsKzMu_糹隹木〔ExtA〕
 𦈜	YsKzMu_纟隹木〔ExtB〕
@@ -76747,7 +76747,7 @@
 𧭩	IiChORnVbTu_言廿口人丷土〔ExtB〕
 𧭶	IiJpHiOYs_言戊一口糸〔ExtB〕
 𧮜	IiOOTcXzCiOXy_言口口厂爫十口又〔ExtB〕
-𨏵	LcXzEsiLhPpZsiL_車爫尸止几巳夂〔ExtB〕
+𨏵	LcXzEsiPpLhZsiL_車爫尸几止巳夂〔ExtB〕
 𨐄	LcXzZdLaLcGaAXGa_車爫龴禸車田冂㐅田〔ExtB〕
 𨗌	RjSCIfL_亼丨⺿方辶〔ExtB〕
 𨘄	ACXjiWuL_宀卄火辶〔ExtB〕
