@@ -56481,7 +56481,7 @@
 𡻑	TsAKsiD_山冖豕丶〔ExtB〕
 塚	TuAKsiD_土冖豕丶〔兼容文字〕
 𣪬	TiAKuJx_士冖牛殳〔ExtB〕
-𤚲	TiAKuJx_士冖牜殳〔ExtB〕
+𤚲	TiAHiKuJx_士冖一牛殳〔ExtB〕
 𧎅	TiAKcJx_士冖虫殳〔ExtB〕
 𪃟	TiAKiJx_士冖鳥殳〔ExtB〕
 𧞹	TiAKsiJxYi_士冖豕殳衣〔ExtB〕
